@@ -1,0 +1,4 @@
+data/
+*.pth
+*.joblib
+.DS_Store

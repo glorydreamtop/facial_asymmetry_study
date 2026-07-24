@@ -1,0 +1,802 @@
+[
+  {
+    "Name": "FA0001",
+    "VAS-eyebrow": 0.049048,
+    "VAS-eye": 0.015237,
+    "VAS-nose": 0.036917,
+    "VAS-mouth": 0.051513,
+    "VAS-facial contour": 0.088173
+  },
+  {
+    "Name": "FA0002",
+    "VAS-eyebrow": 0.039952,
+    "VAS-eye": 0.033764,
+    "VAS-nose": 0.021229,
+    "VAS-mouth": 0.03466,
+    "VAS-facial contour": 0.097997
+  },
+  {
+    "Name": "FA0003",
+    "VAS-eyebrow": 0.024193,
+    "VAS-eye": 0.030447,
+    "VAS-nose": 0.053745,
+    "VAS-mouth": 0.038728,
+    "VAS-facial contour": 0.084568
+  },
+  {
+    "Name": "FA0004",
+    "VAS-eyebrow": 0.036578,
+    "VAS-eye": 0.026401,
+    "VAS-nose": 0.031431,
+    "VAS-mouth": 0.025633,
+    "VAS-facial contour": 0.066843
+  },
+  {
+    "Name": "FA0005",
+    "VAS-eyebrow": 0.047846,
+    "VAS-eye": 0.039218,
+    "VAS-nose": 0.029556,
+    "VAS-mouth": 0.067137,
+    "VAS-facial contour": 0.097911
+  },
+  {
+    "Name": "FA0006",
+    "VAS-eyebrow": 0.025199,
+    "VAS-eye": 0.009154,
+    "VAS-nose": 0.011528,
+    "VAS-mouth": 0.021926,
+    "VAS-facial contour": 0.032394
+  },
+  {
+    "Name": "FA0007",
+    "VAS-eyebrow": 0.055265,
+    "VAS-eye": 0.024412,
+    "VAS-nose": 0.018636,
+    "VAS-mouth": 0.022578,
+    "VAS-facial contour": 0.129474
+  },
+  {
+    "Name": "FA0008",
+    "VAS-eyebrow": 0.036513,
+    "VAS-eye": 0.011102,
+    "VAS-nose": 0.014296,
+    "VAS-mouth": 0.033488,
+    "VAS-facial contour": 0.065964
+  },
+  {
+    "Name": "FA0009",
+    "VAS-eyebrow": 0.034066,
+    "VAS-eye": 0.018279,
+    "VAS-nose": 0.024441,
+    "VAS-mouth": 0.041308,
+    "VAS-facial contour": 0.045451
+  },
+  {
+    "Name": "FA0010",
+    "VAS-eyebrow": 0.061667,
+    "VAS-eye": 0.025212,
+    "VAS-nose": 0.02951,
+    "VAS-mouth": 0.025981,
+    "VAS-facial contour": 0.186972
+  },
+  {
+    "Name": "FA0011",
+    "VAS-eyebrow": 0.030344,
+    "VAS-eye": 0.01314,
+    "VAS-nose": 0.018329,
+    "VAS-mouth": 0.039191,
+    "VAS-facial contour": 0.149996
+  },
+  {
+    "Name": "FA0012",
+    "VAS-eyebrow": 0.052573,
+    "VAS-eye": 0.022145,
+    "VAS-nose": 0.015883,
+    "VAS-mouth": 0.030794,
+    "VAS-facial contour": 0.046467
+  },
+  {
+    "Name": "FA0013",
+    "VAS-eyebrow": 0.036074,
+    "VAS-eye": 0.016323,
+    "VAS-nose": 0.011765,
+    "VAS-mouth": 0.027667,
+    "VAS-facial contour": 0.117295
+  },
+  {
+    "Name": "FA0014",
+    "VAS-eyebrow": 0.029677,
+    "VAS-eye": 0.01037,
+    "VAS-nose": 0.025182,
+    "VAS-mouth": 0.02063,
+    "VAS-facial contour": 0.075831
+  },
+  {
+    "Name": "FA0015",
+    "VAS-eyebrow": 0.037449,
+    "VAS-eye": 0.022069,
+    "VAS-nose": 0.00423,
+    "VAS-mouth": 0.018273,
+    "VAS-facial contour": 0.050686
+  },
+  {
+    "Name": "FA0016",
+    "VAS-eyebrow": 0.050415,
+    "VAS-eye": 0.035488,
+    "VAS-nose": 0.046747,
+    "VAS-mouth": 0.061756,
+    "VAS-facial contour": 0.099566
+  },
+  {
+    "Name": "FA0017",
+    "VAS-eyebrow": 0.065533,
+    "VAS-eye": 0.010018,
+    "VAS-nose": 0.01687,
+    "VAS-mouth": 0.042672,
+    "VAS-facial contour": 0.061808
+  },
+  {
+    "Name": "FA0018",
+    "VAS-eyebrow": 0.031683,
+    "VAS-eye": 0.021616,
+    "VAS-nose": 0.063317,
+    "VAS-mouth": 0.030827,
+    "VAS-facial contour": 0.046678
+  },
+  {
+    "Name": "FA0019",
+    "VAS-eyebrow": 0.033097,
+    "VAS-eye": 0.018433,
+    "VAS-nose": 0.047742,
+    "VAS-mouth": 0.039823,
+    "VAS-facial contour": 0.11766
+  },
+  {
+    "Name": "FA0020",
+    "VAS-eyebrow": 0.053253,
+    "VAS-eye": 0.015908,
+    "VAS-nose": 0.018579,
+    "VAS-mouth": 0.022718,
+    "VAS-facial contour": 0.070968
+  },
+  {
+    "Name": "FA0021",
+    "VAS-eyebrow": 0.025784,
+    "VAS-eye": 0.012591,
+    "VAS-nose": 0.007374,
+    "VAS-mouth": 0.040379,
+    "VAS-facial contour": 0.083352
+  },
+  {
+    "Name": "FA0022",
+    "VAS-eyebrow": 0.046818,
+    "VAS-eye": 0.019562,
+    "VAS-nose": 0.025509,
+    "VAS-mouth": 0.039803,
+    "VAS-facial contour": 0.083331
+  },
+  {
+    "Name": "FA0023",
+    "VAS-eyebrow": 0.043185,
+    "VAS-eye": 0.02054,
+    "VAS-nose": 0.012259,
+    "VAS-mouth": 0.031753,
+    "VAS-facial contour": 0.083725
+  },
+  {
+    "Name": "FA0024",
+    "VAS-eyebrow": 0.035144,
+    "VAS-eye": 0.012785,
+    "VAS-nose": 0.038751,
+    "VAS-mouth": 0.022645,
+    "VAS-facial contour": 0.020947
+  },
+  {
+    "Name": "FA0025",
+    "VAS-eyebrow": 0.042303,
+    "VAS-eye": 0.030217,
+    "VAS-nose": 0.035143,
+    "VAS-mouth": 0.04082,
+    "VAS-facial contour": 0.11358
+  },
+  {
+    "Name": "FA0026",
+    "VAS-eyebrow": 0.035116,
+    "VAS-eye": 0.025225,
+    "VAS-nose": 0.014392,
+    "VAS-mouth": 0.024125,
+    "VAS-facial contour": 0.086934
+  },
+  {
+    "Name": "FA0027",
+    "VAS-eyebrow": 0.038892,
+    "VAS-eye": 0.011919,
+    "VAS-nose": 0.024842,
+    "VAS-mouth": 0.014531,
+    "VAS-facial contour": 0.063204
+  },
+  {
+    "Name": "FA0028",
+    "VAS-eyebrow": 0.054334,
+    "VAS-eye": 0.027494,
+    "VAS-nose": 0.025218,
+    "VAS-mouth": 0.040349,
+    "VAS-facial contour": 0.102207
+  },
+  {
+    "Name": "FA0029",
+    "VAS-eyebrow": 0.064162,
+    "VAS-eye": 0.03117,
+    "VAS-nose": 0.022736,
+    "VAS-mouth": 0.064521,
+    "VAS-facial contour": 0.118002
+  },
+  {
+    "Name": "FA0030",
+    "VAS-eyebrow": 0.019223,
+    "VAS-eye": 0.016906,
+    "VAS-nose": 0.010576,
+    "VAS-mouth": 0.014009,
+    "VAS-facial contour": 0.035191
+  },
+  {
+    "Name": "FA0031",
+    "VAS-eyebrow": 0.048213,
+    "VAS-eye": 0.017948,
+    "VAS-nose": 0.042673,
+    "VAS-mouth": 0.03659,
+    "VAS-facial contour": 0.097743
+  },
+  {
+    "Name": "FA0032",
+    "VAS-eyebrow": 0.055532,
+    "VAS-eye": 0.024912,
+    "VAS-nose": 0.027455,
+    "VAS-mouth": 0.031855,
+    "VAS-facial contour": 0.071808
+  },
+  {
+    "Name": "FA0033",
+    "VAS-eyebrow": 0.024462,
+    "VAS-eye": 0.019726,
+    "VAS-nose": 0.006159,
+    "VAS-mouth": 0.025464,
+    "VAS-facial contour": 0.034464
+  },
+  {
+    "Name": "FA0034",
+    "VAS-eyebrow": 0.035709,
+    "VAS-eye": 0.016636,
+    "VAS-nose": 0.013488,
+    "VAS-mouth": 0.042995,
+    "VAS-facial contour": 0.131177
+  },
+  {
+    "Name": "FA0035",
+    "VAS-eyebrow": 0.093275,
+    "VAS-eye": 0.026534,
+    "VAS-nose": 0.024029,
+    "VAS-mouth": 0.023185,
+    "VAS-facial contour": 0.034888
+  },
+  {
+    "Name": "FA0036",
+    "VAS-eyebrow": 0.053736,
+    "VAS-eye": 0.031775,
+    "VAS-nose": 0.032712,
+    "VAS-mouth": 0.039355,
+    "VAS-facial contour": 0.049522
+  },
+  {
+    "Name": "FA0037",
+    "VAS-eyebrow": 0.039724,
+    "VAS-eye": 0.010269,
+    "VAS-nose": 0.070922,
+    "VAS-mouth": 0.022403,
+    "VAS-facial contour": 0.045919
+  },
+  {
+    "Name": "FA0038",
+    "VAS-eyebrow": 0.037561,
+    "VAS-eye": 0.03414,
+    "VAS-nose": 0.023391,
+    "VAS-mouth": 0.030959,
+    "VAS-facial contour": 0.03031
+  },
+  {
+    "Name": "FA0039",
+    "VAS-eyebrow": 0.019118,
+    "VAS-eye": 0.013062,
+    "VAS-nose": 0.027889,
+    "VAS-mouth": 0.019461,
+    "VAS-facial contour": 0.048135
+  },
+  {
+    "Name": "FA0040",
+    "VAS-eyebrow": 0.043118,
+    "VAS-eye": 0.014669,
+    "VAS-nose": 0.011645,
+    "VAS-mouth": 0.042508,
+    "VAS-facial contour": 0.059493
+  },
+  {
+    "Name": "FA0041",
+    "VAS-eyebrow": 0.033523,
+    "VAS-eye": 0.009461,
+    "VAS-nose": 0.021155,
+    "VAS-mouth": 0.016808,
+    "VAS-facial contour": 0.041694
+  },
+  {
+    "Name": "FA0042",
+    "VAS-eyebrow": 0.068132,
+    "VAS-eye": 0.04223,
+    "VAS-nose": 0.058508,
+    "VAS-mouth": 0.070266,
+    "VAS-facial contour": 0.024492
+  },
+  {
+    "Name": "FA0043",
+    "VAS-eyebrow": 0.034725,
+    "VAS-eye": 0.016969,
+    "VAS-nose": 0.006625,
+    "VAS-mouth": 0.024973,
+    "VAS-facial contour": 0.029918
+  },
+  {
+    "Name": "FA0044",
+    "VAS-eyebrow": 0.032321,
+    "VAS-eye": 0.026539,
+    "VAS-nose": 0.044607,
+    "VAS-mouth": 0.043204,
+    "VAS-facial contour": 0.0933
+  },
+  {
+    "Name": "FA0045",
+    "VAS-eyebrow": 0.034132,
+    "VAS-eye": 0.013995,
+    "VAS-nose": 0.002312,
+    "VAS-mouth": 0.011306,
+    "VAS-facial contour": 0.024633
+  },
+  {
+    "Name": "FA0046",
+    "VAS-eyebrow": 0.035112,
+    "VAS-eye": 0.021793,
+    "VAS-nose": 0.014823,
+    "VAS-mouth": 0.035617,
+    "VAS-facial contour": 0.034804
+  },
+  {
+    "Name": "FA0047",
+    "VAS-eyebrow": 0.028866,
+    "VAS-eye": 0.024164,
+    "VAS-nose": 0.023093,
+    "VAS-mouth": 0.032304,
+    "VAS-facial contour": 0.046142
+  },
+  {
+    "Name": "FA0048",
+    "VAS-eyebrow": 0.03918,
+    "VAS-eye": 0.029387,
+    "VAS-nose": 0.041799,
+    "VAS-mouth": 0.015704,
+    "VAS-facial contour": 0.064435
+  },
+  {
+    "Name": "FA0049",
+    "VAS-eyebrow": 0.102599,
+    "VAS-eye": 0.02384,
+    "VAS-nose": 0.057524,
+    "VAS-mouth": 0.052178,
+    "VAS-facial contour": 0.177273
+  },
+  {
+    "Name": "FA0050",
+    "VAS-eyebrow": 0.089861,
+    "VAS-eye": 0.030644,
+    "VAS-nose": 0.014453,
+    "VAS-mouth": 0.047227,
+    "VAS-facial contour": 0.021077
+  },
+  {
+    "Name": "FA0051",
+    "VAS-eyebrow": 0.054217,
+    "VAS-eye": 0.027372,
+    "VAS-nose": 0.015503,
+    "VAS-mouth": 0.033951,
+    "VAS-facial contour": 0.050975
+  },
+  {
+    "Name": "FA0052",
+    "VAS-eyebrow": 0.075042,
+    "VAS-eye": 0.023436,
+    "VAS-nose": 0.035544,
+    "VAS-mouth": 0.020756,
+    "VAS-facial contour": 0.028349
+  },
+  {
+    "Name": "FA0053",
+    "VAS-eyebrow": 0.064011,
+    "VAS-eye": 0.021608,
+    "VAS-nose": 0.021572,
+    "VAS-mouth": 0.047041,
+    "VAS-facial contour": 0.118262
+  },
+  {
+    "Name": "FA0054",
+    "VAS-eyebrow": 0.04909,
+    "VAS-eye": 0.017732,
+    "VAS-nose": 0.008837,
+    "VAS-mouth": 0.020431,
+    "VAS-facial contour": 0.028171
+  },
+  {
+    "Name": "FA0055",
+    "VAS-eyebrow": 0.032327,
+    "VAS-eye": 0.015716,
+    "VAS-nose": 0.006323,
+    "VAS-mouth": 0.018955,
+    "VAS-facial contour": 0.0186
+  },
+  {
+    "Name": "FA0056",
+    "VAS-eyebrow": 0.052597,
+    "VAS-eye": 0.024562,
+    "VAS-nose": 0.010851,
+    "VAS-mouth": 0.03387,
+    "VAS-facial contour": 0.035563
+  },
+  {
+    "Name": "FA0057",
+    "VAS-eyebrow": 0.019582,
+    "VAS-eye": 0.026077,
+    "VAS-nose": 0.01853,
+    "VAS-mouth": 0.023833,
+    "VAS-facial contour": 0.039251
+  },
+  {
+    "Name": "FA0058",
+    "VAS-eyebrow": 0.030471,
+    "VAS-eye": 0.021258,
+    "VAS-nose": 0.028643,
+    "VAS-mouth": 0.013817,
+    "VAS-facial contour": 0.028852
+  },
+  {
+    "Name": "FA0059",
+    "VAS-eyebrow": 0.027935,
+    "VAS-eye": 0.028012,
+    "VAS-nose": 0.008261,
+    "VAS-mouth": 0.01219,
+    "VAS-facial contour": 0.034416
+  },
+  {
+    "Name": "FA0060",
+    "VAS-eyebrow": 0.021171,
+    "VAS-eye": 0.018911,
+    "VAS-nose": 0.008924,
+    "VAS-mouth": 0.034928,
+    "VAS-facial contour": 0.045884
+  },
+  {
+    "Name": "FA0061",
+    "VAS-eyebrow": 0.042095,
+    "VAS-eye": 0.041995,
+    "VAS-nose": 0.010454,
+    "VAS-mouth": 0.015117,
+    "VAS-facial contour": 0.016275
+  },
+  {
+    "Name": "FA0062",
+    "VAS-eyebrow": 0.049813,
+    "VAS-eye": 0.033586,
+    "VAS-nose": 0.033724,
+    "VAS-mouth": 0.03027,
+    "VAS-facial contour": 0.023049
+  },
+  {
+    "Name": "FA0063",
+    "VAS-eyebrow": 0.049501,
+    "VAS-eye": 0.024121,
+    "VAS-nose": 0.017372,
+    "VAS-mouth": 0.020973,
+    "VAS-facial contour": 0.006263
+  },
+  {
+    "Name": "FA0064",
+    "VAS-eyebrow": 0.025135,
+    "VAS-eye": 0.028553,
+    "VAS-nose": 0.013593,
+    "VAS-mouth": 0.021261,
+    "VAS-facial contour": 0.025515
+  },
+  {
+    "Name": "FA0065",
+    "VAS-eyebrow": 0.03002,
+    "VAS-eye": 0.012299,
+    "VAS-nose": 0.003841,
+    "VAS-mouth": 0.041764,
+    "VAS-facial contour": 0.050006
+  },
+  {
+    "Name": "FA0066",
+    "VAS-eyebrow": 0.034122,
+    "VAS-eye": 0.021288,
+    "VAS-nose": 0.011382,
+    "VAS-mouth": 0.018121,
+    "VAS-facial contour": 0.058462
+  },
+  {
+    "Name": "FA0067",
+    "VAS-eyebrow": 0.095585,
+    "VAS-eye": 0.080073,
+    "VAS-nose": 0.011786,
+    "VAS-mouth": 0.02161,
+    "VAS-facial contour": 0.022636
+  },
+  {
+    "Name": "FA0068",
+    "VAS-eyebrow": 0.021196,
+    "VAS-eye": 0.021506,
+    "VAS-nose": 0.025068,
+    "VAS-mouth": 0.043664,
+    "VAS-facial contour": 0.069981
+  },
+  {
+    "Name": "FA0069",
+    "VAS-eyebrow": 0.031864,
+    "VAS-eye": 0.027956,
+    "VAS-nose": 0.013358,
+    "VAS-mouth": 0.028088,
+    "VAS-facial contour": 0.030989
+  },
+  {
+    "Name": "FA0070",
+    "VAS-eyebrow": 0.033657,
+    "VAS-eye": 0.023046,
+    "VAS-nose": 0.059699,
+    "VAS-mouth": 0.044365,
+    "VAS-facial contour": 0.036874
+  },
+  {
+    "Name": "FA0071",
+    "VAS-eyebrow": 0.025874,
+    "VAS-eye": 0.019595,
+    "VAS-nose": 0.037678,
+    "VAS-mouth": 0.040617,
+    "VAS-facial contour": 0.099307
+  },
+  {
+    "Name": "FA0072",
+    "VAS-eyebrow": 0.039277,
+    "VAS-eye": 0.021779,
+    "VAS-nose": 0.028917,
+    "VAS-mouth": 0.020268,
+    "VAS-facial contour": 0.045529
+  },
+  {
+    "Name": "FA0073",
+    "VAS-eyebrow": 0.022925,
+    "VAS-eye": 0.012793,
+    "VAS-nose": 0.010287,
+    "VAS-mouth": 0.031069,
+    "VAS-facial contour": 0.050643
+  },
+  {
+    "Name": "FA0074",
+    "VAS-eyebrow": 0.027108,
+    "VAS-eye": 0.026361,
+    "VAS-nose": 0.020169,
+    "VAS-mouth": 0.0105,
+    "VAS-facial contour": 0.062571
+  },
+  {
+    "Name": "FA0075",
+    "VAS-eyebrow": 0.050388,
+    "VAS-eye": 0.040153,
+    "VAS-nose": 0.007269,
+    "VAS-mouth": 0.037773,
+    "VAS-facial contour": 0.015722
+  },
+  {
+    "Name": "FA0076",
+    "VAS-eyebrow": 0.049895,
+    "VAS-eye": 0.023828,
+    "VAS-nose": 0.016851,
+    "VAS-mouth": 0.040425,
+    "VAS-facial contour": 0.097387
+  },
+  {
+    "Name": "FA0077",
+    "VAS-eyebrow": 0.031637,
+    "VAS-eye": 0.02848,
+    "VAS-nose": 0.059613,
+    "VAS-mouth": 0.071025,
+    "VAS-facial contour": 0.104638
+  },
+  {
+    "Name": "FA0078",
+    "VAS-eyebrow": 0.033949,
+    "VAS-eye": 0.019612,
+    "VAS-nose": 0.030472,
+    "VAS-mouth": 0.053064,
+    "VAS-facial contour": 0.056554
+  },
+  {
+    "Name": "FA0079",
+    "VAS-eyebrow": 0.033527,
+    "VAS-eye": 0.011203,
+    "VAS-nose": 0.006354,
+    "VAS-mouth": 0.026386,
+    "VAS-facial contour": 0.051351
+  },
+  {
+    "Name": "FA0080",
+    "VAS-eyebrow": 0.025951,
+    "VAS-eye": 0.027143,
+    "VAS-nose": 0.024278,
+    "VAS-mouth": 0.018756,
+    "VAS-facial contour": 0.037084
+  },
+  {
+    "Name": "FA0081",
+    "VAS-eyebrow": 0.051089,
+    "VAS-eye": 0.029313,
+    "VAS-nose": 0.010325,
+    "VAS-mouth": 0.021427,
+    "VAS-facial contour": 0.059633
+  },
+  {
+    "Name": "FA0082",
+    "VAS-eyebrow": 0.027271,
+    "VAS-eye": 0.016449,
+    "VAS-nose": 0.033895,
+    "VAS-mouth": 0.014948,
+    "VAS-facial contour": 0.003416
+  },
+  {
+    "Name": "FA0083",
+    "VAS-eyebrow": 0.051041,
+    "VAS-eye": 0.033042,
+    "VAS-nose": 0.02283,
+    "VAS-mouth": 0.032061,
+    "VAS-facial contour": 0.039552
+  },
+  {
+    "Name": "FA0084",
+    "VAS-eyebrow": 0.034884,
+    "VAS-eye": 0.02717,
+    "VAS-nose": 0.027082,
+    "VAS-mouth": 0.027409,
+    "VAS-facial contour": 0.009581
+  },
+  {
+    "Name": "FA0085",
+    "VAS-eyebrow": 0.018645,
+    "VAS-eye": 0.008559,
+    "VAS-nose": 0.018092,
+    "VAS-mouth": 0.012592,
+    "VAS-facial contour": 0.016688
+  },
+  {
+    "Name": "FA0086",
+    "VAS-eyebrow": 0.056121,
+    "VAS-eye": 0.009159,
+    "VAS-nose": 0.031335,
+    "VAS-mouth": 0.035798,
+    "VAS-facial contour": 0.06516
+  },
+  {
+    "Name": "FA0087",
+    "VAS-eyebrow": 0.043872,
+    "VAS-eye": 0.006079,
+    "VAS-nose": 0.032507,
+    "VAS-mouth": 0.025672,
+    "VAS-facial contour": 0.068324
+  },
+  {
+    "Name": "FA0088",
+    "VAS-eyebrow": 0.028447,
+    "VAS-eye": 0.01154,
+    "VAS-nose": 0.025212,
+    "VAS-mouth": 0.029991,
+    "VAS-facial contour": 0.063937
+  },
+  {
+    "Name": "FA0089",
+    "VAS-eyebrow": 0.028332,
+    "VAS-eye": 0.007045,
+    "VAS-nose": 0.015355,
+    "VAS-mouth": 0.018747,
+    "VAS-facial contour": 0.046967
+  },
+  {
+    "Name": "FA0090",
+    "VAS-eyebrow": 0.02331,
+    "VAS-eye": 0.013019,
+    "VAS-nose": 0.036084,
+    "VAS-mouth": 0.046509,
+    "VAS-facial contour": 0.132911
+  },
+  {
+    "Name": "FA0091",
+    "VAS-eyebrow": 0.026656,
+    "VAS-eye": 0.019288,
+    "VAS-nose": 0.027394,
+    "VAS-mouth": 0.036691,
+    "VAS-facial contour": 0.037906
+  },
+  {
+    "Name": "FA0092",
+    "VAS-eyebrow": 0.047768,
+    "VAS-eye": 0.012646,
+    "VAS-nose": 0.042104,
+    "VAS-mouth": 0.031407,
+    "VAS-facial contour": 0.05533
+  },
+  {
+    "Name": "FA0093",
+    "VAS-eyebrow": 0.019453,
+    "VAS-eye": 0.018776,
+    "VAS-nose": 0.00764,
+    "VAS-mouth": 0.015828,
+    "VAS-facial contour": 0.094691
+  },
+  {
+    "Name": "FA0094",
+    "VAS-eyebrow": 0.029956,
+    "VAS-eye": 0.012331,
+    "VAS-nose": 0.019818,
+    "VAS-mouth": 0.010124,
+    "VAS-facial contour": 0.021609
+  },
+  {
+    "Name": "FA0095",
+    "VAS-eyebrow": 0.050387,
+    "VAS-eye": 0.018805,
+    "VAS-nose": 0.014028,
+    "VAS-mouth": 0.057341,
+    "VAS-facial contour": 0.036037
+  },
+  {
+    "Name": "FA0096",
+    "VAS-eyebrow": 0.026773,
+    "VAS-eye": 0.019973,
+    "VAS-nose": 0.038986,
+    "VAS-mouth": 0.055364,
+    "VAS-facial contour": 0.090419
+  },
+  {
+    "Name": "FA0097",
+    "VAS-eyebrow": 0.028981,
+    "VAS-eye": 0.033306,
+    "VAS-nose": 0.012282,
+    "VAS-mouth": 0.045749,
+    "VAS-facial contour": 0.049264
+  },
+  {
+    "Name": "FA0098",
+    "VAS-eyebrow": 0.018466,
+    "VAS-eye": 0.022807,
+    "VAS-nose": 0.004192,
+    "VAS-mouth": 0.027089,
+    "VAS-facial contour": 0.079112
+  },
+  {
+    "Name": "FA0099",
+    "VAS-eyebrow": 0.037049,
+    "VAS-eye": 0.039099,
+    "VAS-nose": 0.011794,
+    "VAS-mouth": 0.010804,
+    "VAS-facial contour": 0.039056
+  },
+  {
+    "Name": "FA0100",
+    "VAS-eyebrow": 0.043285,
+    "VAS-eye": 0.032163,
+    "VAS-nose": 0.030187,
+    "VAS-mouth": 0.038858,
+    "VAS-facial contour": 0.019952
+  }
+]
