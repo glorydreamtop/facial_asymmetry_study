@@ -1,4 +1,7 @@
 data/
+checkpoints/
+archive_100例/
 *.pth
 *.joblib
+*.npz
 .DS_Store

@@ -1,0 +1,6242 @@
+[
+  {
+    "file_name": "1.对称轴133张/丁兰.JPG",
+    "endpoint_mae_px": 5.5040283203125,
+    "endpoint_mae_norm": 0.004732051864266396,
+    "midpoint_x_error_px": 5.264530383050442,
+    "midpoint_x_error_norm": 0.004526116816289338,
+    "angle_error_deg": 0.5598129551581312,
+    "pred_slope_xy": -0.04358715936541557,
+    "pred_intercept_x": 958.087158203125,
+    "gt_slope_xy": -0.05338078364729881,
+    "gt_intercept_x": 964.2420043945312,
+    "signed_angle_diff_deg": 0.5598129551581312,
+    "signed_position_diff_px": -6.15484619140625,
+    "ipd_px": 362.02764892578125,
+    "yc": 1055.46923828125,
+    "gt_axis_points": [
+      [
+        932.0,
+        604.0
+      ],
+      [
+        872.0,
+        1728.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/丁柯文.JPG",
+    "endpoint_mae_px": 1.98333740234375,
+    "endpoint_mae_norm": 0.0016540111973881721,
+    "midpoint_x_error_px": 1.9833241365849972,
+    "midpoint_x_error_norm": 0.0016540110248869228,
+    "angle_error_deg": 0.10440831728121291,
+    "pred_slope_xy": 0.005178007297217846,
+    "pred_intercept_x": 1048.092041015625,
+    "gt_slope_xy": 0.003355704713612795,
+    "gt_intercept_x": 1048.8858642578125,
+    "signed_angle_diff_deg": 0.10440831728121291,
+    "signed_position_diff_px": -0.7938232421875,
+    "ipd_px": 401.68780517578125,
+    "yc": 1438.1988525390625,
+    "gt_axis_points": [
+      [
+        1052.0,
+        928.0
+      ],
+      [
+        1056.0,
+        2120.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/丁琳玲.JPG",
+    "endpoint_mae_px": 7.25189208984375,
+    "endpoint_mae_norm": 0.006313895341008902,
+    "midpoint_x_error_px": 7.251893042775691,
+    "midpoint_x_error_norm": 0.006313895045615744,
+    "angle_error_deg": 0.5061104877100857,
+    "pred_slope_xy": 0.0037843554746359587,
+    "pred_intercept_x": 945.422607421875,
+    "gt_slope_xy": 0.012618301436305046,
+    "gt_intercept_x": 927.329833984375,
+    "signed_angle_diff_deg": -0.5061104877100857,
+    "signed_position_diff_px": 18.0927734375,
+    "ipd_px": 406.2044982910156,
+    "yc": 1118.151123046875,
+    "gt_axis_points": [
+      [
+        935.4074096679688,
+        640.1481323242188
+      ],
+      [
+        950.2222290039062,
+        1814.22216796875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/代凌旖.JPG",
+    "endpoint_mae_px": 4.92950439453125,
+    "endpoint_mae_norm": 0.004273003898561001,
+    "midpoint_x_error_px": 2.8036493118852377,
+    "midpoint_x_error_norm": 0.0024302915255861313,
+    "angle_error_deg": 0.4660573499923773,
+    "pred_slope_xy": 0.0017664330080151558,
+    "pred_intercept_x": 1061.24267578125,
+    "gt_slope_xy": 0.009900989942252636,
+    "gt_intercept_x": 1055.049560546875,
+    "signed_angle_diff_deg": -0.4660573499923773,
+    "signed_position_diff_px": 6.193115234375,
+    "ipd_px": 380.2983703613281,
+    "yc": 988.7927856445312,
+    "gt_axis_points": [
+      [
+        1060.0,
+        500.0
+      ],
+      [
+        1072.0,
+        1712.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/代四琼.JPG",
+    "endpoint_mae_px": 6.555328369140625,
+    "endpoint_mae_norm": 0.005157779902219772,
+    "midpoint_x_error_px": 5.055091544985771,
+    "midpoint_x_error_norm": 0.003977390490043198,
+    "angle_error_deg": 0.5809198958313759,
+    "pred_slope_xy": -0.023908160626888275,
+    "pred_intercept_x": 978.9320068359375,
+    "gt_slope_xy": -0.03405572846531868,
+    "gt_intercept_x": 985.708984375,
+    "signed_angle_diff_deg": 0.5809198958313759,
+    "signed_position_diff_px": -6.7769775390625,
+    "ipd_px": 444.0245056152344,
+    "yc": 1084.1768798828125,
+    "gt_axis_points": [
+      [
+        968.0,
+        520.0
+      ],
+      [
+        924.0,
+        1812.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/代玉婷.JPG",
+    "endpoint_mae_px": 8.1636962890625,
+    "endpoint_mae_norm": 0.007042030803859234,
+    "midpoint_x_error_px": 8.163675977050389,
+    "midpoint_x_error_norm": 0.007042030489902401,
+    "angle_error_deg": 0.2865391697390445,
+    "pred_slope_xy": 0.014045191928744316,
+    "pred_intercept_x": 928.7342529296875,
+    "gt_slope_xy": 0.019047623500227928,
+    "gt_intercept_x": 930.8331298828125,
+    "signed_angle_diff_deg": -0.2865391697390445,
+    "signed_position_diff_px": -2.098876953125,
+    "ipd_px": 407.8128967285156,
+    "yc": 1114.3388671875,
+    "gt_axis_points": [
+      [
+        942.8148193359375,
+        629.0370483398438
+      ],
+      [
+        965.0370483398438,
+        1795.7037353515625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/代芯妮.JPG",
+    "endpoint_mae_px": 2.275848388671875,
+    "endpoint_mae_norm": 0.001923796022310853,
+    "midpoint_x_error_px": 0.4424904547022379,
+    "midpoint_x_error_norm": 0.00037403335989416586,
+    "angle_error_deg": 0.21732137124129997,
+    "pred_slope_xy": 0.0068794675171375275,
+    "pred_intercept_x": 922.17041015625,
+    "gt_slope_xy": 0.0030863953288644552,
+    "gt_intercept_x": 926.2071533203125,
+    "signed_angle_diff_deg": 0.21732137124129997,
+    "signed_position_diff_px": -4.0367431640625,
+    "ipd_px": 421.2213134765625,
+    "yc": 1064.8658447265625,
+    "gt_axis_points": [
+      [
+        928.0,
+        580.888916015625
+      ],
+      [
+        931.7036743164062,
+        1780.888916015625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/党琪越.JPG",
+    "endpoint_mae_px": 7.798370361328125,
+    "endpoint_mae_norm": 0.005737363360822201,
+    "midpoint_x_error_px": 7.798368605255064,
+    "midpoint_x_error_norm": 0.00573736329147051,
+    "angle_error_deg": 0.07824774733814199,
+    "pred_slope_xy": 0.006570735946297646,
+    "pred_intercept_x": 922.6538696289062,
+    "gt_slope_xy": 0.007936488837003708,
+    "gt_intercept_x": 913.2781372070312,
+    "signed_angle_diff_deg": -0.07824774733814199,
+    "signed_position_diff_px": 9.375732421875,
+    "ipd_px": 477.4403381347656,
+    "yc": 1071.03515625,
+    "gt_axis_points": [
+      [
+        916.888916015625,
+        454.96295166015625
+      ],
+      [
+        928.0,
+        1854.9630126953125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/刁聪.JPG",
+    "endpoint_mae_px": 6.41021728515625,
+    "endpoint_mae_norm": 0.0031700788531452417,
+    "midpoint_x_error_px": 2.721045159327332,
+    "midpoint_x_error_norm": 0.001345711598467858,
+    "angle_error_deg": 0.368598864990647,
+    "pred_slope_xy": 0.012870073318481445,
+    "pred_intercept_x": 1944.5499267578125,
+    "gt_slope_xy": 0.019305024296045303,
+    "gt_intercept_x": 1933.2913818359375,
+    "signed_angle_diff_deg": -0.368598864990647,
+    "signed_position_diff_px": 11.258544921875,
+    "ipd_px": 689.2888793945312,
+    "yc": 1992.015625,
+    "gt_axis_points": [
+      [
+        1956.0,
+        1176.3077392578125
+      ],
+      [
+        1994.4615478515625,
+        3168.615478515625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/崔力坤.JPG",
+    "endpoint_mae_px": 1.324066162109375,
+    "endpoint_mae_norm": 0.0011145385215058923,
+    "midpoint_x_error_px": 0.675757659599185,
+    "midpoint_x_error_norm": 0.0005688569193372239,
+    "angle_error_deg": 0.1330768018300137,
+    "pred_slope_xy": 0.012849262915551662,
+    "pred_intercept_x": 998.1364135742188,
+    "gt_slope_xy": 0.010526316240429878,
+    "gt_intercept_x": 1001.5579223632812,
+    "signed_angle_diff_deg": 0.1330768018300137,
+    "signed_position_diff_px": -3.4215087890625,
+    "ipd_px": 412.1151123046875,
+    "yc": 991.6455078125,
+    "gt_axis_points": [
+      [
+        1008.0,
+        612.0
+      ],
+      [
+        1020.0,
+        1752.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/戴瑜宸.JPG",
+    "endpoint_mae_px": 5.9735107421875,
+    "endpoint_mae_norm": 0.005833473056554794,
+    "midpoint_x_error_px": 5.973506089569582,
+    "midpoint_x_error_norm": 0.005833472700775194,
+    "angle_error_deg": 0.2972894274376314,
+    "pred_slope_xy": 0.009096318855881691,
+    "pred_intercept_x": 947.3784790039062,
+    "gt_slope_xy": 0.014285719022154808,
+    "gt_intercept_x": 946.6857299804688,
+    "signed_angle_diff_deg": -0.2972894274376314,
+    "signed_position_diff_px": 0.6927490234375,
+    "ipd_px": 374.1626892089844,
+    "yc": 1171.420654296875,
+    "gt_axis_points": [
+      [
+        957.629638671875,
+        766.0740966796875
+      ],
+      [
+        972.4444580078125,
+        1803.111083984375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/方策一.JPG",
+    "endpoint_mae_px": 3.621002197265625,
+    "endpoint_mae_norm": 0.002704727230593562,
+    "midpoint_x_error_px": 3.6209973836928384,
+    "midpoint_x_error_norm": 0.0027047270956508107,
+    "angle_error_deg": 0.003880018443221833,
+    "pred_slope_xy": 0.01399533636868,
+    "pred_intercept_x": 878.5870971679688,
+    "gt_slope_xy": 0.01392760407179594,
+    "gt_intercept_x": 875.052490234375,
+    "signed_angle_diff_deg": 0.003880018443221833,
+    "signed_position_diff_px": 3.53460693359375,
+    "ipd_px": 426.0022888183594,
+    "yc": 1098.2882080078125,
+    "gt_axis_points": [
+      [
+        883.5555419921875,
+        610.5184936523438
+      ],
+      [
+        902.0740966796875,
+        1940.148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曹志颐.JPG",
+    "endpoint_mae_px": 7.605804443359375,
+    "endpoint_mae_norm": 0.00655357725918293,
+    "midpoint_x_error_px": 7.605804940749067,
+    "midpoint_x_error_norm": 0.006553577321031567,
+    "angle_error_deg": 0.5611893491869391,
+    "pred_slope_xy": 0.009794915094971657,
+    "pred_intercept_x": 912.674072265625,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 916.888916015625,
+    "signed_angle_diff_deg": 0.5611893491869391,
+    "signed_position_diff_px": -4.21484375,
+    "ipd_px": 416.2624206542969,
+    "yc": 1091.219482421875,
+    "gt_axis_points": [
+      [
+        916.888916015625,
+        617.9259033203125
+      ],
+      [
+        916.888916015625,
+        1795.7037353515625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曹歆呓.JPG",
+    "endpoint_mae_px": 5.576690673828125,
+    "endpoint_mae_norm": 0.004990356042981148,
+    "midpoint_x_error_px": 1.166032537817955,
+    "midpoint_x_error_norm": 0.0010434714494401698,
+    "angle_error_deg": 0.5746712427913006,
+    "pred_slope_xy": 0.00643288716673851,
+    "pred_intercept_x": 905.8607177734375,
+    "gt_slope_xy": -0.003597122384235263,
+    "gt_intercept_x": 917.8992919921875,
+    "signed_angle_diff_deg": 0.5746712427913006,
+    "signed_position_diff_px": -12.03857421875,
+    "ipd_px": 371.2898864746094,
+    "yc": 969.682861328125,
+    "gt_axis_points": [
+      [
+        916.0,
+        528.0
+      ],
+      [
+        912.0,
+        1640.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾元静.JPG",
+    "endpoint_mae_px": 10.05120849609375,
+    "endpoint_mae_norm": 0.004743251018226147,
+    "midpoint_x_error_px": 1.208319558686071,
+    "midpoint_x_error_norm": 0.0005702036724583304,
+    "angle_error_deg": 0.5328355502139331,
+    "pred_slope_xy": 0.009300002828240395,
+    "pred_intercept_x": 1921.2620849609375,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1940.6153564453125,
+    "signed_angle_diff_deg": 0.5328355502139331,
+    "signed_position_diff_px": -19.353271484375,
+    "ipd_px": 747.2611083984375,
+    "yc": 2015.615478515625,
+    "gt_axis_points": [
+      [
+        1940.6153564453125,
+        1130.15380859375
+      ],
+      [
+        1940.6153564453125,
+        3291.6923828125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾夏.JPG",
+    "endpoint_mae_px": 11.261962890625,
+    "endpoint_mae_norm": 0.010173121467232704,
+    "midpoint_x_error_px": 11.261980153620243,
+    "midpoint_x_error_norm": 0.01017312120321548,
+    "angle_error_deg": 0.08140179456350685,
+    "pred_slope_xy": -0.002003917470574379,
+    "pred_intercept_x": 1023.4983520507812,
+    "gt_slope_xy": -0.0034246575087308884,
+    "gt_intercept_x": 1013.8218994140625,
+    "signed_angle_diff_deg": 0.08140179456350685,
+    "signed_position_diff_px": 9.67645263671875,
+    "ipd_px": 374.5472412109375,
+    "yc": 1072.59033203125,
+    "gt_axis_points": [
+      [
+        1012.0,
+        532.0
+      ],
+      [
+        1008.0,
+        1700.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾子涵.JPG",
+    "endpoint_mae_px": 9.22845458984375,
+    "endpoint_mae_norm": 0.008865104988217354,
+    "midpoint_x_error_px": 9.228459974750876,
+    "midpoint_x_error_norm": 0.00886510457514493,
+    "angle_error_deg": 0.5882378580598114,
+    "pred_slope_xy": 0.010267048142850399,
+    "pred_intercept_x": 920.9696044921875,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 924.0,
+    "signed_angle_diff_deg": 0.5882378580598114,
+    "signed_position_diff_px": -3.0303955078125,
+    "ipd_px": 354.2343444824219,
+    "yc": 1067.2301025390625,
+    "gt_axis_points": [
+      [
+        924.0,
+        724.0
+      ],
+      [
+        924.0,
+        1664.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾少阳.JPG",
+    "endpoint_mae_px": 5.83978271484375,
+    "endpoint_mae_norm": 0.005758469924330711,
+    "midpoint_x_error_px": 5.839802275786042,
+    "midpoint_x_error_norm": 0.005758470226357865,
+    "angle_error_deg": 0.04494815055144441,
+    "pred_slope_xy": 0.01004577986896038,
+    "pred_intercept_x": 994.28173828125,
+    "gt_slope_xy": 0.010830358602106571,
+    "gt_intercept_x": 999.245849609375,
+    "signed_angle_diff_deg": -0.04494815055144441,
+    "signed_position_diff_px": -4.964111328125,
+    "ipd_px": 315.41326904296875,
+    "yc": 1017.80615234375,
+    "gt_axis_points": [
+      [
+        1005.7777709960938,
+        603.111083984375
+      ],
+      [
+        1016.888916015625,
+        1629.0369873046875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾朝龙.JPG",
+    "endpoint_mae_px": 12.6934814453125,
+    "endpoint_mae_norm": 0.010301563888788223,
+    "midpoint_x_error_px": 12.693470179074211,
+    "midpoint_x_error_norm": 0.010301563451173472,
+    "angle_error_deg": 0.6004062133850361,
+    "pred_slope_xy": -0.00017015244520734996,
+    "pred_intercept_x": 1113.51513671875,
+    "gt_slope_xy": 0.010309278033673763,
+    "gt_intercept_x": 1113.36083984375,
+    "signed_angle_diff_deg": -0.6004062133850361,
+    "signed_position_diff_px": 0.154296875,
+    "ipd_px": 448.54498291015625,
+    "yc": 1063.7796630859375,
+    "gt_axis_points": [
+      [
+        1120.0,
+        644.0
+      ],
+      [
+        1132.0,
+        1808.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾楚涵.JPG",
+    "endpoint_mae_px": 3.779632568359375,
+    "endpoint_mae_norm": 0.0028353980742394924,
+    "midpoint_x_error_px": 3.7796318233013153,
+    "midpoint_x_error_norm": 0.002835398526113808,
+    "angle_error_deg": 0.16519679910603002,
+    "pred_slope_xy": 0.0116090327501297,
+    "pred_intercept_x": 918.0308837890625,
+    "gt_slope_xy": 0.014492753893136978,
+    "gt_intercept_x": 918.7825927734375,
+    "signed_angle_diff_deg": -0.16519679910603002,
+    "signed_position_diff_px": -0.751708984375,
+    "ipd_px": 436.1266174316406,
+    "yc": 889.7027587890625,
+    "gt_axis_points": [
+      [
+        924.0,
+        360.0
+      ],
+      [
+        944.0,
+        1740.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾献文.JPG",
+    "endpoint_mae_px": 4.188140869140625,
+    "endpoint_mae_norm": 0.0032937072683125734,
+    "midpoint_x_error_px": 4.188118758611381,
+    "midpoint_x_error_norm": 0.003293707025699602,
+    "angle_error_deg": 0.16568821030084185,
+    "pred_slope_xy": -0.006944055203348398,
+    "pred_intercept_x": 902.130859375,
+    "gt_slope_xy": -0.009836065582931042,
+    "gt_intercept_x": 909.7836303710938,
+    "signed_angle_diff_deg": 0.16568821030084185,
+    "signed_position_diff_px": -7.65277099609375,
+    "ipd_px": 414.4029846191406,
+    "yc": 1070.9002685546875,
+    "gt_axis_points": [
+      [
+        904.0,
+        588.0
+      ],
+      [
+        892.0,
+        1808.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾璐.JPG",
+    "endpoint_mae_px": 5.773651123046875,
+    "endpoint_mae_norm": 0.005318760871887207,
+    "midpoint_x_error_px": 3.38356438171661,
+    "midpoint_x_error_norm": 0.0031169800251513082,
+    "angle_error_deg": 0.5914888523832378,
+    "pred_slope_xy": 0.00039000457036308944,
+    "pred_intercept_x": 922.2953491210938,
+    "gt_slope_xy": -0.00993375014513731,
+    "gt_intercept_x": 938.0995483398438,
+    "signed_angle_diff_deg": 0.5914888523832378,
+    "signed_position_diff_px": -15.80419921875,
+    "ipd_px": 375.3959655761719,
+    "yc": 1133.027587890625,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        643.8518676757812
+      ],
+      [
+        920.5925903320312,
+        1762.370361328125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾铭浩.JPG",
+    "endpoint_mae_px": 4.61602783203125,
+    "endpoint_mae_norm": 0.002385170664638281,
+    "midpoint_x_error_px": 3.8964345875278923,
+    "midpoint_x_error_norm": 0.0020132861174315675,
+    "angle_error_deg": 0.2727913995336668,
+    "pred_slope_xy": 0.015078705735504627,
+    "pred_intercept_x": 1876.0521240234375,
+    "gt_slope_xy": 0.019841274246573448,
+    "gt_intercept_x": 1869.2906494140625,
+    "signed_angle_diff_deg": -0.2727913995336668,
+    "signed_position_diff_px": 6.761474609375,
+    "ipd_px": 668.7078247070312,
+    "yc": 1999.5692138671875,
+    "gt_axis_points": [
+      [
+        1894.4615478515625,
+        1268.6153564453125
+      ],
+      [
+        1932.923095703125,
+        3207.076904296875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾青云.JPG",
+    "endpoint_mae_px": 5.787811279296875,
+    "endpoint_mae_norm": 0.00508068548515439,
+    "midpoint_x_error_px": 1.3822338865684287,
+    "midpoint_x_error_norm": 0.0012133456843970158,
+    "angle_error_deg": 0.5917785904448443,
+    "pred_slope_xy": 0.03931983560323715,
+    "pred_intercept_x": 860.7517700195312,
+    "gt_slope_xy": 0.04966885969042778,
+    "gt_intercept_x": 849.1846923828125,
+    "signed_angle_diff_deg": -0.5917785904448443,
+    "signed_position_diff_px": 11.56707763671875,
+    "ipd_px": 394.3786926269531,
+    "yc": 1137.5775146484375,
+    "gt_axis_points": [
+      [
+        883.5555419921875,
+        692.0
+      ],
+      [
+        939.111083984375,
+        1810.5185546875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾馨琪.JPG",
+    "endpoint_mae_px": 9.09228515625,
+    "endpoint_mae_norm": 0.007599732838571072,
+    "midpoint_x_error_px": 9.092261483714537,
+    "midpoint_x_error_norm": 0.007599733600061387,
+    "angle_error_deg": 0.3403105123462339,
+    "pred_slope_xy": 0.010363738983869553,
+    "pred_intercept_x": 955.5966186523438,
+    "gt_slope_xy": 0.01630435138940811,
+    "gt_intercept_x": 940.127197265625,
+    "signed_angle_diff_deg": -0.3403105123462339,
+    "signed_position_diff_px": 15.46942138671875,
+    "ipd_px": 407.59100341796875,
+    "yc": 1022.01513671875,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        392.0
+      ],
+      [
+        968.74072265625,
+        1754.9630126953125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/杜娟.JPG",
+    "endpoint_mae_px": 5.4462890625,
+    "endpoint_mae_norm": 0.005339346826076508,
+    "midpoint_x_error_px": 0.5270177980473818,
+    "midpoint_x_error_norm": 0.0005166810420009771,
+    "angle_error_deg": 0.59093500564202,
+    "pred_slope_xy": 0.01775091513991356,
+    "pred_intercept_x": 907.5322875976562,
+    "gt_slope_xy": 0.028070181608200073,
+    "gt_intercept_x": 894.8002319335938,
+    "signed_angle_diff_deg": -0.59093500564202,
+    "signed_position_diff_px": 12.7320556640625,
+    "ipd_px": 347.1319885253906,
+    "yc": 1121.32373046875,
+    "gt_axis_points": [
+      [
+        913.1851806640625,
+        654.9629516601562
+      ],
+      [
+        942.8148193359375,
+        1710.5185546875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/杜晟泽.JPG",
+    "endpoint_mae_px": 5.955322265625,
+    "endpoint_mae_norm": 0.004317364655435085,
+    "midpoint_x_error_px": 4.877418441203872,
+    "midpoint_x_error_norm": 0.0035359396972358403,
+    "angle_error_deg": 0.46638159629642884,
+    "pred_slope_xy": 0.00958004780113697,
+    "pred_intercept_x": 916.921630859375,
+    "gt_slope_xy": 0.017721503973007202,
+    "gt_intercept_x": 911.8079833984375,
+    "signed_angle_diff_deg": -0.46638159629642884,
+    "signed_position_diff_px": 5.1136474609375,
+    "ipd_px": 453.2530822753906,
+    "yc": 1111.9832763671875,
+    "gt_axis_points": [
+      [
+        920.5925903320312,
+        495.7037048339844
+      ],
+      [
+        946.5184936523438,
+        1958.6666259765625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/查星.JPG",
+    "endpoint_mae_px": 6.265472412109375,
+    "endpoint_mae_norm": 0.005686033051460981,
+    "midpoint_x_error_px": 6.265449596568942,
+    "midpoint_x_error_norm": 0.005686033345933275,
+    "angle_error_deg": 0.05429118852398618,
+    "pred_slope_xy": 0.009882663376629353,
+    "pred_intercept_x": 1009.6119384765625,
+    "gt_slope_xy": 0.010830325074493885,
+    "gt_intercept_x": 1002.3248901367188,
+    "signed_angle_diff_deg": -0.05429118852398618,
+    "signed_position_diff_px": 7.28704833984375,
+    "ipd_px": 366.8823547363281,
+    "yc": 983.025146484375,
+    "gt_axis_points": [
+      [
+        1008.0,
+        524.0
+      ],
+      [
+        1020.0,
+        1632.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/樊凤清.JPG",
+    "endpoint_mae_px": 13.2296142578125,
+    "endpoint_mae_norm": 0.01049095205962658,
+    "midpoint_x_error_px": 13.229620886923385,
+    "midpoint_x_error_norm": 0.01049095187081428,
+    "angle_error_deg": 0.2149612922067543,
+    "pred_slope_xy": 0.013101262971758842,
+    "pred_intercept_x": 918.0599365234375,
+    "gt_slope_xy": 0.01685389131307602,
+    "gt_intercept_x": 900.3154907226562,
+    "signed_angle_diff_deg": -0.2149612922067543,
+    "signed_position_diff_px": 17.74444580078125,
+    "ipd_px": 407.4701232910156,
+    "yc": 1083.8798828125,
+    "gt_axis_points": [
+      [
+        909.4815063476562,
+        543.8518676757812
+      ],
+      [
+        931.7036743164062,
+        1862.370361328125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/段亦宵.JPG",
+    "endpoint_mae_px": 1.770050048828125,
+    "endpoint_mae_norm": 0.0017106342129409313,
+    "midpoint_x_error_px": 1.6252228170633316,
+    "midpoint_x_error_norm": 0.0015706508262537944,
+    "angle_error_deg": 0.21385913528637457,
+    "pred_slope_xy": 0.015797507017850876,
+    "pred_intercept_x": 903.6593017578125,
+    "gt_slope_xy": 0.01953122206032276,
+    "gt_intercept_x": 897.2100830078125,
+    "signed_angle_diff_deg": -0.21385913528637457,
+    "signed_position_diff_px": 6.44921875,
+    "ipd_px": 366.9423522949219,
+    "yc": 1159.3272705078125,
+    "gt_axis_points": [
+      [
+        913.1851806640625,
+        817.9259033203125
+      ],
+      [
+        931.7036743164062,
+        1766.0740966796875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/段傲.JPG",
+    "endpoint_mae_px": 4.7052001953125,
+    "endpoint_mae_norm": 0.0038194796070456505,
+    "midpoint_x_error_px": 4.705204248428345,
+    "midpoint_x_error_norm": 0.0038194795848642826,
+    "angle_error_deg": 0.13712726695918764,
+    "pred_slope_xy": 0.01093965768814087,
+    "pred_intercept_x": 972.0589599609375,
+    "gt_slope_xy": 0.013333333656191826,
+    "gt_intercept_x": 964.586669921875,
+    "signed_angle_diff_deg": -0.13712726695918764,
+    "signed_position_diff_px": 7.4722900390625,
+    "ipd_px": 386.1156005859375,
+    "yc": 995.263916015625,
+    "gt_axis_points": [
+      [
+        972.0,
+        556.0
+      ],
+      [
+        988.0,
+        1756.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/白中天.JPG",
+    "endpoint_mae_px": 2.291015625,
+    "endpoint_mae_norm": 0.0017037864308804274,
+    "midpoint_x_error_px": 2.0364204477518797,
+    "midpoint_x_error_norm": 0.0015144226007718503,
+    "angle_error_deg": 0.20193480970796973,
+    "pred_slope_xy": 0.0057061417028307915,
+    "pred_intercept_x": 945.4058837890625,
+    "gt_slope_xy": 0.009230769239366055,
+    "gt_intercept_x": 939.2738647460938,
+    "signed_angle_diff_deg": -0.20193480970796973,
+    "signed_position_diff_px": 6.13201904296875,
+    "ipd_px": 425.93292236328125,
+    "yc": 1001.3658447265625,
+    "gt_axis_points": [
+      [
+        944.0,
+        512.0
+      ],
+      [
+        956.0,
+        1812.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/白雨.JPG",
+    "endpoint_mae_px": 8.846954345703125,
+    "endpoint_mae_norm": 0.0072373272851109505,
+    "midpoint_x_error_px": 8.847002368659219,
+    "midpoint_x_error_norm": 0.007237327347724878,
+    "angle_error_deg": 0.45232639972915023,
+    "pred_slope_xy": 0.013812555931508541,
+    "pred_intercept_x": 961.17431640625,
+    "gt_slope_xy": 0.005917161703109741,
+    "gt_intercept_x": 961.7094116210938,
+    "signed_angle_diff_deg": 0.45232639972915023,
+    "signed_position_diff_px": -0.53509521484375,
+    "ipd_px": 420.5287170410156,
+    "yc": 1080.6566162109375,
+    "gt_axis_points": [
+      [
+        965.0370483398438,
+        562.370361328125
+      ],
+      [
+        972.4444580078125,
+        1814.22216796875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/程丹彤.JPG",
+    "endpoint_mae_px": 12.625701904296875,
+    "endpoint_mae_norm": 0.009998263791203499,
+    "midpoint_x_error_px": 12.625703641117184,
+    "midpoint_x_error_norm": 0.009998264339178109,
+    "angle_error_deg": 0.0753090277538464,
+    "pred_slope_xy": 0.010081472806632519,
+    "pred_intercept_x": 972.703857421875,
+    "gt_slope_xy": 0.0113960150629282,
+    "gt_intercept_x": 958.697509765625,
+    "signed_angle_diff_deg": -0.0753090277538464,
+    "signed_position_diff_px": 14.00634765625,
+    "ipd_px": 415.6564025878906,
+    "yc": 930.0320434570312,
+    "gt_axis_points": [
+      [
+        963.25927734375,
+        400.2962951660156
+      ],
+      [
+        978.0740966796875,
+        1700.2962646484375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/程源.JPG",
+    "endpoint_mae_px": 9.20452880859375,
+    "endpoint_mae_norm": 0.007477688603103161,
+    "midpoint_x_error_px": 9.204564678482711,
+    "midpoint_x_error_norm": 0.0074776892057506344,
+    "angle_error_deg": 0.5971465053612959,
+    "pred_slope_xy": 0.005757709499448538,
+    "pred_intercept_x": 1070.450439453125,
+    "gt_slope_xy": 0.016181230545043945,
+    "gt_intercept_x": 1068.1683349609375,
+    "signed_angle_diff_deg": -0.5971465053612959,
+    "signed_position_diff_px": 2.2821044921875,
+    "ipd_px": 401.27728271484375,
+    "yc": 990.3541259765625,
+    "gt_axis_points": [
+      [
+        1076.0,
+        484.0
+      ],
+      [
+        1096.0,
+        1720.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/程琪语.JPG",
+    "endpoint_mae_px": 4.843719482421875,
+    "endpoint_mae_norm": 0.004266215488314629,
+    "midpoint_x_error_px": 3.0013696407995667,
+    "midpoint_x_error_norm": 0.0026435566851690795,
+    "angle_error_deg": 0.4582719801354311,
+    "pred_slope_xy": 0.011056926101446152,
+    "pred_intercept_x": 922.7013549804688,
+    "gt_slope_xy": 0.0030581301543861628,
+    "gt_intercept_x": 929.723388671875,
+    "signed_angle_diff_deg": 0.4582719801354311,
+    "signed_position_diff_px": -7.02203369140625,
+    "ipd_px": 383.4804382324219,
+    "yc": 1131.8614501953125,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        647.5555419921875
+      ],
+      [
+        935.4074096679688,
+        1858.6666259765625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/程瑞霖.JPG",
+    "endpoint_mae_px": 8.973419189453125,
+    "endpoint_mae_norm": 0.008123342879116535,
+    "midpoint_x_error_px": 8.973413564044222,
+    "midpoint_x_error_norm": 0.008123342949832024,
+    "angle_error_deg": 0.5676155696269807,
+    "pred_slope_xy": -0.04383299872279167,
+    "pred_intercept_x": 1025.4627685546875,
+    "gt_slope_xy": -0.05376343056559563,
+    "gt_intercept_x": 1028.5655517578125,
+    "signed_angle_diff_deg": 0.5676155696269807,
+    "signed_position_diff_px": -3.102783203125,
+    "ipd_px": 354.4040222167969,
+    "yc": 1054.78173828125,
+    "gt_axis_points": [
+      [
+        990.9629516601562,
+        699.4074096679688
+      ],
+      [
+        935.4074096679688,
+        1732.74072265625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/董芮君.JPG",
+    "endpoint_mae_px": 1.941925048828125,
+    "endpoint_mae_norm": 0.0019101575016975403,
+    "midpoint_x_error_px": 1.9419513131018675,
+    "midpoint_x_error_norm": 0.0019101574773435354,
+    "angle_error_deg": 0.03259003332567012,
+    "pred_slope_xy": 0.010031874291598797,
+    "pred_intercept_x": 895.34033203125,
+    "gt_slope_xy": 0.010600738227367401,
+    "gt_intercept_x": 892.8014526367188,
+    "signed_angle_diff_deg": -0.03259003332567012,
+    "signed_position_diff_px": 2.53887939453125,
+    "ipd_px": 349.811767578125,
+    "yc": 959.206787109375,
+    "gt_axis_points": [
+      [
+        898.370361328125,
+        525.3333129882812
+      ],
+      [
+        909.4815063476562,
+        1573.4814453125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/董英涵.JPG",
+    "endpoint_mae_px": 5.36932373046875,
+    "endpoint_mae_norm": 0.004597929771989584,
+    "midpoint_x_error_px": 3.8749617505818605,
+    "midpoint_x_error_norm": 0.0033182191342897294,
+    "angle_error_deg": 0.551321702688297,
+    "pred_slope_xy": 0.0060382382944226265,
+    "pred_intercept_x": 1047.2293701171875,
+    "gt_slope_xy": -0.00358422938734293,
+    "gt_intercept_x": 1062.0931396484375,
+    "signed_angle_diff_deg": 0.551321702688297,
+    "signed_position_diff_px": -14.86376953125,
+    "ipd_px": 395.7319030761719,
+    "yc": 1016.9893798828125,
+    "gt_axis_points": [
+      [
+        1060.0,
+        584.0
+      ],
+      [
+        1056.0,
+        1700.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/蔡修杰.JPG",
+    "endpoint_mae_px": 10.28375244140625,
+    "endpoint_mae_norm": 0.009285366162657738,
+    "midpoint_x_error_px": 10.283787538297474,
+    "midpoint_x_error_norm": 0.00928536625659758,
+    "angle_error_deg": 0.009766589554672245,
+    "pred_slope_xy": 0.007264475803822279,
+    "pred_intercept_x": 1045.9041748046875,
+    "gt_slope_xy": 0.0074349441565573215,
+    "gt_intercept_x": 1055.9107666015625,
+    "signed_angle_diff_deg": -0.009766589554672245,
+    "signed_position_diff_px": -10.006591796875,
+    "ipd_px": 371.5277404785156,
+    "yc": 1494.5443115234375,
+    "gt_axis_points": [
+      [
+        1064.0,
+        1088.0
+      ],
+      [
+        1072.0,
+        2164.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/蔡艳红.JPG",
+    "endpoint_mae_px": 8.996185302734375,
+    "endpoint_mae_norm": 0.00869738683104515,
+    "midpoint_x_error_px": 8.996187930507517,
+    "midpoint_x_error_norm": 0.008697387273726431,
+    "angle_error_deg": 0.08711551669681436,
+    "pred_slope_xy": 0.005265834275633097,
+    "pred_intercept_x": 877.8440551757812,
+    "gt_slope_xy": 0.003745350521057844,
+    "gt_intercept_x": 888.5653686523438,
+    "signed_angle_diff_deg": 0.08711551669681436,
+    "signed_position_diff_px": -10.7213134765625,
+    "ipd_px": 352.9515075683594,
+    "yc": 1039.3743896484375,
+    "gt_axis_points": [
+      [
+        890.9629516601562,
+        640.1481323242188
+      ],
+      [
+        894.6666870117188,
+        1629.0369873046875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/蔡芊.JPG",
+    "endpoint_mae_px": 4.47149658203125,
+    "endpoint_mae_norm": 0.003531236667186022,
+    "midpoint_x_error_px": 3.55628816951139,
+    "midpoint_x_error_norm": 0.0028084422609782056,
+    "angle_error_deg": 0.41663746738999907,
+    "pred_slope_xy": 0.016309067606925964,
+    "pred_intercept_x": 902.0713500976562,
+    "gt_slope_xy": 0.009036172181367874,
+    "gt_intercept_x": 907.5345458984375,
+    "signed_angle_diff_deg": 0.41663746738999907,
+    "signed_position_diff_px": -5.46319580078125,
+    "ipd_px": 453.7552185058594,
+    "yc": 1105.488525390625,
+    "gt_axis_points": [
+      [
+        913.1851806640625,
+        625.3333129882812
+      ],
+      [
+        924.2963256835938,
+        1854.9630126953125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/蔡芸阳.JPG",
+    "endpoint_mae_px": 5.71533203125,
+    "endpoint_mae_norm": 0.005087921395897865,
+    "midpoint_x_error_px": 5.715338174253702,
+    "midpoint_x_error_norm": 0.005087921343542162,
+    "angle_error_deg": 0.36319804816988405,
+    "pred_slope_xy": 0.006339086685329676,
+    "pred_intercept_x": 1022.4241943359375,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1036.0,
+    "signed_angle_diff_deg": 0.36319804816988405,
+    "signed_position_diff_px": -13.5758056640625,
+    "ipd_px": 396.4438171386719,
+    "yc": 1146.7855224609375,
+    "gt_axis_points": [
+      [
+        1036.0,
+        672.0
+      ],
+      [
+        1036.0,
+        1808.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓乔月.JPG",
+    "endpoint_mae_px": 2.86334228515625,
+    "endpoint_mae_norm": 0.002398981247097254,
+    "midpoint_x_error_px": 2.729055382311344,
+    "midpoint_x_error_norm": 0.0022864303698511557,
+    "angle_error_deg": 0.2789919940585115,
+    "pred_slope_xy": 0.005334449000656605,
+    "pred_intercept_x": 981.1683349609375,
+    "gt_slope_xy": 0.010204081423580647,
+    "gt_intercept_x": 978.3265380859375,
+    "signed_angle_diff_deg": -0.2789919940585115,
+    "signed_position_diff_px": 2.841796875,
+    "ipd_px": 396.9219055175781,
+    "yc": 1021.6409301757812,
+    "gt_axis_points": [
+      [
+        984.0,
+        556.0
+      ],
+      [
+        996.0,
+        1732.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓必红.JPG",
+    "endpoint_mae_px": 1.74334716796875,
+    "endpoint_mae_norm": 0.0015008959453552961,
+    "midpoint_x_error_px": 0.42872233130037785,
+    "midpoint_x_error_norm": 0.00036909905248309893,
+    "angle_error_deg": 0.16589947380130377,
+    "pred_slope_xy": 0.01039313618093729,
+    "pred_intercept_x": 944.1856079101562,
+    "gt_slope_xy": 0.013289036229252815,
+    "gt_intercept_x": 940.3455200195312,
+    "signed_angle_diff_deg": -0.16589947380130377,
+    "signed_position_diff_px": 3.840087890625,
+    "ipd_px": 390.09130859375,
+    "yc": 1074.776611328125,
+    "gt_axis_points": [
+      [
+        948.0,
+        576.0
+      ],
+      [
+        964.0,
+        1780.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓悦兴.JPG",
+    "endpoint_mae_px": 2.52789306640625,
+    "endpoint_mae_norm": 0.0019680957775563,
+    "midpoint_x_error_px": 2.527875851412773,
+    "midpoint_x_error_norm": 0.001968095417236193,
+    "angle_error_deg": 0.10804524408097504,
+    "pred_slope_xy": 0.0159311406314373,
+    "pred_intercept_x": 923.6158447265625,
+    "gt_slope_xy": 0.014044971205294132,
+    "gt_intercept_x": 923.4410400390625,
+    "signed_angle_diff_deg": 0.10804524408097504,
+    "signed_position_diff_px": 0.1748046875,
+    "ipd_px": 437.4510192871094,
+    "yc": 1133.58984375,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        588.2963256835938
+      ],
+      [
+        950.2222290039062,
+        1906.8148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓洋洋.JPG",
+    "endpoint_mae_px": 10.7342529296875,
+    "endpoint_mae_norm": 0.005291875451803207,
+    "midpoint_x_error_px": 10.73429924249649,
+    "midpoint_x_error_norm": 0.005291876346084093,
+    "angle_error_deg": 0.020463653236399093,
+    "pred_slope_xy": 0.014745750464498997,
+    "pred_intercept_x": 1816.0101318359375,
+    "gt_slope_xy": 0.014388516545295715,
+    "gt_intercept_x": 1827.453125,
+    "signed_angle_diff_deg": 0.020463653236399093,
+    "signed_position_diff_px": -11.4429931640625,
+    "ipd_px": 697.884033203125,
+    "yc": 1812.461181640625,
+    "gt_axis_points": [
+      [
+        1840.6153564453125,
+        914.7692260742188
+      ],
+      [
+        1871.3846435546875,
+        3053.230712890625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓雨宸.JPG",
+    "endpoint_mae_px": 4.83599853515625,
+    "endpoint_mae_norm": 0.0048150657676160336,
+    "midpoint_x_error_px": 0.36991911511859144,
+    "midpoint_x_error_norm": 0.0003684005862784334,
+    "angle_error_deg": 0.5560500149277732,
+    "pred_slope_xy": 0.01259690336883068,
+    "pred_intercept_x": 893.39501953125,
+    "gt_slope_xy": 0.0223048385232687,
+    "gt_intercept_x": 883.197021484375,
+    "signed_angle_diff_deg": -0.5560500149277732,
+    "signed_position_diff_px": 10.197998046875,
+    "ipd_px": 343.0682678222656,
+    "yc": 900.9581298828125,
+    "gt_axis_points": [
+      [
+        894.6666870117188,
+        514.2222290039062
+      ],
+      [
+        916.888916015625,
+        1510.5185546875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/阿依晓芳.JPG",
+    "endpoint_mae_px": 6.22235107421875,
+    "endpoint_mae_norm": 0.005154655314981937,
+    "midpoint_x_error_px": 1.2475720008053486,
+    "midpoint_x_error_norm": 0.0010335162879330784,
+    "angle_error_deg": 0.5762497330970453,
+    "pred_slope_xy": 0.010898024775087833,
+    "pred_intercept_x": 954.7827758789062,
+    "gt_slope_xy": 0.02095811627805233,
+    "gt_intercept_x": 941.2081909179688,
+    "signed_angle_diff_deg": -0.5762497330970453,
+    "signed_position_diff_px": 13.5745849609375,
+    "ipd_px": 442.8604431152344,
+    "yc": 1114.181396484375,
+    "gt_axis_points": [
+      [
+        953.9259033203125,
+        606.8148193359375
+      ],
+      [
+        979.8518676757812,
+        1843.851806640625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈丽.JPG",
+    "endpoint_mae_px": 4.06512451171875,
+    "endpoint_mae_norm": 0.003756173886358738,
+    "midpoint_x_error_px": 4.065134593789935,
+    "midpoint_x_error_norm": 0.0037561738951726875,
+    "angle_error_deg": 0.36975334750908856,
+    "pred_slope_xy": 0.006453502923250198,
+    "pred_intercept_x": 916.3556518554688,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 920.5925903320312,
+    "signed_angle_diff_deg": 0.36975334750908856,
+    "signed_position_diff_px": -4.2369384765625,
+    "ipd_px": 358.8708801269531,
+    "yc": 1182.6280517578125,
+    "gt_axis_points": [
+      [
+        920.5925903320312,
+        736.4444580078125
+      ],
+      [
+        920.5925903320312,
+        1836.4444580078125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈伟.JPG",
+    "endpoint_mae_px": 5.298004150390625,
+    "endpoint_mae_norm": 0.0045351251028478146,
+    "midpoint_x_error_px": 3.4139166162199217,
+    "midpoint_x_error_norm": 0.002922288612359769,
+    "angle_error_deg": 0.5408586413768692,
+    "pred_slope_xy": 0.010360004380345345,
+    "pred_intercept_x": 927.0325927734375,
+    "gt_slope_xy": 0.01980198547244072,
+    "gt_intercept_x": 919.1741333007812,
+    "signed_angle_diff_deg": -0.5408586413768692,
+    "signed_position_diff_px": 7.85845947265625,
+    "ipd_px": 360.7913513183594,
+    "yc": 1084.2083740234375,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        632.74072265625
+      ],
+      [
+        953.9259033203125,
+        1754.9630126953125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈俊.JPG",
+    "endpoint_mae_px": 6.2398681640625,
+    "endpoint_mae_norm": 0.005016752053052187,
+    "midpoint_x_error_px": 3.896676440219153,
+    "midpoint_x_error_norm": 0.0031328451615628555,
+    "angle_error_deg": 0.5745640535413454,
+    "pred_slope_xy": 0.010028370656073093,
+    "pred_intercept_x": 848.6665649414062,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 865.0370483398438,
+    "signed_angle_diff_deg": 0.5745640535413454,
+    "signed_position_diff_px": -16.3704833984375,
+    "ipd_px": 433.7118225097656,
+    "yc": 1104.548828125,
+    "gt_axis_points": [
+      [
+        865.0370483398438,
+        621.629638671875
+      ],
+      [
+        865.0370483398438,
+        1866.0740966796875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈冠宇.JPG",
+    "endpoint_mae_px": 5.369415283203125,
+    "endpoint_mae_norm": 0.004031090997159481,
+    "midpoint_x_error_px": 5.369399144645286,
+    "midpoint_x_error_norm": 0.004031091427378675,
+    "angle_error_deg": 0.006038352261129809,
+    "pred_slope_xy": 0.01995185762643814,
+    "pred_intercept_x": 888.292724609375,
+    "gt_slope_xy": 0.02005728892982006,
+    "gt_intercept_x": 882.7927856445312,
+    "signed_angle_diff_deg": -0.006038352261129809,
+    "signed_position_diff_px": 5.49993896484375,
+    "ipd_px": 436.741943359375,
+    "yc": 1104.718017578125,
+    "gt_axis_points": [
+      [
+        894.6666870117188,
+        592.0
+      ],
+      [
+        920.5925903320312,
+        1884.5926513671875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈发扬.JPG",
+    "endpoint_mae_px": 4.650634765625,
+    "endpoint_mae_norm": 0.0022677499800920486,
+    "midpoint_x_error_px": 4.650635435353706,
+    "midpoint_x_error_norm": 0.0022677501274983025,
+    "angle_error_deg": 0.07848704862681277,
+    "pred_slope_xy": 0.009499558247625828,
+    "pred_intercept_x": 1813.4189453125,
+    "gt_slope_xy": 0.010869557969272137,
+    "gt_intercept_x": 1805.8394775390625,
+    "signed_angle_diff_deg": -0.07848704862681277,
+    "signed_position_diff_px": 7.5794677734375,
+    "ipd_px": 657.584716796875,
+    "yc": 2024.833251953125,
+    "gt_axis_points": [
+      [
+        1817.5384521484375,
+        1076.3077392578125
+      ],
+      [
+        1840.6153564453125,
+        3199.384521484375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈嘉伟.JPG",
+    "endpoint_mae_px": 6.24188232421875,
+    "endpoint_mae_norm": 0.004878190346062183,
+    "midpoint_x_error_px": 6.241905365139246,
+    "midpoint_x_error_norm": 0.00487819009420308,
+    "angle_error_deg": 0.4817489262650038,
+    "pred_slope_xy": 0.01161374431103468,
+    "pred_intercept_x": 1049.775146484375,
+    "gt_slope_xy": 0.0032051282469183207,
+    "gt_intercept_x": 1066.1409912109375,
+    "signed_angle_diff_deg": 0.4817489262650038,
+    "signed_position_diff_px": -16.3658447265625,
+    "ipd_px": 453.8482360839844,
+    "yc": 1058.4483642578125,
+    "gt_axis_points": [
+      [
+        1068.0,
+        580.0
+      ],
+      [
+        1072.0,
+        1828.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈垚舟.JPG",
+    "endpoint_mae_px": 7.000030517578125,
+    "endpoint_mae_norm": 0.006019351072609425,
+    "midpoint_x_error_px": 7.000074761092833,
+    "midpoint_x_error_norm": 0.006019350969442311,
+    "angle_error_deg": 0.3913187445477411,
+    "pred_slope_xy": 0.010098080150783062,
+    "pred_intercept_x": 953.3973999023438,
+    "gt_slope_xy": 0.0032679480500519276,
+    "gt_intercept_x": 955.2471923828125,
+    "signed_angle_diff_deg": 0.3913187445477411,
+    "signed_position_diff_px": -1.84979248046875,
+    "ipd_px": 388.2450866699219,
+    "yc": 1150.52783203125,
+    "gt_axis_points": [
+      [
+        957.629638671875,
+        729.0370483398438
+      ],
+      [
+        961.3333129882812,
+        1862.370361328125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈婕.JPG",
+    "endpoint_mae_px": 6.07476806640625,
+    "endpoint_mae_norm": 0.00509028322994709,
+    "midpoint_x_error_px": 1.8650022745132446,
+    "midpoint_x_error_norm": 0.0015627686414272368,
+    "angle_error_deg": 0.5685968804425412,
+    "pred_slope_xy": -0.009681746363639832,
+    "pred_intercept_x": 1116.4761962890625,
+    "gt_slope_xy": -0.019607843831181526,
+    "gt_intercept_x": 1125.490234375,
+    "signed_angle_diff_deg": 0.5685968804425412,
+    "signed_position_diff_px": -9.0140380859375,
+    "ipd_px": 415.65643310546875,
+    "yc": 996.005615234375,
+    "gt_axis_points": [
+      [
+        1116.0,
+        484.0
+      ],
+      [
+        1092.0,
+        1708.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈嫣然.JPG",
+    "endpoint_mae_px": 5.784698486328125,
+    "endpoint_mae_norm": 0.005867192056030035,
+    "midpoint_x_error_px": 5.7847143998369575,
+    "midpoint_x_error_norm": 0.005867192042567505,
+    "angle_error_deg": 0.5394665961661869,
+    "pred_slope_xy": 0.006647504400461912,
+    "pred_intercept_x": 989.9324951171875,
+    "gt_slope_xy": 0.01606425642967224,
+    "gt_intercept_x": 983.9839477539062,
+    "signed_angle_diff_deg": -0.5394665961661869,
+    "signed_position_diff_px": 5.94854736328125,
+    "ipd_px": 321.6061706542969,
+    "yc": 1149.989013671875,
+    "gt_axis_points": [
+      [
+        996.0,
+        748.0
+      ],
+      [
+        1012.0,
+        1744.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈安静.JPG",
+    "endpoint_mae_px": 5.62164306640625,
+    "endpoint_mae_norm": 0.0052931662648916245,
+    "midpoint_x_error_px": 3.304464092478156,
+    "midpoint_x_error_norm": 0.003111393280681135,
+    "angle_error_deg": 0.5731210845492111,
+    "pred_slope_xy": 0.0064442353323102,
+    "pred_intercept_x": 1045.6873779296875,
+    "gt_slope_xy": -0.0035587188322097063,
+    "gt_intercept_x": 1054.2064208984375,
+    "signed_angle_diff_deg": 0.5731210845492111,
+    "signed_position_diff_px": -8.51904296875,
+    "ipd_px": 353.4884033203125,
+    "yc": 1103.580078125,
+    "gt_axis_points": [
+      [
+        1052.0,
+        620.0
+      ],
+      [
+        1048.0,
+        1744.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈庆敏.JPG",
+    "endpoint_mae_px": 5.821990966796875,
+    "endpoint_mae_norm": 0.004939207341521978,
+    "midpoint_x_error_px": 3.8838797421194613,
+    "midpoint_x_error_norm": 0.0032949581875349777,
+    "angle_error_deg": 0.5810898931028965,
+    "pred_slope_xy": 0.0037944663781672716,
+    "pred_intercept_x": 979.6917724609375,
+    "gt_slope_xy": 0.013937282375991344,
+    "gt_intercept_x": 971.7491455078125,
+    "signed_angle_diff_deg": -0.5810898931028965,
+    "signed_position_diff_px": 7.942626953125,
+    "ipd_px": 405.08441162109375,
+    "yc": 1045.499267578125,
+    "gt_axis_points": [
+      [
+        980.0,
+        592.0
+      ],
+      [
+        996.0,
+        1740.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈志飞.JPG",
+    "endpoint_mae_px": 6.6959228515625,
+    "endpoint_mae_norm": 0.005030015017837286,
+    "midpoint_x_error_px": 4.543502581877419,
+    "midpoint_x_error_norm": 0.003413149550119756,
+    "angle_error_deg": 0.5675422332181225,
+    "pred_slope_xy": 0.003792337840422988,
+    "pred_intercept_x": 1109.66650390625,
+    "gt_slope_xy": 0.013698657043278217,
+    "gt_intercept_x": 1093.5443115234375,
+    "signed_angle_diff_deg": -0.5675422332181225,
+    "signed_position_diff_px": 16.1221923828125,
+    "ipd_px": 429.64996337890625,
+    "yc": 1046.451904296875,
+    "gt_axis_points": [
+      [
+        1100.2962646484375,
+        492.8888854980469
+      ],
+      [
+        1118.8148193359375,
+        1844.74072265625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈思.JPG",
+    "endpoint_mae_px": 10.63848876953125,
+    "endpoint_mae_norm": 0.008571104146540165,
+    "midpoint_x_error_px": 10.638475399518825,
+    "midpoint_x_error_norm": 0.008571103626845558,
+    "angle_error_deg": 0.06225877395994017,
+    "pred_slope_xy": 0.0137060871347785,
+    "pred_intercept_x": 936.5643920898438,
+    "gt_slope_xy": 0.014792928472161293,
+    "gt_intercept_x": 945.935546875,
+    "signed_angle_diff_deg": -0.06225877395994017,
+    "signed_position_diff_px": -9.37115478515625,
+    "ipd_px": 436.0397644042969,
+    "yc": 1025.6759033203125,
+    "gt_axis_points": [
+      [
+        953.9259033203125,
+        540.1481323242188
+      ],
+      [
+        972.4444580078125,
+        1792.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈怡洁.JPG",
+    "endpoint_mae_px": 11.009552001953125,
+    "endpoint_mae_norm": 0.008567290380597115,
+    "midpoint_x_error_px": 11.009606507158196,
+    "midpoint_x_error_norm": 0.008567290334364805,
+    "angle_error_deg": 0.5746856633065989,
+    "pred_slope_xy": 0.010585903190076351,
+    "pred_intercept_x": 955.8390502929688,
+    "gt_slope_xy": 0.020618585869669914,
+    "gt_intercept_x": 934.6348876953125,
+    "signed_angle_diff_deg": -0.5746856633065989,
+    "signed_position_diff_px": 21.20416259765625,
+    "ipd_px": 434.1230163574219,
+    "yc": 913.1858520507812,
+    "gt_axis_points": [
+      [
+        941.7930908203125,
+        347.17242431640625
+      ],
+      [
+        969.3793334960938,
+        1685.1033935546875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈悦.JPG",
+    "endpoint_mae_px": 6.922454833984375,
+    "endpoint_mae_norm": 0.005202095955610275,
+    "midpoint_x_error_px": 5.462891025468707,
+    "midpoint_x_error_norm": 0.00410528186908353,
+    "angle_error_deg": 0.5678360903811447,
+    "pred_slope_xy": 0.012308578006923199,
+    "pred_intercept_x": 948.1358642578125,
+    "gt_slope_xy": 0.02222222276031971,
+    "gt_intercept_x": 942.2774047851562,
+    "signed_angle_diff_deg": -0.5678360903811447,
+    "signed_position_diff_px": 5.85845947265625,
+    "ipd_px": 465.28729248046875,
+    "yc": 1044.975341796875,
+    "gt_axis_points": [
+      [
+        952.137939453125,
+        443.7241516113281
+      ],
+      [
+        983.1724243164062,
+        1840.27587890625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈惠.JPG",
+    "endpoint_mae_px": 5.458465576171875,
+    "endpoint_mae_norm": 0.0047979047521948814,
+    "midpoint_x_error_px": 5.458476953156151,
+    "midpoint_x_error_norm": 0.004797904456448593,
+    "angle_error_deg": 0.13668896457287827,
+    "pred_slope_xy": 0.010685889981687069,
+    "pred_intercept_x": 957.5167236328125,
+    "gt_slope_xy": 0.013071900233626366,
+    "gt_intercept_x": 960.0338745117188,
+    "signed_angle_diff_deg": -0.13668896457287827,
+    "signed_position_diff_px": -2.51715087890625,
+    "ipd_px": 405.6416015625,
+    "yc": 1103.873046875,
+    "gt_axis_points": [
+      [
+        968.74072265625,
+        666.0740966796875
+      ],
+      [
+        983.5555419921875,
+        1799.4073486328125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈意婕.JPG",
+    "endpoint_mae_px": 3.7606201171875,
+    "endpoint_mae_norm": 0.0036880148109048605,
+    "midpoint_x_error_px": 3.760652536774387,
+    "midpoint_x_error_norm": 0.003688014786594196,
+    "angle_error_deg": 0.38011855701377023,
+    "pred_slope_xy": 0.005317322444170713,
+    "pred_intercept_x": 1036.061279296875,
+    "gt_slope_xy": 0.01195216178894043,
+    "gt_intercept_x": 1023.710205078125,
+    "signed_angle_diff_deg": -0.38011855701377023,
+    "signed_position_diff_px": 12.35107421875,
+    "ipd_px": 308.267578125,
+    "yc": 1172.36181640625,
+    "gt_axis_points": [
+      [
+        1033.629638671875,
+        829.9259033203125
+      ],
+      [
+        1044.74072265625,
+        1759.5555419921875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈曹瑞.JPG",
+    "endpoint_mae_px": 5.883575439453125,
+    "endpoint_mae_norm": 0.006143540143966675,
+    "midpoint_x_error_px": 5.883557761088014,
+    "midpoint_x_error_norm": 0.006143540263434985,
+    "angle_error_deg": 0.5894094319231687,
+    "pred_slope_xy": -0.010287498123943806,
+    "pred_intercept_x": 1031.5247802734375,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1012.0,
+    "signed_angle_diff_deg": -0.5894094319231687,
+    "signed_position_diff_px": 19.5247802734375,
+    "ipd_px": 310.7567138671875,
+    "yc": 1292.054443359375,
+    "gt_axis_points": [
+      [
+        1012.0,
+        820.0
+      ],
+      [
+        1012.0,
+        1832.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈有谋.JPG",
+    "endpoint_mae_px": 5.431884765625,
+    "endpoint_mae_norm": 0.004680727608501911,
+    "midpoint_x_error_px": 4.260781974156316,
+    "midpoint_x_error_norm": 0.00367158960951644,
+    "angle_error_deg": 0.5156564078532391,
+    "pred_slope_xy": 0.008141440339386463,
+    "pred_intercept_x": 927.2381591796875,
+    "gt_slope_xy": 0.01714284159243107,
+    "gt_intercept_x": 920.1174926757812,
+    "signed_angle_diff_deg": -0.5156564078532391,
+    "signed_position_diff_px": 7.12066650390625,
+    "ipd_px": 412.19854736328125,
+    "yc": 1153.3946533203125,
+    "gt_axis_points": [
+      [
+        931.4483032226562,
+        660.9655151367188
+      ],
+      [
+        952.137939453125,
+        1867.862060546875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈朴阳.JPG",
+    "endpoint_mae_px": 4.90673828125,
+    "endpoint_mae_norm": 0.0036425592843443155,
+    "midpoint_x_error_px": 4.906693745220423,
+    "midpoint_x_error_norm": 0.0036425598115520236,
+    "angle_error_deg": 0.34888280600343347,
+    "pred_slope_xy": 0.008882653899490833,
+    "pred_intercept_x": 959.03173828125,
+    "gt_slope_xy": 0.002793273888528347,
+    "gt_intercept_x": 971.0391235351562,
+    "signed_angle_diff_deg": 0.34888280600343347,
+    "signed_position_diff_px": -12.00738525390625,
+    "ipd_px": 460.77520751953125,
+    "yc": 985.9058837890625,
+    "gt_axis_points": [
+      [
+        972.4444580078125,
+        503.1111145019531
+      ],
+      [
+        976.1481323242188,
+        1829.0369873046875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈李睿.JPG",
+    "endpoint_mae_px": 5.628326416015625,
+    "endpoint_mae_norm": 0.0049393270164728165,
+    "midpoint_x_error_px": 0.5948666464537382,
+    "midpoint_x_error_norm": 0.0005220050992604253,
+    "angle_error_deg": 0.5778209550158968,
+    "pred_slope_xy": 0.007834511809051037,
+    "pred_intercept_x": 1013.6165161132812,
+    "gt_slope_xy": 0.017921147868037224,
+    "gt_intercept_x": 1001.4623413085938,
+    "signed_angle_diff_deg": -0.5778209550158968,
+    "signed_position_diff_px": 12.1541748046875,
+    "ipd_px": 406.203857421875,
+    "yc": 1024.0816650390625,
+    "gt_axis_points": [
+      [
+        1012.0,
+        588.0
+      ],
+      [
+        1032.0,
+        1704.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈欣妍.JPG",
+    "endpoint_mae_px": 2.42578125,
+    "endpoint_mae_norm": 0.0022809901274740696,
+    "midpoint_x_error_px": 1.3841691371053457,
+    "midpoint_x_error_norm": 0.0013015168340403949,
+    "angle_error_deg": 0.25268319177976284,
+    "pred_slope_xy": 0.011683284305036068,
+    "pred_intercept_x": 1037.7218017578125,
+    "gt_slope_xy": 0.007272727321833372,
+    "gt_intercept_x": 1045.483642578125,
+    "signed_angle_diff_deg": 0.25268319177976284,
+    "signed_position_diff_px": -7.7618408203125,
+    "ipd_px": 364.4421691894531,
+    "yc": 1391.94384765625,
+    "gt_axis_points": [
+      [
+        1052.0,
+        896.0
+      ],
+      [
+        1060.0,
+        1996.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈泊桥.JPG",
+    "endpoint_mae_px": 6.4356689453125,
+    "endpoint_mae_norm": 0.005748143419623375,
+    "midpoint_x_error_px": 6.435682155191898,
+    "midpoint_x_error_norm": 0.005748142792303901,
+    "angle_error_deg": 0.23508858497408505,
+    "pred_slope_xy": 0.007766213268041611,
+    "pred_intercept_x": 1022.5399780273438,
+    "gt_slope_xy": 0.0036630036775022745,
+    "gt_intercept_x": 1033.7435302734375,
+    "signed_angle_diff_deg": 0.23508858497408505,
+    "signed_position_diff_px": -11.20355224609375,
+    "ipd_px": 375.2403869628906,
+    "yc": 1027.2283935546875,
+    "gt_axis_points": [
+      [
+        1036.0,
+        616.0
+      ],
+      [
+        1040.0,
+        1708.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈瑜.JPG",
+    "endpoint_mae_px": 4.950775146484375,
+    "endpoint_mae_norm": 0.005229359492659569,
+    "midpoint_x_error_px": 2.1136521855908086,
+    "midpoint_x_error_norm": 0.0022325737833117365,
+    "angle_error_deg": 0.5498831415567571,
+    "pred_slope_xy": -0.020496850833296776,
+    "pred_intercept_x": 969.1796264648438,
+    "gt_slope_xy": -0.03010033816099167,
+    "gt_intercept_x": 978.0994262695312,
+    "signed_angle_diff_deg": 0.5498831415567571,
+    "signed_position_diff_px": -8.9197998046875,
+    "ipd_px": 320.5958251953125,
+    "yc": 1094.005126953125,
+    "gt_axis_points": [
+      [
+        959.0344848632812,
+        633.3793334960938
+      ],
+      [
+        928.0,
+        1664.413818359375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈米可.JPG",
+    "endpoint_mae_px": 8.095977783203125,
+    "endpoint_mae_norm": 0.006364782340824604,
+    "midpoint_x_error_px": 8.09596323065557,
+    "midpoint_x_error_norm": 0.006364782148054082,
+    "angle_error_deg": 0.2336654994262493,
+    "pred_slope_xy": 0.007094608619809151,
+    "pred_intercept_x": 920.258056640625,
+    "gt_slope_xy": 0.0111731868237257,
+    "gt_intercept_x": 907.3155517578125,
+    "signed_angle_diff_deg": -0.2336654994262493,
+    "signed_position_diff_px": 12.9425048828125,
+    "ipd_px": 438.5987243652344,
+    "yc": 1077.263427734375,
+    "gt_axis_points": [
+      [
+        913.1851806640625,
+        525.3333129882812
+      ],
+      [
+        928.0,
+        1851.25927734375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈胤宇.JPG",
+    "endpoint_mae_px": 7.81964111328125,
+    "endpoint_mae_norm": 0.007206190377473831,
+    "midpoint_x_error_px": 7.819693249646662,
+    "midpoint_x_error_norm": 0.007206190565916121,
+    "angle_error_deg": 0.011061077332948976,
+    "pred_slope_xy": 0.006586601957678795,
+    "pred_intercept_x": 907.5126342773438,
+    "gt_slope_xy": 0.006779662799090147,
+    "gt_intercept_x": 915.1216430664062,
+    "signed_angle_diff_deg": -0.011061077332948976,
+    "signed_position_diff_px": -7.6090087890625,
+    "ipd_px": 365.62054443359375,
+    "yc": 1012.2589111328125,
+    "gt_axis_points": [
+      [
+        918.8148193359375,
+        544.74072265625
+      ],
+      [
+        926.2222290039062,
+        1637.3333740234375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈致豪.JPG",
+    "endpoint_mae_px": 4.8878173828125,
+    "endpoint_mae_norm": 0.0038910277653485537,
+    "midpoint_x_error_px": 4.887816923919445,
+    "midpoint_x_error_norm": 0.003891027767054661,
+    "angle_error_deg": 0.17048778837532264,
+    "pred_slope_xy": 0.009563250467181206,
+    "pred_intercept_x": 963.9163818359375,
+    "gt_slope_xy": 0.01253918930888176,
+    "gt_intercept_x": 955.406982421875,
+    "signed_angle_diff_deg": -0.17048778837532264,
+    "signed_position_diff_px": 8.5093994140625,
+    "ipd_px": 425.8777770996094,
+    "yc": 1055.05810546875,
+    "gt_axis_points": [
+      [
+        963.25927734375,
+        626.2222290039062
+      ],
+      [
+        978.0740966796875,
+        1807.7037353515625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈芷萱.JPG",
+    "endpoint_mae_px": 5.35516357421875,
+    "endpoint_mae_norm": 0.0024666101671755314,
+    "midpoint_x_error_px": 0.39237334206700325,
+    "midpoint_x_error_norm": 0.0001807666760863802,
+    "angle_error_deg": 0.2753485259752752,
+    "pred_slope_xy": 0.00801101140677929,
+    "pred_intercept_x": 1885.7254638671875,
+    "gt_slope_xy": 0.003205112647265196,
+    "gt_intercept_x": 1895.5888671875,
+    "signed_angle_diff_deg": 0.2753485259752752,
+    "signed_position_diff_px": -9.8634033203125,
+    "ipd_px": 743.2681884765625,
+    "yc": 1988.034912109375,
+    "gt_axis_points": [
+      [
+        1898.857177734375,
+        1019.7142944335938
+      ],
+      [
+        1906.0,
+        3248.28564453125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈鑫慧.JPG",
+    "endpoint_mae_px": 5.63323974609375,
+    "endpoint_mae_norm": 0.005188769660890102,
+    "midpoint_x_error_px": 2.9164947494864464,
+    "midpoint_x_error_norm": 0.002686375538845154,
+    "angle_error_deg": 0.5976522175298333,
+    "pred_slope_xy": 0.014135627076029778,
+    "pred_intercept_x": 1016.8018798828125,
+    "gt_slope_xy": 0.003703703638166189,
+    "gt_intercept_x": 1025.77783203125,
+    "signed_angle_diff_deg": 0.5976522175298333,
+    "signed_position_diff_px": -8.9759521484375,
+    "ipd_px": 381.8193359375,
+    "yc": 1033.943359375,
+    "gt_axis_points": [
+      [
+        1028.0,
+        600.0
+      ],
+      [
+        1032.0,
+        1680.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈露.JPG",
+    "endpoint_mae_px": 9.63421630859375,
+    "endpoint_mae_norm": 0.004538781009614468,
+    "midpoint_x_error_px": 9.634249866467371,
+    "midpoint_x_error_norm": 0.004538781112154708,
+    "angle_error_deg": 0.026735508443305744,
+    "pred_slope_xy": 0.010685727931559086,
+    "pred_intercept_x": 1948.074462890625,
+    "gt_slope_xy": 0.011152406223118305,
+    "gt_intercept_x": 1937.50537109375,
+    "signed_angle_diff_deg": -0.026735508443305744,
+    "signed_position_diff_px": 10.569091796875,
+    "ipd_px": 737.3139038085938,
+    "yc": 1847.5677490234375,
+    "gt_axis_points": [
+      [
+        1948.3077392578125,
+        968.6153564453125
+      ],
+      [
+        1971.3846435546875,
+        3037.84619140625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈靓靓.JPG",
+    "endpoint_mae_px": 7.148223876953125,
+    "endpoint_mae_norm": 0.00639799889177084,
+    "midpoint_x_error_px": 7.148208852857351,
+    "midpoint_x_error_norm": 0.006397998746932115,
+    "angle_error_deg": 0.5864966906116366,
+    "pred_slope_xy": 0.0039976369589567184,
+    "pred_intercept_x": 980.0626220703125,
+    "gt_slope_xy": 0.014234875328838825,
+    "gt_intercept_x": 974.9465942382812,
+    "signed_angle_diff_deg": -0.5864966906116366,
+    "signed_position_diff_px": 5.11602783203125,
+    "ipd_px": 380.6661376953125,
+    "yc": 1048.7000732421875,
+    "gt_axis_points": [
+      [
+        984.0,
+        636.0
+      ],
+      [
+        1000.0,
+        1760.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈静怡.JPG",
+    "endpoint_mae_px": 2.124053955078125,
+    "endpoint_mae_norm": 0.001876999158412218,
+    "midpoint_x_error_px": 2.1240683756768703,
+    "midpoint_x_error_norm": 0.0018769994200219797,
+    "angle_error_deg": 0.17921668713316657,
+    "pred_slope_xy": 0.007702132686972618,
+    "pred_intercept_x": 1011.2974243164062,
+    "gt_slope_xy": 0.010830325074493885,
+    "gt_intercept_x": 1005.5884399414062,
+    "signed_angle_diff_deg": -0.17921668713316657,
+    "signed_position_diff_px": 5.708984375,
+    "ipd_px": 396.1005554199219,
+    "yc": 1039.65869140625,
+    "gt_axis_points": [
+      [
+        1012.0,
+        592.0
+      ],
+      [
+        1024.0,
+        1700.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈韵旭.JPG",
+    "endpoint_mae_px": 6.686767578125,
+    "endpoint_mae_norm": 0.005884325597435236,
+    "midpoint_x_error_px": 6.686779572293744,
+    "midpoint_x_error_norm": 0.005884325398486268,
+    "angle_error_deg": 0.5534786491358265,
+    "pred_slope_xy": 0.010745726525783539,
+    "pred_intercept_x": 902.3009643554688,
+    "gt_slope_xy": 0.02040817029774189,
+    "gt_intercept_x": 883.5468139648438,
+    "signed_angle_diff_deg": -0.5534786491358265,
+    "signed_position_diff_px": 18.754150390625,
+    "ipd_px": 383.84564208984375,
+    "yc": 1146.062255859375,
+    "gt_axis_points": [
+      [
+        896.9655151367188,
+        657.5172119140625
+      ],
+      [
+        921.1034545898438,
+        1840.27587890625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈麒文.JPG",
+    "endpoint_mae_px": 6.494720458984375,
+    "endpoint_mae_norm": 0.005553342401981354,
+    "midpoint_x_error_px": 6.494717372424475,
+    "midpoint_x_error_norm": 0.005553342028643715,
+    "angle_error_deg": 0.09820056380872444,
+    "pred_slope_xy": 0.010904139839112759,
+    "pred_intercept_x": 853.53759765625,
+    "gt_slope_xy": 0.012618300504982471,
+    "gt_intercept_x": 858.0811157226562,
+    "signed_angle_diff_deg": -0.09820056380872444,
+    "signed_position_diff_px": -4.54351806640625,
+    "ipd_px": 371.2615661621094,
+    "yc": 1022.52294921875,
+    "gt_axis_points": [
+      [
+        865.0370483398438,
+        551.25927734375
+      ],
+      [
+        879.8518676757812,
+        1725.3333740234375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/付彩萍.JPG",
+    "endpoint_mae_px": 2.864898681640625,
+    "endpoint_mae_norm": 0.0025950968265533447,
+    "midpoint_x_error_px": 0.6383578518882587,
+    "midpoint_x_error_norm": 0.0005782202441595857,
+    "angle_error_deg": 0.2944216546012308,
+    "pred_slope_xy": 0.011471622623503208,
+    "pred_intercept_x": 922.0332641601562,
+    "gt_slope_xy": 0.01661127433180809,
+    "gt_intercept_x": 916.1358642578125,
+    "signed_angle_diff_deg": -0.2944216546012308,
+    "signed_position_diff_px": 5.89739990234375,
+    "ipd_px": 375.3607177734375,
+    "yc": 1155.139892578125,
+    "gt_axis_points": [
+      [
+        928.0,
+        714.2222290039062
+      ],
+      [
+        946.5184936523438,
+        1829.0369873046875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/伏丹.JPG",
+    "endpoint_mae_px": 3.8841552734375,
+    "endpoint_mae_norm": 0.0033461833372712135,
+    "midpoint_x_error_px": 2.086294773966074,
+    "midpoint_x_error_norm": 0.0017973456573091573,
+    "angle_error_deg": 0.37972556507604466,
+    "pred_slope_xy": -0.007023682817816734,
+    "pred_intercept_x": 1139.708740234375,
+    "gt_slope_xy": -0.013651876710355282,
+    "gt_intercept_x": 1146.703125,
+    "signed_angle_diff_deg": 0.37972556507604466,
+    "signed_position_diff_px": -6.994384765625,
+    "ipd_px": 375.98211669921875,
+    "yc": 1241.200927734375,
+    "gt_axis_points": [
+      [
+        1136.0,
+        784.0
+      ],
+      [
+        1120.0,
+        1956.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何亮.JPG",
+    "endpoint_mae_px": 3.8106689453125,
+    "endpoint_mae_norm": 0.0028694227803498507,
+    "midpoint_x_error_px": 3.8106231559067965,
+    "midpoint_x_error_norm": 0.0028694232308061896,
+    "angle_error_deg": 0.11224774374766752,
+    "pred_slope_xy": 0.005133730359375477,
+    "pred_intercept_x": 1063.9273681640625,
+    "gt_slope_xy": 0.0031746032182127237,
+    "gt_intercept_x": 1062.3619384765625,
+    "signed_angle_diff_deg": 0.11224774374766752,
+    "signed_position_diff_px": 1.5654296875,
+    "ipd_px": 431.0892639160156,
+    "yc": 1006.6004638671875,
+    "gt_axis_points": [
+      [
+        1064.0,
+        516.0
+      ],
+      [
+        1068.0,
+        1776.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何俊梅.JPG",
+    "endpoint_mae_px": 3.24505615234375,
+    "endpoint_mae_norm": 0.0026949611492455006,
+    "midpoint_x_error_px": 3.2450565081089735,
+    "midpoint_x_error_norm": 0.0026949610280355,
+    "angle_error_deg": 0.07038926806196527,
+    "pred_slope_xy": -0.00761836115270853,
+    "pred_intercept_x": 953.3941650390625,
+    "gt_slope_xy": -0.00638977624475956,
+    "gt_intercept_x": 955.2460327148438,
+    "signed_angle_diff_deg": -0.07038926806196527,
+    "signed_position_diff_px": -1.85186767578125,
+    "ipd_px": 432.525634765625,
+    "yc": 1057.956298828125,
+    "gt_axis_points": [
+      [
+        952.0,
+        508.0
+      ],
+      [
+        944.0,
+        1760.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何婷.JPG",
+    "endpoint_mae_px": 2.962860107421875,
+    "endpoint_mae_norm": 0.002645555417984724,
+    "midpoint_x_error_px": 2.9628321817799588,
+    "midpoint_x_error_norm": 0.002645555380833109,
+    "angle_error_deg": 0.1997375662122387,
+    "pred_slope_xy": 0.024203911423683167,
+    "pred_intercept_x": 922.8433227539062,
+    "gt_slope_xy": 0.027692340314388275,
+    "gt_intercept_x": 921.4864501953125,
+    "signed_angle_diff_deg": -0.1997375662122387,
+    "signed_position_diff_px": 1.35687255859375,
+    "ipd_px": 370.876953125,
+    "yc": 1145.852783203125,
+    "gt_axis_points": [
+      [
+        939.111083984375,
+        636.4444580078125
+      ],
+      [
+        972.4444580078125,
+        1840.148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何宸郡.JPG",
+    "endpoint_mae_px": 1.775726318359375,
+    "endpoint_mae_norm": 0.0016574139008298516,
+    "midpoint_x_error_px": 0.4763402119278908,
+    "midpoint_x_error_norm": 0.0004445889796193536,
+    "angle_error_deg": 0.21107595221820405,
+    "pred_slope_xy": 0.007833484560251236,
+    "pred_intercept_x": 979.324462890625,
+    "gt_slope_xy": 0.004149377811700106,
+    "gt_intercept_x": 984.5975341796875,
+    "signed_angle_diff_deg": 0.21107595221820405,
+    "signed_position_diff_px": -5.2730712890625,
+    "ipd_px": 394.55487060546875,
+    "yc": 1156.0870361328125,
+    "gt_axis_points": [
+      [
+        988.0,
+        820.0
+      ],
+      [
+        992.0,
+        1784.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何柠杉.JPG",
+    "endpoint_mae_px": 5.739501953125,
+    "endpoint_mae_norm": 0.004735172726213932,
+    "midpoint_x_error_px": 1.3512749476358294,
+    "midpoint_x_error_norm": 0.0011148708155885242,
+    "angle_error_deg": 0.5728148643251938,
+    "pred_slope_xy": 0.007422471884638071,
+    "pred_intercept_x": 1059.608154296875,
+    "gt_slope_xy": 0.017421603202819824,
+    "gt_intercept_x": 1048.780517578125,
+    "signed_angle_diff_deg": -0.5728148643251938,
+    "signed_position_diff_px": 10.82763671875,
+    "ipd_px": 402.3829345703125,
+    "yc": 1091.746337890625,
+    "gt_axis_points": [
+      [
+        1060.0,
+        644.0
+      ],
+      [
+        1080.0,
+        1792.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何欢.JPG",
+    "endpoint_mae_px": 5.275115966796875,
+    "endpoint_mae_norm": 0.0055075353011488914,
+    "midpoint_x_error_px": 5.2750898816791505,
+    "midpoint_x_error_norm": 0.005507535511444089,
+    "angle_error_deg": 0.22268812645337255,
+    "pred_slope_xy": 0.01933184079825878,
+    "pred_intercept_x": 908.91455078125,
+    "gt_slope_xy": 0.015444019809365273,
+    "gt_intercept_x": 918.4567260742188,
+    "signed_angle_diff_deg": 0.22268812645337255,
+    "signed_position_diff_px": -9.54217529296875,
+    "ipd_px": 339.3955078125,
+    "yc": 998.9822998046875,
+    "gt_axis_points": [
+      [
+        928.0,
+        617.9259033203125
+      ],
+      [
+        942.8148193359375,
+        1577.1851806640625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何红春.JPG",
+    "endpoint_mae_px": 6.127777099609375,
+    "endpoint_mae_norm": 0.005381323397159576,
+    "midpoint_x_error_px": 1.4020183086395264,
+    "midpoint_x_error_norm": 0.0012312020994945105,
+    "angle_error_deg": 0.5807107118625998,
+    "pred_slope_xy": -0.026278477162122726,
+    "pred_intercept_x": 1049.18896484375,
+    "gt_slope_xy": -0.03642383962869644,
+    "gt_intercept_x": 1061.629150390625,
+    "signed_angle_diff_deg": 0.5807107118625998,
+    "signed_position_diff_px": -12.440185546875,
+    "ipd_px": 405.0668029785156,
+    "yc": 1059.147705078125,
+    "gt_axis_points": [
+      [
+        1044.0,
+        484.0
+      ],
+      [
+        1000.0,
+        1692.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何维.JPG",
+    "endpoint_mae_px": 5.687042236328125,
+    "endpoint_mae_norm": 0.004992190282791853,
+    "midpoint_x_error_px": 0.17225952818989754,
+    "midpoint_x_error_norm": 0.00015122672665553172,
+    "angle_error_deg": 0.5863832379284142,
+    "pred_slope_xy": 0.009763277135789394,
+    "pred_intercept_x": 922.9655151367188,
+    "gt_slope_xy": 0.019999951124191284,
+    "gt_intercept_x": 909.5674438476562,
+    "signed_angle_diff_deg": -0.5863832379284142,
+    "signed_position_diff_px": 13.3980712890625,
+    "ipd_px": 357.6337890625,
+    "yc": 1141.2039794921875,
+    "gt_axis_points": [
+      [
+        924.2963256835938,
+        736.4444580078125
+      ],
+      [
+        946.5184936523438,
+        1847.5555419921875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何美霖.JPG",
+    "endpoint_mae_px": 4.676544189453125,
+    "endpoint_mae_norm": 0.004032472148537636,
+    "midpoint_x_error_px": 0.8207808579118137,
+    "midpoint_x_error_norm": 0.0007077723794042812,
+    "angle_error_deg": 0.4535746718013484,
+    "pred_slope_xy": 0.004781646654009819,
+    "pred_intercept_x": 921.89794921875,
+    "gt_slope_xy": -0.0031347714830189943,
+    "gt_intercept_x": 929.47265625,
+    "signed_angle_diff_deg": 0.4535746718013484,
+    "signed_position_diff_px": -7.57470703125,
+    "ipd_px": 390.83538818359375,
+    "yc": 949.6796264648438,
+    "gt_axis_points": [
+      [
+        928.0,
+        469.77777099609375
+      ],
+      [
+        924.2963256835938,
+        1651.25927734375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何苗.JPG",
+    "endpoint_mae_px": 2.6868896484375,
+    "endpoint_mae_norm": 0.0023469533771276474,
+    "midpoint_x_error_px": 2.181743949651718,
+    "midpoint_x_error_norm": 0.0019056867065821853,
+    "angle_error_deg": 0.2748949028014449,
+    "pred_slope_xy": 0.008369429968297482,
+    "pred_intercept_x": 1050.2723388671875,
+    "gt_slope_xy": 0.0035714285913854837,
+    "gt_intercept_x": 1053.771484375,
+    "signed_angle_diff_deg": 0.2748949028014449,
+    "signed_position_diff_px": -3.4991455078125,
+    "ipd_px": 408.0165710449219,
+    "yc": 1056.1444091796875,
+    "gt_axis_points": [
+      [
+        1056.0,
+        624.0
+      ],
+      [
+        1060.0,
+        1744.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何蓉杰.JPG",
+    "endpoint_mae_px": 8.31689453125,
+    "endpoint_mae_norm": 0.003917271271348,
+    "midpoint_x_error_px": 8.316967075069897,
+    "midpoint_x_error_norm": 0.003917270869100209,
+    "angle_error_deg": 0.0662854886946117,
+    "pred_slope_xy": 0.012635971419513226,
+    "pred_intercept_x": 1950.0777587890625,
+    "gt_slope_xy": 0.01379307359457016,
+    "gt_intercept_x": 1955.79638671875,
+    "signed_angle_diff_deg": -0.0662854886946117,
+    "signed_position_diff_px": -5.7186279296875,
+    "ipd_px": 717.295654296875,
+    "yc": 2010.329833984375,
+    "gt_axis_points": [
+      [
+        1971.3846435546875,
+        1130.15380859375
+      ],
+      [
+        2002.15380859375,
+        3360.923095703125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何蕊西.JPG",
+    "endpoint_mae_px": 2.160552978515625,
+    "endpoint_mae_norm": 0.001956566935405135,
+    "midpoint_x_error_px": 0.4433156599091035,
+    "midpoint_x_error_norm": 0.00040143818529385367,
+    "angle_error_deg": 0.2304879037855393,
+    "pred_slope_xy": 0.010919651947915554,
+    "pred_intercept_x": 939.5096435546875,
+    "gt_slope_xy": 0.006896554492413998,
+    "gt_intercept_x": 943.1764526367188,
+    "signed_angle_diff_deg": 0.2304879037855393,
+    "signed_position_diff_px": -3.66680908203125,
+    "ipd_px": 363.3673095703125,
+    "yc": 914.19677734375,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        484.59259033203125
+      ],
+      [
+        953.9259033203125,
+        1558.6666259765625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何诺怡.JPG",
+    "endpoint_mae_px": 6.07781982421875,
+    "endpoint_mae_norm": 0.00521828280761838,
+    "midpoint_x_error_px": 1.6962125962600112,
+    "midpoint_x_error_norm": 0.0014563620015489295,
+    "angle_error_deg": 0.5922139613304401,
+    "pred_slope_xy": 0.00013235621736384928,
+    "pred_intercept_x": 1039.5479736328125,
+    "gt_slope_xy": -0.010204081423580647,
+    "gt_intercept_x": 1049.4285888671875,
+    "signed_angle_diff_deg": 0.5922139613304401,
+    "signed_position_diff_px": -9.880615234375,
+    "ipd_px": 426.30743408203125,
+    "yc": 1048.447021484375,
+    "gt_axis_points": [
+      [
+        1044.0,
+        532.0
+      ],
+      [
+        1032.0,
+        1708.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何静.JPG",
+    "endpoint_mae_px": 5.883056640625,
+    "endpoint_mae_norm": 0.0026302486658096313,
+    "midpoint_x_error_px": 4.561269855356386,
+    "midpoint_x_error_norm": 0.0020392746747012885,
+    "angle_error_deg": 0.2921215848166506,
+    "pred_slope_xy": 0.008432037197053432,
+    "pred_intercept_x": 1761.11376953125,
+    "gt_slope_xy": 0.0033333662431687117,
+    "gt_intercept_x": 1776.1046142578125,
+    "signed_angle_diff_deg": 0.2921215848166506,
+    "signed_position_diff_px": -14.9908447265625,
+    "ipd_px": 772.1259155273438,
+    "yc": 1826.80419921875,
+    "gt_axis_points": [
+      [
+        1779.076904296875,
+        891.6923217773438
+      ],
+      [
+        1786.769287109375,
+        3199.384521484375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何静姝.JPG",
+    "endpoint_mae_px": 5.394927978515625,
+    "endpoint_mae_norm": 0.004946026019752026,
+    "midpoint_x_error_px": 1.7804236105273503,
+    "midpoint_x_error_norm": 0.0016322360281816883,
+    "angle_error_deg": 0.556351775070659,
+    "pred_slope_xy": 0.013044259510934353,
+    "pred_intercept_x": 941.3330688476562,
+    "gt_slope_xy": 0.0033333618193864822,
+    "gt_intercept_x": 951.631591796875,
+    "signed_angle_diff_deg": 0.556351775070659,
+    "signed_position_diff_px": -10.29852294921875,
+    "ipd_px": 376.1747131347656,
+    "yc": 1153.05712890625,
+    "gt_axis_points": [
+      [
+        953.9259033203125,
+        688.2963256835938
+      ],
+      [
+        957.629638671875,
+        1799.4073486328125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/侯博耀.JPG",
+    "endpoint_mae_px": 4.920654296875,
+    "endpoint_mae_norm": 0.0024086080957204103,
+    "midpoint_x_error_px": 0.6170885087340139,
+    "midpoint_x_error_norm": 0.00030209675100678623,
+    "angle_error_deg": 0.31828300923961905,
+    "pred_slope_xy": 0.006541132926940918,
+    "pred_intercept_x": 1916.517578125,
+    "gt_slope_xy": 0.012096716091036797,
+    "gt_intercept_x": 1905.3583984375,
+    "signed_angle_diff_deg": -0.31828300923961905,
+    "signed_position_diff_px": 11.1591796875,
+    "ipd_px": 668.7338256835938,
+    "yc": 1787.1368408203125,
+    "gt_axis_points": [
+      [
+        1920.2857666015625,
+        1234.0
+      ],
+      [
+        1941.7142333984375,
+        3005.428466796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/兰亦成.JPG",
+    "endpoint_mae_px": 5.2635498046875,
+    "endpoint_mae_norm": 0.005324933677911758,
+    "midpoint_x_error_px": 5.263530105352402,
+    "midpoint_x_error_norm": 0.00532493384288503,
+    "angle_error_deg": 0.22786900346668698,
+    "pred_slope_xy": 0.012524520047008991,
+    "pred_intercept_x": 1131.0980224609375,
+    "gt_slope_xy": 0.008547008968889713,
+    "gt_intercept_x": 1142.5982666015625,
+    "signed_angle_diff_deg": 0.22786900346668698,
+    "signed_position_diff_px": -11.500244140625,
+    "ipd_px": 334.56341552734375,
+    "yc": 1452.8392333984375,
+    "gt_axis_points": [
+      [
+        1152.0,
+        1100.0
+      ],
+      [
+        1160.0,
+        2036.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/兰添.JPG",
+    "endpoint_mae_px": 6.2430419921875,
+    "endpoint_mae_norm": 0.005896096583455801,
+    "midpoint_x_error_px": 6.243028344586492,
+    "midpoint_x_error_norm": 0.005896096674253309,
+    "angle_error_deg": 0.5728425077787914,
+    "pred_slope_xy": 0.010905330069363117,
+    "pred_intercept_x": 909.5875244140625,
+    "gt_slope_xy": 0.020905930548906326,
+    "gt_intercept_x": 890.9237060546875,
+    "signed_angle_diff_deg": -0.5728425077787914,
+    "signed_position_diff_px": 18.663818359375,
+    "ipd_px": 378.649169921875,
+    "yc": 1167.7247314453125,
+    "gt_axis_points": [
+      [
+        905.7777709960938,
+        710.5184936523438
+      ],
+      [
+        928.0,
+        1773.4814453125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯仁强.JPG",
+    "endpoint_mae_px": 2.454803466796875,
+    "endpoint_mae_norm": 0.002124989405274391,
+    "midpoint_x_error_px": 2.45481436927912,
+    "midpoint_x_error_norm": 0.002124990004111371,
+    "angle_error_deg": 0.1618345170773669,
+    "pred_slope_xy": 0.008903734385967255,
+    "pred_intercept_x": 903.2767333984375,
+    "gt_slope_xy": 0.0060790288262069225,
+    "gt_intercept_x": 909.2711791992188,
+    "signed_angle_diff_deg": 0.1618345170773669,
+    "signed_position_diff_px": -5.99444580078125,
+    "ipd_px": 369.9608154296875,
+    "yc": 1132.3074951171875,
+    "gt_axis_points": [
+      [
+        913.1851806640625,
+        643.8518676757812
+      ],
+      [
+        920.5925903320312,
+        1862.370361328125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯圣兰.JPG",
+    "endpoint_mae_px": 1.268707275390625,
+    "endpoint_mae_norm": 0.001185729750432074,
+    "midpoint_x_error_px": 1.1977951446722273,
+    "midpoint_x_error_norm": 0.0011194511008579544,
+    "angle_error_deg": 0.1238122384891025,
+    "pred_slope_xy": 0.010457080788910389,
+    "pred_intercept_x": 946.3819580078125,
+    "gt_slope_xy": 0.012618300504982471,
+    "gt_intercept_x": 942.6119995117188,
+    "signed_angle_diff_deg": -0.1238122384891025,
+    "signed_position_diff_px": 3.76995849609375,
+    "ipd_px": 369.7301940917969,
+    "yc": 1120.591064453125,
+    "gt_axis_points": [
+      [
+        950.2222290039062,
+        603.111083984375
+      ],
+      [
+        965.0370483398438,
+        1777.1851806640625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯梅.JPG",
+    "endpoint_mae_px": 6.14105224609375,
+    "endpoint_mae_norm": 0.005167904309928417,
+    "midpoint_x_error_px": 0.943565576458127,
+    "midpoint_x_error_norm": 0.0007940363035687237,
+    "angle_error_deg": 0.5554225557559007,
+    "pred_slope_xy": 0.010771424509584904,
+    "pred_intercept_x": 906.246337890625,
+    "gt_slope_xy": 0.020467817783355713,
+    "gt_intercept_x": 893.2059936523438,
+    "signed_angle_diff_deg": -0.5554225557559007,
+    "signed_position_diff_px": 13.04034423828125,
+    "ipd_px": 379.8612365722656,
+    "yc": 1150.665283203125,
+    "gt_axis_points": [
+      [
+        905.7777709960938,
+        614.2222290039062
+      ],
+      [
+        931.7036743164062,
+        1880.888916015625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯浩林.JPG",
+    "endpoint_mae_px": 6.0950927734375,
+    "endpoint_mae_norm": 0.004864806309342384,
+    "midpoint_x_error_px": 3.728884014155483,
+    "midpoint_x_error_norm": 0.0029761895593647886,
+    "angle_error_deg": 0.5614350024077966,
+    "pred_slope_xy": 0.00015288642316590995,
+    "pred_intercept_x": 969.5402221679688,
+    "gt_slope_xy": -0.009646302089095116,
+    "gt_intercept_x": 977.903564453125,
+    "signed_angle_diff_deg": 0.5614350024077966,
+    "signed_position_diff_px": -8.36334228515625,
+    "ipd_px": 436.19586181640625,
+    "yc": 1106.7796630859375,
+    "gt_axis_points": [
+      [
+        972.0,
+        612.0
+      ],
+      [
+        960.0,
+        1856.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯耀杰.JPG",
+    "endpoint_mae_px": 5.812530517578125,
+    "endpoint_mae_norm": 0.004867906216531992,
+    "midpoint_x_error_px": 3.494366834631137,
+    "midpoint_x_error_norm": 0.002926519374116268,
+    "angle_error_deg": 0.567075233242468,
+    "pred_slope_xy": -0.015335065312683582,
+    "pred_intercept_x": 952.8243408203125,
+    "gt_slope_xy": -0.025236548855900764,
+    "gt_intercept_x": 960.7107543945312,
+    "signed_angle_diff_deg": 0.567075233242468,
+    "signed_position_diff_px": -7.88641357421875,
+    "ipd_px": 411.6459655761719,
+    "yc": 1043.7099609375,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        562.370361328125
+      ],
+      [
+        916.888916015625,
+        1736.4444580078125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/古良玉.JPG",
+    "endpoint_mae_px": 5.19049072265625,
+    "endpoint_mae_norm": 0.00475408136844635,
+    "midpoint_x_error_px": 0.6778090121224523,
+    "midpoint_x_error_norm": 0.0006208731525333966,
+    "angle_error_deg": 0.5589971217482942,
+    "pred_slope_xy": 0.0022376885171979666,
+    "pred_intercept_x": 1049.2138671875,
+    "gt_slope_xy": -0.007518797181546688,
+    "gt_intercept_x": 1063.6390380859375,
+    "signed_angle_diff_deg": 0.5589971217482942,
+    "signed_position_diff_px": -14.4251708984375,
+    "ipd_px": 367.0848083496094,
+    "yc": 1419.13671875,
+    "gt_axis_points": [
+      [
+        1056.0,
+        1016.0
+      ],
+      [
+        1048.0,
+        2080.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/吉如意.JPG",
+    "endpoint_mae_px": 4.28668212890625,
+    "endpoint_mae_norm": 0.003749646246433258,
+    "midpoint_x_error_px": 4.286693130111303,
+    "midpoint_x_error_norm": 0.003749646301112991,
+    "angle_error_deg": 0.26048300115796114,
+    "pred_slope_xy": 0.006626533810049295,
+    "pred_intercept_x": 935.5480346679688,
+    "gt_slope_xy": 0.011173187755048275,
+    "gt_intercept_x": 925.8754272460938,
+    "signed_angle_diff_deg": -0.26048300115796114,
+    "signed_position_diff_px": 9.672607421875,
+    "ipd_px": 365.7038879394531,
+    "yc": 1117.16650390625,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        521.629638671875
+      ],
+      [
+        946.5184936523438,
+        1847.5555419921875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/姜添.JPG",
+    "endpoint_mae_px": 3.49285888671875,
+    "endpoint_mae_norm": 0.0028213798068463802,
+    "midpoint_x_error_px": 3.4928399014589786,
+    "midpoint_x_error_norm": 0.0028213794940770143,
+    "angle_error_deg": 0.2091870341166689,
+    "pred_slope_xy": 0.011781473644077778,
+    "pred_intercept_x": 985.5533447265625,
+    "gt_slope_xy": 0.008130105212330818,
+    "gt_intercept_x": 986.5413818359375,
+    "signed_angle_diff_deg": 0.2091870341166689,
+    "signed_position_diff_px": -0.988037109375,
+    "ipd_px": 410.8644714355469,
+    "yc": 1116.66552734375,
+    "gt_axis_points": [
+      [
+        990.9629516601562,
+        543.8518676757812
+      ],
+      [
+        1002.0740966796875,
+        1910.5185546875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/官昊融.JPG",
+    "endpoint_mae_px": 2.685638427734375,
+    "endpoint_mae_norm": 0.002317933365702629,
+    "midpoint_x_error_px": 0.6114119385943013,
+    "midpoint_x_error_norm": 0.0005277251735538585,
+    "angle_error_deg": 0.29569248812135945,
+    "pred_slope_xy": 0.008719704113900661,
+    "pred_intercept_x": 906.78271484375,
+    "gt_slope_xy": 0.003558690659701824,
+    "gt_intercept_x": 914.1099853515625,
+    "signed_angle_diff_deg": 0.29569248812135945,
+    "signed_position_diff_px": -7.3272705078125,
+    "ipd_px": 402.64080810546875,
+    "yc": 1112.98193359375,
+    "gt_axis_points": [
+      [
+        916.888916015625,
+        780.888916015625
+      ],
+      [
+        920.5925903320312,
+        1821.629638671875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/官露婷.JPG",
+    "endpoint_mae_px": 2.164306640625,
+    "endpoint_mae_norm": 0.0018504750914871693,
+    "midpoint_x_error_px": 2.164302363566435,
+    "midpoint_x_error_norm": 0.0018504749123714748,
+    "angle_error_deg": 0.16368779477048867,
+    "pred_slope_xy": 0.009488449431955814,
+    "pred_intercept_x": 944.639404296875,
+    "gt_slope_xy": 0.012345682829618454,
+    "gt_intercept_x": 939.0269775390625,
+    "signed_angle_diff_deg": -0.16368779477048867,
+    "signed_position_diff_px": 5.6124267578125,
+    "ipd_px": 402.6839294433594,
+    "yc": 1107.90283203125,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        606.8148193359375
+      ],
+      [
+        961.3333129882812,
+        1806.8148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/康钟佩.JPG",
+    "endpoint_mae_px": 9.97637939453125,
+    "endpoint_mae_norm": 0.008729660883545876,
+    "midpoint_x_error_px": 9.97640117071569,
+    "midpoint_x_error_norm": 0.00872966057873209,
+    "angle_error_deg": 0.5688768427362129,
+    "pred_slope_xy": 0.010407780297100544,
+    "pred_intercept_x": 1098.3460693359375,
+    "gt_slope_xy": 0.020338982343673706,
+    "gt_intercept_x": 1097.1796875,
+    "signed_angle_diff_deg": -0.5688768427362129,
+    "signed_position_diff_px": 1.1663818359375,
+    "ipd_px": 418.878662109375,
+    "yc": 1059.240478515625,
+    "gt_axis_points": [
+      [
+        1108.0,
+        532.0
+      ],
+      [
+        1132.0,
+        1712.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/敬俊.JPG",
+    "endpoint_mae_px": 3.7183837890625,
+    "endpoint_mae_norm": 0.003045802004635334,
+    "midpoint_x_error_px": 3.718365547609096,
+    "midpoint_x_error_norm": 0.0030458019040436046,
+    "angle_error_deg": 0.3160646690782025,
+    "pred_slope_xy": 0.014392848126590252,
+    "pred_intercept_x": 893.8718872070312,
+    "gt_slope_xy": 0.008875718340277672,
+    "gt_intercept_x": 896.8525390625,
+    "signed_angle_diff_deg": 0.3160646690782025,
+    "signed_position_diff_px": -2.98065185546875,
+    "ipd_px": 396.44598388671875,
+    "yc": 1096.91943359375,
+    "gt_axis_points": [
+      [
+        902.0740966796875,
+        588.2963256835938
+      ],
+      [
+        913.1851806640625,
+        1840.148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/敬小耘.JPG",
+    "endpoint_mae_px": 5.715423583984375,
+    "endpoint_mae_norm": 0.005438399501144886,
+    "midpoint_x_error_px": 5.715388226851587,
+    "midpoint_x_error_norm": 0.0054383995115209055,
+    "angle_error_deg": 0.02767751301011334,
+    "pred_slope_xy": 0.011197439394891262,
+    "pred_intercept_x": 943.48828125,
+    "gt_slope_xy": 0.010714317671954632,
+    "gt_intercept_x": 938.389892578125,
+    "signed_angle_diff_deg": 0.02767751301011334,
+    "signed_position_diff_px": 5.098388671875,
+    "ipd_px": 333.81256103515625,
+    "yc": 1149.466796875,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        758.6666870117188
+      ],
+      [
+        957.629638671875,
+        1795.7037353515625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/景光州.JPG",
+    "endpoint_mae_px": 1.704833984375,
+    "endpoint_mae_norm": 0.001382365240715444,
+    "midpoint_x_error_px": 1.5222163498401642,
+    "midpoint_x_error_norm": 0.0012342925074777522,
+    "angle_error_deg": 0.18498501187745137,
+    "pred_slope_xy": 0.010804630815982819,
+    "pred_intercept_x": 979.4761962890625,
+    "gt_slope_xy": 0.007575757801532745,
+    "gt_intercept_x": 982.1514892578125,
+    "signed_angle_diff_deg": 0.18498501187745137,
+    "signed_position_diff_px": -2.67529296875,
+    "ipd_px": 402.9447937011719,
+    "yc": 1084.5328369140625,
+    "gt_axis_points": [
+      [
+        988.0,
+        772.0
+      ],
+      [
+        996.0,
+        1828.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李佳.JPG",
+    "endpoint_mae_px": 4.25140380859375,
+    "endpoint_mae_norm": 0.003801959566771984,
+    "midpoint_x_error_px": 4.251402646303177,
+    "midpoint_x_error_norm": 0.0038019592059158752,
+    "angle_error_deg": 0.11559356153719963,
+    "pred_slope_xy": -0.005667167715728283,
+    "pred_intercept_x": 1016.0958251953125,
+    "gt_slope_xy": -0.0036496350076049566,
+    "gt_intercept_x": 1018.0875854492188,
+    "signed_angle_diff_deg": -0.11559356153719963,
+    "signed_position_diff_px": -1.99176025390625,
+    "ipd_px": 378.7872314453125,
+    "yc": 1001.5916748046875,
+    "gt_axis_points": [
+      [
+        1016.0,
+        572.0
+      ],
+      [
+        1012.0,
+        1668.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李佳镁.JPG",
+    "endpoint_mae_px": 3.08160400390625,
+    "endpoint_mae_norm": 0.002446071244776249,
+    "midpoint_x_error_px": 3.0815977305173874,
+    "midpoint_x_error_norm": 0.002446071555318119,
+    "angle_error_deg": 0.07555292622761911,
+    "pred_slope_xy": 0.008115213364362717,
+    "pred_intercept_x": 925.082763671875,
+    "gt_slope_xy": 0.009433962404727936,
+    "gt_intercept_x": 926.5660400390625,
+    "signed_angle_diff_deg": -0.07555292622761911,
+    "signed_position_diff_px": -1.4832763671875,
+    "ipd_px": 430.69256591796875,
+    "yc": 1092.1240234375,
+    "gt_axis_points": [
+      [
+        932.0,
+        576.0
+      ],
+      [
+        944.0,
+        1848.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李俊豪.JPG",
+    "endpoint_mae_px": 3.17584228515625,
+    "endpoint_mae_norm": 0.0025728100445121527,
+    "midpoint_x_error_px": 0.4617150705307722,
+    "midpoint_x_error_norm": 0.0003740074013471456,
+    "angle_error_deg": 0.30425296737403995,
+    "pred_slope_xy": 0.008067087270319462,
+    "pred_intercept_x": 1034.1519775390625,
+    "gt_slope_xy": 0.01337792631238699,
+    "gt_intercept_x": 1026.9029541015625,
+    "signed_angle_diff_deg": -0.30425296737403995,
+    "signed_position_diff_px": 7.2490234375,
+    "ipd_px": 414.5480041503906,
+    "yc": 1133.678466796875,
+    "gt_axis_points": [
+      [
+        1036.0,
+        680.0
+      ],
+      [
+        1052.0,
+        1876.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李冬欣.JPG",
+    "endpoint_mae_px": 4.91473388671875,
+    "endpoint_mae_norm": 0.004584267269819975,
+    "midpoint_x_error_px": 4.914735611627407,
+    "midpoint_x_error_norm": 0.004584267144797066,
+    "angle_error_deg": 0.29291266041334285,
+    "pred_slope_xy": 0.00887304823845625,
+    "pred_intercept_x": 923.4225463867188,
+    "gt_slope_xy": 0.013986017554998398,
+    "gt_intercept_x": 913.0380859375,
+    "signed_angle_diff_deg": -0.29291266041334285,
+    "signed_position_diff_px": 10.38446044921875,
+    "ipd_px": 350.1300048828125,
+    "yc": 983.4854736328125,
+    "gt_axis_points": [
+      [
+        920.5925903320312,
+        540.1481323242188
+      ],
+      [
+        935.4074096679688,
+        1599.4073486328125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李博.JPG",
+    "endpoint_mae_px": 4.0400390625,
+    "endpoint_mae_norm": 0.003175094025209546,
+    "midpoint_x_error_px": 4.0400502846595145,
+    "midpoint_x_error_norm": 0.0031750941487495507,
+    "angle_error_deg": 0.3799796732558749,
+    "pred_slope_xy": 0.005637490656226873,
+    "pred_intercept_x": 937.454345703125,
+    "gt_slope_xy": 0.01226994302123785,
+    "gt_intercept_x": 926.7120971679688,
+    "signed_angle_diff_deg": -0.3799796732558749,
+    "signed_position_diff_px": 10.74224853515625,
+    "ipd_px": 394.041015625,
+    "yc": 925.0200805664062,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        406.8148193359375
+      ],
+      [
+        946.5184936523438,
+        1614.22216796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李孟阳.JPG",
+    "endpoint_mae_px": 5.767608642578125,
+    "endpoint_mae_norm": 0.005045217461884022,
+    "midpoint_x_error_px": 2.328230165876448,
+    "midpoint_x_error_norm": 0.0020366287019419616,
+    "angle_error_deg": 0.5921653845686664,
+    "pred_slope_xy": 0.004000721033662558,
+    "pred_intercept_x": 973.247314453125,
+    "gt_slope_xy": 0.01433691754937172,
+    "gt_intercept_x": 957.7921142578125,
+    "signed_angle_diff_deg": -0.5921653845686664,
+    "signed_position_diff_px": 15.4552001953125,
+    "ipd_px": 388.0467224121094,
+    "yc": 1177.32177734375,
+    "gt_axis_points": [
+      [
+        968.0,
+        712.0
+      ],
+      [
+        984.0,
+        1828.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李昌朔.JPG",
+    "endpoint_mae_px": 6.360595703125,
+    "endpoint_mae_norm": 0.005274198018014431,
+    "midpoint_x_error_px": 6.360581781715155,
+    "midpoint_x_error_norm": 0.005274198087299564,
+    "angle_error_deg": 0.13692427288114822,
+    "pred_slope_xy": 0.009034445509314537,
+    "pred_intercept_x": 991.8151245117188,
+    "gt_slope_xy": 0.006644518114626408,
+    "gt_intercept_x": 989.3023071289062,
+    "signed_angle_diff_deg": 0.13692427288114822,
+    "signed_position_diff_px": 2.5128173828125,
+    "ipd_px": 413.4137878417969,
+    "yc": 1489.188232421875,
+    "gt_axis_points": [
+      [
+        996.0,
+        1008.0
+      ],
+      [
+        1004.0,
+        2212.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李晨语.JPG",
+    "endpoint_mae_px": 4.9212646484375,
+    "endpoint_mae_norm": 0.0036649226676672697,
+    "midpoint_x_error_px": 0.29905160143971443,
+    "midpoint_x_error_norm": 0.00022272073336748743,
+    "angle_error_deg": 0.401645526787934,
+    "pred_slope_xy": 0.009859351441264153,
+    "pred_intercept_x": 1065.827392578125,
+    "gt_slope_xy": 0.0028490028344094753,
+    "gt_intercept_x": 1077.4130859375,
+    "signed_angle_diff_deg": 0.401645526787934,
+    "signed_position_diff_px": -11.585693359375,
+    "ipd_px": 448.0785827636719,
+    "yc": 1520.6846923828125,
+    "gt_axis_points": [
+      [
+        1080.0,
+        908.0
+      ],
+      [
+        1084.0,
+        2312.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李林蔚.JPG",
+    "endpoint_mae_px": 4.04327392578125,
+    "endpoint_mae_norm": 0.003335901303216815,
+    "midpoint_x_error_px": 2.7665417306125164,
+    "midpoint_x_error_norm": 0.00228254947360923,
+    "angle_error_deg": 0.3797414672927751,
+    "pred_slope_xy": 0.013185786083340645,
+    "pred_intercept_x": 1071.7083740234375,
+    "gt_slope_xy": 0.006557377055287361,
+    "gt_intercept_x": 1076.511474609375,
+    "signed_angle_diff_deg": 0.3797414672927751,
+    "signed_position_diff_px": -4.8031005859375,
+    "ipd_px": 412.2344055175781,
+    "yc": 1027.953857421875,
+    "gt_axis_points": [
+      [
+        1080.0,
+        532.0
+      ],
+      [
+        1088.0,
+        1752.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李果.JPG",
+    "endpoint_mae_px": 5.7642822265625,
+    "endpoint_mae_norm": 0.005001030396670103,
+    "midpoint_x_error_px": 0.9246970824897289,
+    "midpoint_x_error_norm": 0.000802200119935953,
+    "angle_error_deg": 0.5814504929504145,
+    "pred_slope_xy": 0.006627210415899754,
+    "pred_intercept_x": 1051.634765625,
+    "gt_slope_xy": -0.0035211266949772835,
+    "gt_intercept_x": 1061.873291015625,
+    "signed_angle_diff_deg": 0.5814504929504145,
+    "signed_position_diff_px": -10.238525390625,
+    "ipd_px": 382.0033874511719,
+    "yc": 972.6746826171875,
+    "gt_axis_points": [
+      [
+        1060.0,
+        532.0
+      ],
+      [
+        1056.0,
+        1668.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李柯兴.JPG",
+    "endpoint_mae_px": 4.47320556640625,
+    "endpoint_mae_norm": 0.004768643528223038,
+    "midpoint_x_error_px": 4.473200971260667,
+    "midpoint_x_error_norm": 0.004768643482073495,
+    "angle_error_deg": 0.33282723846105244,
+    "pred_slope_xy": 0.00643544364720583,
+    "pred_intercept_x": 954.1199951171875,
+    "gt_slope_xy": 0.01224489789456129,
+    "gt_intercept_x": 942.1061401367188,
+    "signed_angle_diff_deg": -0.33282723846105244,
+    "signed_position_diff_px": 12.01385498046875,
+    "ipd_px": 337.27978515625,
+    "yc": 1236.1514892578125,
+    "gt_axis_points": [
+      [
+        952.0,
+        808.0
+      ],
+      [
+        964.0,
+        1788.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李柳梅.JPG",
+    "endpoint_mae_px": 5.21282958984375,
+    "endpoint_mae_norm": 0.003944093827158213,
+    "midpoint_x_error_px": 5.212789286677776,
+    "midpoint_x_error_norm": 0.003944093946786714,
+    "angle_error_deg": 0.054540563113413376,
+    "pred_slope_xy": 0.012524998746812344,
+    "pred_intercept_x": 941.6844482421875,
+    "gt_slope_xy": 0.01347707211971283,
+    "gt_intercept_x": 935.28564453125,
+    "signed_angle_diff_deg": -0.054540563113413376,
+    "signed_position_diff_px": 6.3988037109375,
+    "ipd_px": 468.8931884765625,
+    "yc": 1106.7890625,
+    "gt_axis_points": [
+      [
+        942.8148193359375,
+        558.6666870117188
+      ],
+      [
+        961.3333129882812,
+        1932.74072265625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李梅.JPG",
+    "endpoint_mae_px": 2.871246337890625,
+    "endpoint_mae_norm": 0.0025442515034228563,
+    "midpoint_x_error_px": 1.1927293974040367,
+    "midpoint_x_error_norm": 0.001056900273043393,
+    "angle_error_deg": 0.2793064864200404,
+    "pred_slope_xy": 0.010847613215446472,
+    "pred_intercept_x": 873.5492553710938,
+    "gt_slope_xy": 0.015723301097750664,
+    "gt_intercept_x": 866.4905395507812,
+    "signed_angle_diff_deg": -0.2793064864200404,
+    "signed_position_diff_px": 7.0587158203125,
+    "ipd_px": 382.2093200683594,
+    "yc": 1120.63330078125,
+    "gt_axis_points": [
+      [
+        876.1481323242188,
+        614.2222290039062
+      ],
+      [
+        894.6666870117188,
+        1792.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李海树.JPG",
+    "endpoint_mae_px": 7.0482177734375,
+    "endpoint_mae_norm": 0.006340070627629757,
+    "midpoint_x_error_px": 7.048197499476373,
+    "midpoint_x_error_norm": 0.006340070926588802,
+    "angle_error_deg": 0.30595104946097434,
+    "pred_slope_xy": 0.005568862427026033,
+    "pred_intercept_x": 1061.1490478515625,
+    "gt_slope_xy": 0.010909090749919415,
+    "gt_intercept_x": 1062.6326904296875,
+    "signed_angle_diff_deg": -0.30595104946097434,
+    "signed_position_diff_px": -1.483642578125,
+    "ipd_px": 383.1015625,
+    "yc": 968.4351806640625,
+    "gt_axis_points": [
+      [
+        1068.0,
+        492.0
+      ],
+      [
+        1080.0,
+        1592.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李翠莲.JPG",
+    "endpoint_mae_px": 5.3951416015625,
+    "endpoint_mae_norm": 0.005230841226875782,
+    "midpoint_x_error_px": 4.118385837118694,
+    "midpoint_x_error_norm": 0.0039929135119514125,
+    "angle_error_deg": 0.5630730794603678,
+    "pred_slope_xy": 0.034076400101184845,
+    "pred_intercept_x": 881.4827880859375,
+    "gt_slope_xy": 0.043918903917074203,
+    "gt_intercept_x": 865.4134521484375,
+    "signed_angle_diff_deg": -0.5630730794603678,
+    "signed_position_diff_px": 16.0693359375,
+    "ipd_px": 359.5359802246094,
+    "yc": 1126.61865234375,
+    "gt_axis_points": [
+      [
+        894.6666870117188,
+        666.0740966796875
+      ],
+      [
+        942.8148193359375,
+        1762.370361328125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李艾凌.JPG",
+    "endpoint_mae_px": 3.5103759765625,
+    "endpoint_mae_norm": 0.002964368090033531,
+    "midpoint_x_error_px": 2.2892921678721905,
+    "midpoint_x_error_norm": 0.0019332310085539706,
+    "angle_error_deg": 0.32120544262617423,
+    "pred_slope_xy": 0.01356172002851963,
+    "pred_intercept_x": 1019.9952392578125,
+    "gt_slope_xy": 0.01916932873427868,
+    "gt_intercept_x": 1011.7955322265625,
+    "signed_angle_diff_deg": -0.32120544262617423,
+    "signed_position_diff_px": 8.19970703125,
+    "ipd_px": 406.99493408203125,
+    "yc": 946.4156494140625,
+    "gt_axis_points": [
+      [
+        1020.0,
+        428.0
+      ],
+      [
+        1044.0,
+        1680.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李艾恬.JPG",
+    "endpoint_mae_px": 11.647705078125,
+    "endpoint_mae_norm": 0.009343262761831284,
+    "midpoint_x_error_px": 11.647710275261716,
+    "midpoint_x_error_norm": 0.009343263032186272,
+    "angle_error_deg": 0.5877522152304689,
+    "pred_slope_xy": 0.013226358219981194,
+    "pred_intercept_x": 929.60888671875,
+    "gt_slope_xy": 0.002967384411022067,
+    "gt_intercept_x": 930.056884765625,
+    "signed_angle_diff_deg": 0.5877522152304689,
+    "signed_position_diff_px": -0.447998046875,
+    "ipd_px": 423.5051574707031,
+    "yc": 1061.71435546875,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        554.9629516601562
+      ],
+      [
+        935.4074096679688,
+        1803.111083984375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李莉.JPG",
+    "endpoint_mae_px": 3.94488525390625,
+    "endpoint_mae_norm": 0.003372936975210905,
+    "midpoint_x_error_px": 2.5334586869507802,
+    "midpoint_x_error_norm": 0.002166148151552777,
+    "angle_error_deg": 0.3874524192311789,
+    "pred_slope_xy": 0.009937266819179058,
+    "pred_intercept_x": 940.4973754882812,
+    "gt_slope_xy": 0.003174629993736744,
+    "gt_intercept_x": 951.70556640625,
+    "signed_angle_diff_deg": 0.3874524192311789,
+    "signed_position_diff_px": -11.20819091796875,
+    "ipd_px": 400.07275390625,
+    "yc": 1140.807373046875,
+    "gt_axis_points": [
+      [
+        953.9259033203125,
+        699.4074096679688
+      ],
+      [
+        957.629638671875,
+        1866.0740966796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李蔓青.JPG",
+    "endpoint_mae_px": 4.126556396484375,
+    "endpoint_mae_norm": 0.0033811440225690603,
+    "midpoint_x_error_px": 4.126565914601088,
+    "midpoint_x_error_norm": 0.0033811438004278382,
+    "angle_error_deg": 0.10628572847769058,
+    "pred_slope_xy": 0.010924255475401878,
+    "pred_intercept_x": 987.6947631835938,
+    "gt_slope_xy": 0.01277955248951912,
+    "gt_intercept_x": 981.4568481445312,
+    "signed_angle_diff_deg": -0.10628572847769058,
+    "signed_position_diff_px": 6.2379150390625,
+    "ipd_px": 422.68115234375,
+    "yc": 991.8355712890625,
+    "gt_axis_points": [
+      [
+        988.0,
+        512.0
+      ],
+      [
+        1004.0,
+        1764.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李蕾.JPG",
+    "endpoint_mae_px": 3.0184326171875,
+    "endpoint_mae_norm": 0.0031135068275034428,
+    "midpoint_x_error_px": 3.01840269710749,
+    "midpoint_x_error_norm": 0.0031135070646670093,
+    "angle_error_deg": 0.19143526951137835,
+    "pred_slope_xy": 0.007647574879229069,
+    "pred_intercept_x": 932.3482055664062,
+    "gt_slope_xy": 0.010989043861627579,
+    "gt_intercept_x": 931.3031616210938,
+    "signed_angle_diff_deg": -0.19143526951137835,
+    "signed_position_diff_px": 1.0450439453125,
+    "ipd_px": 357.3128662109375,
+    "yc": 1141.330322265625,
+    "gt_axis_points": [
+      [
+        939.111083984375,
+        710.5184936523438
+      ],
+      [
+        950.2222290039062,
+        1721.629638671875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李金春.JPG",
+    "endpoint_mae_px": 4.77886962890625,
+    "endpoint_mae_norm": 0.004220451228320599,
+    "midpoint_x_error_px": 4.778859220445156,
+    "midpoint_x_error_norm": 0.004220451016478222,
+    "angle_error_deg": 0.43766499115948676,
+    "pred_slope_xy": 0.002634922042489052,
+    "pred_intercept_x": 1098.1751708984375,
+    "gt_slope_xy": 0.010273972526192665,
+    "gt_intercept_x": 1094.123291015625,
+    "signed_angle_diff_deg": -0.43766499115948676,
+    "signed_position_diff_px": 4.0518798828125,
+    "ipd_px": 374.2130432128906,
+    "yc": 1032.15185546875,
+    "gt_axis_points": [
+      [
+        1100.0,
+        572.0
+      ],
+      [
+        1112.0,
+        1740.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李金铭.JPG",
+    "endpoint_mae_px": 5.28692626953125,
+    "endpoint_mae_norm": 0.004674098454415798,
+    "midpoint_x_error_px": 1.4967669332399964,
+    "midpoint_x_error_norm": 0.001323344441728061,
+    "angle_error_deg": 0.5893220995213686,
+    "pred_slope_xy": 0.0025036721490323544,
+    "pred_intercept_x": 1049.395751953125,
+    "gt_slope_xy": -0.0077821011655032635,
+    "gt_intercept_x": 1064.7470703125,
+    "signed_angle_diff_deg": 0.5893220995213686,
+    "signed_position_diff_px": -15.351318359375,
+    "ipd_px": 357.8330383300781,
+    "yc": 1494.275634765625,
+    "gt_axis_points": [
+      [
+        1056.0,
+        1124.0
+      ],
+      [
+        1048.0,
+        2152.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/柯倩.JPG",
+    "endpoint_mae_px": 8.853302001953125,
+    "endpoint_mae_norm": 0.0070874569937586784,
+    "midpoint_x_error_px": 8.853353961438415,
+    "midpoint_x_error_norm": 0.007087457174797848,
+    "angle_error_deg": 0.38060803805301135,
+    "pred_slope_xy": 0.012508553452789783,
+    "pred_intercept_x": 892.0587158203125,
+    "gt_slope_xy": 0.005865104962140322,
+    "gt_intercept_x": 891.2597045898438,
+    "signed_angle_diff_deg": 0.38060803805301135,
+    "signed_position_diff_px": 0.79901123046875,
+    "ipd_px": 403.6568298339844,
+    "yc": 1094.1492919921875,
+    "gt_axis_points": [
+      [
+        894.6666870117188,
+        580.888916015625
+      ],
+      [
+        902.0740966796875,
+        1843.851806640625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/江旭刚.JPG",
+    "endpoint_mae_px": 2.522430419921875,
+    "endpoint_mae_norm": 0.0021752603352069855,
+    "midpoint_x_error_px": 1.3408279016857705,
+    "midpoint_x_error_norm": 0.0011562782122835902,
+    "angle_error_deg": 0.25419266056637757,
+    "pred_slope_xy": 0.010951504111289978,
+    "pred_intercept_x": 924.8499755859375,
+    "gt_slope_xy": 0.006514659617096186,
+    "gt_intercept_x": 928.32958984375,
+    "signed_angle_diff_deg": 0.25419266056637757,
+    "signed_position_diff_px": -3.4796142578125,
+    "ipd_px": 395.0194091796875,
+    "yc": 978.50634765625,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        517.9259033203125
+      ],
+      [
+        939.111083984375,
+        1654.9630126953125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/江明月.JPG",
+    "endpoint_mae_px": 2.239013671875,
+    "endpoint_mae_norm": 0.001828087610192597,
+    "midpoint_x_error_px": 2.2390384726908223,
+    "midpoint_x_error_norm": 0.0018280874479844333,
+    "angle_error_deg": 0.10914586537770044,
+    "pred_slope_xy": 0.013526723720133305,
+    "pred_intercept_x": 945.646728515625,
+    "gt_slope_xy": 0.015432078391313553,
+    "gt_intercept_x": 941.1436157226562,
+    "signed_angle_diff_deg": -0.10914586537770044,
+    "signed_position_diff_px": 4.50311279296875,
+    "ipd_px": 412.17730712890625,
+    "yc": 1034.708251953125,
+    "gt_axis_points": [
+      [
+        950.2222290039062,
+        588.2963256835938
+      ],
+      [
+        968.74072265625,
+        1788.2962646484375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/江浩宇.JPG",
+    "endpoint_mae_px": 6.2740478515625,
+    "endpoint_mae_norm": 0.005477814003825188,
+    "midpoint_x_error_px": 6.274023059755564,
+    "midpoint_x_error_norm": 0.005477813563792802,
+    "angle_error_deg": 0.17992881386597115,
+    "pred_slope_xy": 0.010953129269182682,
+    "pred_intercept_x": 1108.210205078125,
+    "gt_slope_xy": 0.0078125,
+    "gt_intercept_x": 1105.96875,
+    "signed_angle_diff_deg": 0.17992881386597115,
+    "signed_position_diff_px": 2.241455078125,
+    "ipd_px": 405.74163818359375,
+    "yc": 1134.90576171875,
+    "gt_axis_points": [
+      [
+        1112.0,
+        772.0
+      ],
+      [
+        1120.0,
+        1796.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/江知晓.JPG",
+    "endpoint_mae_px": 3.42462158203125,
+    "endpoint_mae_norm": 0.0029599671252071857,
+    "midpoint_x_error_px": 3.4246313832700253,
+    "midpoint_x_error_norm": 0.002959967317513343,
+    "angle_error_deg": 0.007846135093664885,
+    "pred_slope_xy": 0.006232480518519878,
+    "pred_intercept_x": 1116.51904296875,
+    "gt_slope_xy": 0.006369426846504211,
+    "gt_intercept_x": 1112.942626953125,
+    "signed_angle_diff_deg": -0.007846135093664885,
+    "signed_position_diff_px": 3.576416015625,
+    "ipd_px": 382.74334716796875,
+    "yc": 1040.283203125,
+    "gt_axis_points": [
+      [
+        1116.0,
+        480.0
+      ],
+      [
+        1124.0,
+        1736.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/江鑫锐.JPG",
+    "endpoint_mae_px": 12.10797119140625,
+    "endpoint_mae_norm": 0.010249830782413483,
+    "midpoint_x_error_px": 12.107978444546461,
+    "midpoint_x_error_norm": 0.010249830725927778,
+    "angle_error_deg": 0.3253683155692457,
+    "pred_slope_xy": -0.022745860740542412,
+    "pred_intercept_x": 1112.6866455078125,
+    "gt_slope_xy": -0.01706484705209732,
+    "gt_intercept_x": 1118.1024169921875,
+    "signed_angle_diff_deg": -0.3253683155692457,
+    "signed_position_diff_px": -5.415771484375,
+    "ipd_px": 389.94915771484375,
+    "yc": 1098.0087890625,
+    "gt_axis_points": [
+      [
+        1108.0,
+        592.0
+      ],
+      [
+        1088.0,
+        1764.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/胡峻铭.JPG",
+    "endpoint_mae_px": 2.1376953125,
+    "endpoint_mae_norm": 0.0017433254979550838,
+    "midpoint_x_error_px": 1.1345944549543674,
+    "midpoint_x_error_norm": 0.0009252337322579463,
+    "angle_error_deg": 0.207986244067793,
+    "pred_slope_xy": 0.003630060702562332,
+    "pred_intercept_x": 1045.625244140625,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1048.4444580078125,
+    "signed_angle_diff_deg": 0.207986244067793,
+    "signed_position_diff_px": -2.8192138671875,
+    "ipd_px": 410.1130065917969,
+    "yc": 940.3568115234375,
+    "gt_axis_points": [
+      [
+        1048.4444580078125,
+        500.2962951660156
+      ],
+      [
+        1048.4444580078125,
+        1678.0740966796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/胡晓毅.JPG",
+    "endpoint_mae_px": 2.052825927734375,
+    "endpoint_mae_norm": 0.0024541164748370647,
+    "midpoint_x_error_px": 2.052821053992375,
+    "midpoint_x_error_norm": 0.0024541164951010774,
+    "angle_error_deg": 0.2163464944018129,
+    "pred_slope_xy": 0.003775976598262787,
+    "pred_intercept_x": 1016.0836181640625,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1018.8148193359375,
+    "signed_angle_diff_deg": 0.2163464944018129,
+    "signed_position_diff_px": -2.731201171875,
+    "ipd_px": 270.32415771484375,
+    "yc": 1195.165283203125,
+    "gt_axis_points": [
+      [
+        1018.8148193359375,
+        829.9259033203125
+      ],
+      [
+        1018.8148193359375,
+        1704.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/胡晖楠.JPG",
+    "endpoint_mae_px": 5.804046630859375,
+    "endpoint_mae_norm": 0.00505395233631134,
+    "midpoint_x_error_px": 2.1381082637760755,
+    "midpoint_x_error_norm": 0.0018618358880337083,
+    "angle_error_deg": 0.5656170773234285,
+    "pred_slope_xy": 0.004006819799542427,
+    "pred_intercept_x": 951.8922729492188,
+    "gt_slope_xy": -0.005865149199962616,
+    "gt_intercept_x": 966.3594360351562,
+    "signed_angle_diff_deg": 0.5656170773234285,
+    "signed_position_diff_px": -14.4671630859375,
+    "ipd_px": 387.226318359375,
+    "yc": 1156.7579345703125,
+    "gt_axis_points": [
+      [
+        962.4827880859375,
+        660.9655151367188
+      ],
+      [
+        955.586181640625,
+        1836.82763671875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/胡浩洋.JPG",
+    "endpoint_mae_px": 8.33099365234375,
+    "endpoint_mae_norm": 0.003742326982319355,
+    "midpoint_x_error_px": 0.9708277493255082,
+    "midpoint_x_error_norm": 0.0004360583629650569,
+    "angle_error_deg": 0.5454874909524614,
+    "pred_slope_xy": 0.002723751123994589,
+    "pred_intercept_x": 1846.370849609375,
+    "gt_slope_xy": 0.012244909070432186,
+    "gt_intercept_x": 1820.8314208984375,
+    "signed_angle_diff_deg": -0.5454874909524614,
+    "signed_position_diff_px": 25.5394287109375,
+    "ipd_px": 780.1394653320312,
+    "yc": 2085.1826171875,
+    "gt_axis_points": [
+      [
+        1841.7142333984375,
+        1705.4285888671875
+      ],
+      [
+        1863.142822265625,
+        3455.428466796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/花语.JPG",
+    "endpoint_mae_px": 5.405914306640625,
+    "endpoint_mae_norm": 0.004538893233984709,
+    "midpoint_x_error_px": 0.1290401231622127,
+    "midpoint_x_error_norm": 0.00010834970488421414,
+    "angle_error_deg": 0.5882660825859938,
+    "pred_slope_xy": -0.02845352329313755,
+    "pred_intercept_x": 1047.1041259765625,
+    "gt_slope_xy": -0.0387323796749115,
+    "gt_intercept_x": 1060.492919921875,
+    "signed_angle_diff_deg": 0.5882660825859938,
+    "signed_position_diff_px": -13.3887939453125,
+    "ipd_px": 379.48956298828125,
+    "yc": 1133.451904296875,
+    "gt_axis_points": [
+      [
+        1029.9259033203125,
+        789.1851806640625
+      ],
+      [
+        989.1851806640625,
+        1841.0369873046875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/蒋明明.JPG",
+    "endpoint_mae_px": 2.886474609375,
+    "endpoint_mae_norm": 0.002397370059043169,
+    "midpoint_x_error_px": 2.8864689972251654,
+    "midpoint_x_error_norm": 0.002397369855364137,
+    "angle_error_deg": 0.008814710051852526,
+    "pred_slope_xy": 0.007426581345498562,
+    "pred_intercept_x": 1096.5135498046875,
+    "gt_slope_xy": 0.007272727321833372,
+    "gt_intercept_x": 1099.578125,
+    "signed_angle_diff_deg": 0.008814710051852526,
+    "signed_position_diff_px": -3.0645751953125,
+    "ipd_px": 397.4378967285156,
+    "yc": 1016.4468994140625,
+    "gt_axis_points": [
+      [
+        1104.0,
+        608.0
+      ],
+      [
+        1112.0,
+        1708.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/蒋洪.JPG",
+    "endpoint_mae_px": 1.086334228515625,
+    "endpoint_mae_norm": 0.0010977162746712565,
+    "midpoint_x_error_px": 0.8386339245480485,
+    "midpoint_x_error_norm": 0.0008474225126029467,
+    "angle_error_deg": 0.1213176086681077,
+    "pred_slope_xy": 0.012322664260864258,
+    "pred_intercept_x": 964.8038330078125,
+    "gt_slope_xy": 0.014440435916185379,
+    "gt_intercept_x": 963.200439453125,
+    "signed_angle_diff_deg": -0.1213176086681077,
+    "signed_position_diff_px": 1.6033935546875,
+    "ipd_px": 325.8253173828125,
+    "yc": 1044.2606201171875,
+    "gt_axis_points": [
+      [
+        972.4444580078125,
+        640.1481323242188
+      ],
+      [
+        987.25927734375,
+        1666.0740966796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/蒋雅竹.JPG",
+    "endpoint_mae_px": 6.10272216796875,
+    "endpoint_mae_norm": 0.005236209370195866,
+    "midpoint_x_error_px": 1.3455998139631902,
+    "midpoint_x_error_norm": 0.00115449830513506,
+    "angle_error_deg": 0.5770481439504505,
+    "pred_slope_xy": 0.014926856383681297,
+    "pred_intercept_x": 968.1156005859375,
+    "gt_slope_xy": 0.0048543959856033325,
+    "gt_intercept_x": 978.3171997070312,
+    "signed_angle_diff_deg": 0.5770481439504505,
+    "signed_position_diff_px": -10.20159912109375,
+    "ipd_px": 410.657958984375,
+    "yc": 1082.041748046875,
+    "gt_axis_points": [
+      [
+        980.941162109375,
+        540.5294189453125
+      ],
+      [
+        986.8235473632812,
+        1752.2940673828125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/解陈群.JPG",
+    "endpoint_mae_px": 5.773681640625,
+    "endpoint_mae_norm": 0.005301886238157749,
+    "midpoint_x_error_px": 2.2736543790255155,
+    "midpoint_x_error_norm": 0.0020878546821411076,
+    "angle_error_deg": 0.5974400315329083,
+    "pred_slope_xy": 0.00708297174423933,
+    "pred_intercept_x": 927.3428344726562,
+    "gt_slope_xy": -0.003344454802572727,
+    "gt_intercept_x": 940.8680419921875,
+    "signed_angle_diff_deg": 0.5974400315329083,
+    "signed_position_diff_px": -13.52520751953125,
+    "ipd_px": 357.1802673339844,
+    "yc": 972.058349609375,
+    "gt_axis_points": [
+      [
+        939.111083984375,
+        525.3333129882812
+      ],
+      [
+        935.4074096679688,
+        1632.74072265625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/贺冬梅.JPG",
+    "endpoint_mae_px": 2.123321533203125,
+    "endpoint_mae_norm": 0.0016960235079750419,
+    "midpoint_x_error_px": 1.9676009425538723,
+    "midpoint_x_error_norm": 0.0015716389485735394,
+    "angle_error_deg": 0.19068700531360067,
+    "pred_slope_xy": 0.011436562053859234,
+    "pred_intercept_x": 907.2670288085938,
+    "gt_slope_xy": 0.008108125068247318,
+    "gt_intercept_x": 913.190673828125,
+    "signed_angle_diff_deg": 0.19068700531360067,
+    "signed_position_diff_px": -5.92364501953125,
+    "ipd_px": 432.1852111816406,
+    "yc": 1055.796630859375,
+    "gt_axis_points": [
+      [
+        917.6551513671875,
+        550.6206665039062
+      ],
+      [
+        928.0,
+        1826.4827880859375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/贺宇翔.JPG",
+    "endpoint_mae_px": 17.46990966796875,
+    "endpoint_mae_norm": 0.007882429286837578,
+    "midpoint_x_error_px": 17.469875579699874,
+    "midpoint_x_error_norm": 0.007882429469990918,
+    "angle_error_deg": 0.5559192403448993,
+    "pred_slope_xy": -0.011421511881053448,
+    "pred_intercept_x": 1904.6962890625,
+    "gt_slope_xy": -0.021126778796315193,
+    "gt_intercept_x": 1913.7606201171875,
+    "signed_angle_diff_deg": 0.5559192403448993,
+    "signed_position_diff_px": -9.0643310546875,
+    "ipd_px": 760.2958984375,
+    "yc": 2332.2890625,
+    "gt_axis_points": [
+      [
+        1877.4285888671875,
+        1719.7142333984375
+      ],
+      [
+        1834.5714111328125,
+        3748.28564453125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/贺露.JPG",
+    "endpoint_mae_px": 0.758575439453125,
+    "endpoint_mae_norm": 0.0006850236095488071,
+    "midpoint_x_error_px": 0.7585973326933981,
+    "midpoint_x_error_norm": 0.000685023298677076,
+    "angle_error_deg": 0.03295000103290327,
+    "pred_slope_xy": -0.0036146303173154593,
+    "pred_intercept_x": 948.490966796875,
+    "gt_slope_xy": -0.0030395379289984703,
+    "gt_intercept_x": 947.061767578125,
+    "signed_angle_diff_deg": -0.03295000103290327,
+    "signed_position_diff_px": 1.42919921875,
+    "ipd_px": 384.88421630859375,
+    "yc": 1048.568603515625,
+    "gt_axis_points": [
+      [
+        945.2413940429688,
+        598.8965454101562
+      ],
+      [
+        941.7930908203125,
+        1733.3792724609375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/贾愔棋.JPG",
+    "endpoint_mae_px": 15.18426513671875,
+    "endpoint_mae_norm": 0.00671262526884675,
+    "midpoint_x_error_px": 15.184287138506079,
+    "midpoint_x_error_norm": 0.006712625263604999,
+    "angle_error_deg": 0.593534493442248,
+    "pred_slope_xy": 0.016302604228258133,
+    "pred_intercept_x": 1969.5081787109375,
+    "gt_slope_xy": 0.026666609570384026,
+    "gt_intercept_x": 1963.8114013671875,
+    "signed_angle_diff_deg": -0.593534493442248,
+    "signed_position_diff_px": 5.69677734375,
+    "ipd_px": 798.0803833007812,
+    "yc": 1816.271484375,
+    "gt_axis_points": [
+      [
+        1986.769287109375,
+        860.923095703125
+      ],
+      [
+        2048.3076171875,
+        3168.615478515625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/贾浩宇.JPG",
+    "endpoint_mae_px": 5.703857421875,
+    "endpoint_mae_norm": 0.004879788961261511,
+    "midpoint_x_error_px": 5.703878667205572,
+    "midpoint_x_error_norm": 0.004879788611689556,
+    "angle_error_deg": 0.5501071823267545,
+    "pred_slope_xy": 0.009601476602256298,
+    "pred_intercept_x": 1011.7344970703125,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1028.0,
+    "signed_angle_diff_deg": 0.5501071823267545,
+    "signed_position_diff_px": -16.2655029296875,
+    "ipd_px": 370.9517822265625,
+    "yc": 962.8050537109375,
+    "gt_axis_points": [
+      [
+        1028.0,
+        548.0
+      ],
+      [
+        1028.0,
+        1652.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/贾茹.JPG",
+    "endpoint_mae_px": 2.162811279296875,
+    "endpoint_mae_norm": 0.0017757577588781714,
+    "midpoint_x_error_px": 2.162773793965812,
+    "midpoint_x_error_norm": 0.0017757578225916087,
+    "angle_error_deg": 0.050993075796245346,
+    "pred_slope_xy": 0.012585989199578762,
+    "pred_intercept_x": 908.5760498046875,
+    "gt_slope_xy": 0.011695860885083675,
+    "gt_intercept_x": 911.6976928710938,
+    "signed_angle_diff_deg": 0.050993075796245346,
+    "signed_position_diff_px": -3.12164306640625,
+    "ipd_px": 431.7120056152344,
+    "yc": 989.68212890625,
+    "gt_axis_points": [
+      [
+        916.888916015625,
+        443.8518371582031
+      ],
+      [
+        931.7036743164062,
+        1710.5185546875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/赖婷.JPG",
+    "endpoint_mae_px": 1.822113037109375,
+    "endpoint_mae_norm": 0.001281721517443657,
+    "midpoint_x_error_px": 0.1569645736626626,
+    "midpoint_x_error_norm": 0.00011045203070775278,
+    "angle_error_deg": 0.14232541347673755,
+    "pred_slope_xy": 0.01519207563251257,
+    "pred_intercept_x": 893.6627197265625,
+    "gt_slope_xy": 0.01767679490149021,
+    "gt_intercept_x": 890.5899658203125,
+    "signed_angle_diff_deg": -0.14232541347673755,
+    "signed_position_diff_px": 3.07275390625,
+    "ipd_px": 490.692626953125,
+    "yc": 1056.4833984375,
+    "gt_axis_points": [
+      [
+        898.370361328125,
+        440.1481628417969
+      ],
+      [
+        924.2963256835938,
+        1906.8148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/郭优美.JPG",
+    "endpoint_mae_px": 4.130706787109375,
+    "endpoint_mae_norm": 0.003481850028038025,
+    "midpoint_x_error_px": 4.130729411739594,
+    "midpoint_x_error_norm": 0.0034818497164220696,
+    "angle_error_deg": 0.060339425338170605,
+    "pred_slope_xy": 0.01984194666147232,
+    "pred_intercept_x": 879.296142578125,
+    "gt_slope_xy": 0.02089550532400608,
+    "gt_intercept_x": 882.1417846679688,
+    "signed_angle_diff_deg": -0.060339425338170605,
+    "signed_position_diff_px": -2.84564208984375,
+    "ipd_px": 403.5702819824219,
+    "yc": 1129.6954345703125,
+    "gt_axis_points": [
+      [
+        894.6666870117188,
+        599.4074096679688
+      ],
+      [
+        920.5925903320312,
+        1840.148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/郭子雅.JPG",
+    "endpoint_mae_px": 4.9794921875,
+    "endpoint_mae_norm": 0.005174451507627964,
+    "midpoint_x_error_px": 4.69378046178781,
+    "midpoint_x_error_norm": 0.004877527294367717,
+    "angle_error_deg": 0.5880247115148394,
+    "pred_slope_xy": 0.006446248386055231,
+    "pred_intercept_x": 929.3492431640625,
+    "gt_slope_xy": -0.0038168267346918583,
+    "gt_intercept_x": 945.0602416992188,
+    "signed_angle_diff_deg": 0.5880247115148394,
+    "signed_position_diff_px": -15.71099853515625,
+    "ipd_px": 330.663818359375,
+    "yc": 1012.6021728515625,
+    "gt_axis_points": [
+      [
+        942.8148193359375,
+        588.2963256835938
+      ],
+      [
+        939.111083984375,
+        1558.6666259765625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/郭晶.JPG",
+    "endpoint_mae_px": 6.1900634765625,
+    "endpoint_mae_norm": 0.005211419425904751,
+    "midpoint_x_error_px": 2.540528193116188,
+    "midpoint_x_error_norm": 0.002138882415618548,
+    "angle_error_deg": 0.5804458604059288,
+    "pred_slope_xy": -0.035753972828388214,
+    "pred_intercept_x": 1037.94140625,
+    "gt_slope_xy": -0.04590163752436638,
+    "gt_intercept_x": 1046.5836181640625,
+    "signed_angle_diff_deg": 0.5804458604059288,
+    "signed_position_diff_px": -8.6422119140625,
+    "ipd_px": 385.8645324707031,
+    "yc": 973.657470703125,
+    "gt_axis_points": [
+      [
+        1024.0,
+        492.0
+      ],
+      [
+        968.0,
+        1712.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/郭燕.JPG",
+    "endpoint_mae_px": 10.654052734375,
+    "endpoint_mae_norm": 0.005319163203239441,
+    "midpoint_x_error_px": 10.653982599428673,
+    "midpoint_x_error_norm": 0.005319163157299384,
+    "angle_error_deg": 0.039420534344465796,
+    "pred_slope_xy": 0.018919510766863823,
+    "pred_intercept_x": 2046.3836669921875,
+    "gt_slope_xy": 0.01960778422653675,
+    "gt_intercept_x": 2034.292724609375,
+    "signed_angle_diff_deg": -0.039420534344465796,
+    "signed_position_diff_px": 12.0909423828125,
+    "ipd_px": 706.49560546875,
+    "yc": 1861.36279296875,
+    "gt_axis_points": [
+      [
+        2056.0,
+        1107.076904296875
+      ],
+      [
+        2094.46142578125,
+        3068.615478515625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/郭露.JPG",
+    "endpoint_mae_px": 3.084075927734375,
+    "endpoint_mae_norm": 0.002392915775999427,
+    "midpoint_x_error_px": 3.0840850550375762,
+    "midpoint_x_error_norm": 0.002392915917674543,
+    "angle_error_deg": 0.08933094479588655,
+    "pred_slope_xy": 0.01260906457901001,
+    "pred_intercept_x": 937.5758056640625,
+    "gt_slope_xy": 0.011049726977944374,
+    "gt_intercept_x": 936.4370727539062,
+    "signed_angle_diff_deg": 0.08933094479588655,
+    "signed_position_diff_px": 1.13873291015625,
+    "ipd_px": 447.51324462890625,
+    "yc": 1091.71142578125,
+    "gt_axis_points": [
+      [
+        942.8148193359375,
+        577.1851806640625
+      ],
+      [
+        957.629638671875,
+        1917.9259033203125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/金浩苒.JPG",
+    "endpoint_mae_px": 3.9371337890625,
+    "endpoint_mae_norm": 0.004449714906513691,
+    "midpoint_x_error_px": 1.1905237436294556,
+    "midpoint_x_error_norm": 0.0013455076033300761,
+    "angle_error_deg": 0.5319850241032829,
+    "pred_slope_xy": 0.014002751559019089,
+    "pred_intercept_x": 1002.4378662109375,
+    "gt_slope_xy": 0.004716981202363968,
+    "gt_intercept_x": 1015.8113403320312,
+    "signed_angle_diff_deg": 0.5319850241032829,
+    "signed_position_diff_px": -13.37347412109375,
+    "ipd_px": 308.26873779296875,
+    "yc": 1229.95361328125,
+    "gt_axis_points": [
+      [
+        1020.0,
+        888.0
+      ],
+      [
+        1024.0,
+        1736.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/雷丽.JPG",
+    "endpoint_mae_px": 5.918121337890625,
+    "endpoint_mae_norm": 0.004936570301651955,
+    "midpoint_x_error_px": 5.918130500628422,
+    "midpoint_x_error_norm": 0.004936570784073217,
+    "angle_error_deg": 0.09482427545262728,
+    "pred_slope_xy": 0.007697372231632471,
+    "pred_intercept_x": 942.1228637695312,
+    "gt_slope_xy": 0.006042297929525375,
+    "gt_intercept_x": 950.1027221679688,
+    "signed_angle_diff_deg": 0.09482427545262728,
+    "signed_position_diff_px": -7.9798583984375,
+    "ipd_px": 396.9989318847656,
+    "yc": 1114.65087890625,
+    "gt_axis_points": [
+      [
+        953.9259033203125,
+        632.74072265625
+      ],
+      [
+        961.3333129882812,
+        1858.6666259765625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/雷雯.JPG",
+    "endpoint_mae_px": 7.6099853515625,
+    "endpoint_mae_norm": 0.00644255243241787,
+    "midpoint_x_error_px": 7.609945598989725,
+    "midpoint_x_error_norm": 0.006442553287773156,
+    "angle_error_deg": 0.2366604282947754,
+    "pred_slope_xy": -0.020743245258927345,
+    "pred_intercept_x": 1121.1661376953125,
+    "gt_slope_xy": -0.016611294820904732,
+    "gt_intercept_x": 1124.2392578125,
+    "signed_angle_diff_deg": -0.2366604282947754,
+    "signed_position_diff_px": -3.0731201171875,
+    "ipd_px": 412.4006652832031,
+    "yc": 997.0556030273438,
+    "gt_axis_points": [
+      [
+        1116.0,
+        496.0
+      ],
+      [
+        1096.0,
+        1700.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/韩俊.JPG",
+    "endpoint_mae_px": 5.6796875,
+    "endpoint_mae_norm": 0.004718734882771969,
+    "midpoint_x_error_px": 3.3281466513872147,
+    "midpoint_x_error_norm": 0.0027651024887526687,
+    "angle_error_deg": 0.5721247623096508,
+    "pred_slope_xy": -0.03225411847233772,
+    "pred_intercept_x": 1082.98974609375,
+    "gt_slope_xy": -0.0422535203397274,
+    "gt_intercept_x": 1098.1971435546875,
+    "signed_angle_diff_deg": 0.5721247623096508,
+    "signed_position_diff_px": -15.2073974609375,
+    "ipd_px": 408.57659912109375,
+    "yc": 1046.9522705078125,
+    "gt_axis_points": [
+      [
+        1072.0,
+        620.0
+      ],
+      [
+        1024.0,
+        1756.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/韩知彤.JPG",
+    "endpoint_mae_px": 4.39447021484375,
+    "endpoint_mae_norm": 0.0034722036216408014,
+    "midpoint_x_error_px": 1.0778157896015728,
+    "midpoint_x_error_norm": 0.0008516491092227102,
+    "angle_error_deg": 0.3851497596779201,
+    "pred_slope_xy": 0.009555253200232983,
+    "pred_intercept_x": 946.92529296875,
+    "gt_slope_xy": 0.0028328385669738054,
+    "gt_intercept_x": 956.0784912109375,
+    "signed_angle_diff_deg": 0.3851497596779201,
+    "signed_position_diff_px": -9.1531982421875,
+    "ipd_px": 430.4807434082031,
+    "yc": 1115.40380859375,
+    "gt_axis_points": [
+      [
+        957.629638671875,
+        547.5555419921875
+      ],
+      [
+        961.3333129882812,
+        1854.9630126953125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高妍妍.JPG",
+    "endpoint_mae_px": 4.51788330078125,
+    "endpoint_mae_norm": 0.0038355733267962933,
+    "midpoint_x_error_px": 3.5881465152065175,
+    "midpoint_x_error_norm": 0.0030462480408300074,
+    "angle_error_deg": 0.43136419454406916,
+    "pred_slope_xy": 0.007902292534708977,
+    "pred_intercept_x": 961.054443359375,
+    "gt_slope_xy": 0.015432078391313553,
+    "gt_intercept_x": 955.4440307617188,
+    "signed_angle_diff_deg": -0.43136419454406916,
+    "signed_position_diff_px": 5.61041259765625,
+    "ipd_px": 379.97186279296875,
+    "yc": 1099.40478515625,
+    "gt_axis_points": [
+      [
+        965.0370483398438,
+        621.629638671875
+      ],
+      [
+        983.5555419921875,
+        1821.629638671875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高小果.JPG",
+    "endpoint_mae_px": 6.139312744140625,
+    "endpoint_mae_norm": 0.004995961207896471,
+    "midpoint_x_error_px": 2.599307232594583,
+    "midpoint_x_error_norm": 0.0021152089389655515,
+    "angle_error_deg": 0.5612266045999608,
+    "pred_slope_xy": 0.031611740589141846,
+    "pred_intercept_x": 876.0230102539062,
+    "gt_slope_xy": 0.04142013192176819,
+    "gt_intercept_x": 866.7490234375,
+    "signed_angle_diff_deg": -0.5612266045999608,
+    "signed_position_diff_px": 9.27398681640625,
+    "ipd_px": 398.836669921875,
+    "yc": 1141.7913818359375,
+    "gt_axis_points": [
+      [
+        890.9629516601562,
+        584.5925903320312
+      ],
+      [
+        942.8148193359375,
+        1836.4444580078125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高文婷.JPG",
+    "endpoint_mae_px": 5.065582275390625,
+    "endpoint_mae_norm": 0.004553606733679771,
+    "midpoint_x_error_px": 5.06553980046192,
+    "midpoint_x_error_norm": 0.004553606927513831,
+    "angle_error_deg": 0.28045734859875576,
+    "pred_slope_xy": 0.01118459738790989,
+    "pred_intercept_x": 984.0220947265625,
+    "gt_slope_xy": 0.006289309822022915,
+    "gt_intercept_x": 984.2115478515625,
+    "signed_angle_diff_deg": 0.28045734859875576,
+    "signed_position_diff_px": -0.189453125,
+    "ipd_px": 385.4941711425781,
+    "yc": 991.4729614257812,
+    "gt_axis_points": [
+      [
+        987.25927734375,
+        484.59259033203125
+      ],
+      [
+        994.6666870117188,
+        1662.370361328125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高文桢.JPG",
+    "endpoint_mae_px": 3.063690185546875,
+    "endpoint_mae_norm": 0.0023537965025752783,
+    "midpoint_x_error_px": 1.1978814229369164,
+    "midpoint_x_error_norm": 0.0009203328613602013,
+    "angle_error_deg": 0.272296680680957,
+    "pred_slope_xy": -0.029404206201434135,
+    "pred_intercept_x": 1013.4243774414062,
+    "gt_slope_xy": -0.034161489456892014,
+    "gt_intercept_x": 1017.7639770507812,
+    "signed_angle_diff_deg": 0.272296680680957,
+    "signed_position_diff_px": -4.339599609375,
+    "ipd_px": 428.81884765625,
+    "yc": 998.5648803710938,
+    "gt_axis_points": [
+      [
+        1000.0,
+        520.0
+      ],
+      [
+        956.0,
+        1808.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高春梅.JPG",
+    "endpoint_mae_px": 5.91790771484375,
+    "endpoint_mae_norm": 0.003061549039557576,
+    "midpoint_x_error_px": 1.4147262898040935,
+    "midpoint_x_error_norm": 0.0007319217685086699,
+    "angle_error_deg": 0.34975414847243547,
+    "pred_slope_xy": -0.018010497093200684,
+    "pred_intercept_x": 2098.65625,
+    "gt_slope_xy": -0.01190475095063448,
+    "gt_intercept_x": 2084.56396484375,
+    "signed_angle_diff_deg": -0.34975414847243547,
+    "signed_position_diff_px": 14.09228515625,
+    "ipd_px": 647.7779541015625,
+    "yc": 1891.04736328125,
+    "gt_axis_points": [
+      [
+        2071.384521484375,
+        1107.076904296875
+      ],
+      [
+        2048.3076171875,
+        3045.53857421875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高林静.JPG",
+    "endpoint_mae_px": 8.58258056640625,
+    "endpoint_mae_norm": 0.006908336654305458,
+    "midpoint_x_error_px": 8.582577157765627,
+    "midpoint_x_error_norm": 0.006908336983524166,
+    "angle_error_deg": 0.31585312422488854,
+    "pred_slope_xy": 0.008647678419947624,
+    "pred_intercept_x": 965.3987426757812,
+    "gt_slope_xy": 0.0031347961630672216,
+    "gt_intercept_x": 962.6708374023438,
+    "signed_angle_diff_deg": 0.31585312422488854,
+    "signed_position_diff_px": 2.7279052734375,
+    "ipd_px": 389.9229736328125,
+    "yc": 942.4849243164062,
+    "gt_axis_points": [
+      [
+        964.0,
+        424.0
+      ],
+      [
+        968.0,
+        1700.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高雨洁.JPG",
+    "endpoint_mae_px": 2.0096435546875,
+    "endpoint_mae_norm": 0.0020881416276097298,
+    "midpoint_x_error_px": 1.7352460966772014,
+    "midpoint_x_error_norm": 0.001803034972243378,
+    "angle_error_deg": 0.23371119770581206,
+    "pred_slope_xy": 0.010957811959087849,
+    "pred_intercept_x": 917.9619750976562,
+    "gt_slope_xy": 0.01503753662109375,
+    "gt_intercept_x": 915.22705078125,
+    "signed_angle_diff_deg": -0.23371119770581206,
+    "signed_position_diff_px": 2.73492431640625,
+    "ipd_px": 324.37060546875,
+    "yc": 993.84912109375,
+    "gt_axis_points": [
+      [
+        924.2963256835938,
+        603.111083984375
+      ],
+      [
+        939.111083984375,
+        1588.2962646484375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/高静文.JPG",
+    "endpoint_mae_px": 4.418914794921875,
+    "endpoint_mae_norm": 0.004094915464520454,
+    "midpoint_x_error_px": 2.0539757423102856,
+    "midpoint_x_error_norm": 0.0019033483748771562,
+    "angle_error_deg": 0.45700456210835455,
+    "pred_slope_xy": 0.007976403459906578,
+    "pred_intercept_x": 962.552001953125,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 972.0,
+    "signed_angle_diff_deg": 0.45700456210835455,
+    "signed_position_diff_px": -9.447998046875,
+    "ipd_px": 372.1478576660156,
+    "yc": 1377.376708984375,
+    "gt_axis_points": [
+      [
+        972.0,
+        888.0
+      ],
+      [
+        972.0,
+        1996.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄媛.JPG",
+    "endpoint_mae_px": 2.677734375,
+    "endpoint_mae_norm": 0.002650831127539277,
+    "midpoint_x_error_px": 2.4052602607796416,
+    "midpoint_x_error_norm": 0.0023810792952311255,
+    "angle_error_deg": 0.3056828510917064,
+    "pred_slope_xy": 0.012715799733996391,
+    "pred_intercept_x": 945.4898681640625,
+    "gt_slope_xy": 0.007380076218396425,
+    "gt_intercept_x": 953.5339965820312,
+    "signed_angle_diff_deg": 0.3056828510917064,
+    "signed_position_diff_px": -8.04412841796875,
+    "ipd_px": 335.4800109863281,
+    "yc": 971.5364990234375,
+    "gt_axis_points": [
+      [
+        957.629638671875,
+        554.9629516601562
+      ],
+      [
+        965.0370483398438,
+        1558.6666259765625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄子淇.JPG",
+    "endpoint_mae_px": 7.33935546875,
+    "endpoint_mae_norm": 0.006132141686975956,
+    "midpoint_x_error_px": 7.339352963975784,
+    "midpoint_x_error_norm": 0.006132141822322024,
+    "angle_error_deg": 0.33161027034440493,
+    "pred_slope_xy": 0.005942048970609903,
+    "pred_intercept_x": 928.0294189453125,
+    "gt_slope_xy": 0.011730208061635494,
+    "gt_intercept_x": 928.1155395507812,
+    "signed_angle_diff_deg": -0.33161027034440493,
+    "signed_position_diff_px": -0.08612060546875,
+    "ipd_px": 431.30145263671875,
+    "yc": 1166.1220703125,
+    "gt_axis_points": [
+      [
+        935.4074096679688,
+        621.629638671875
+      ],
+      [
+        950.2222290039062,
+        1884.5926513671875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄思敏.JPG",
+    "endpoint_mae_px": 4.495574951171875,
+    "endpoint_mae_norm": 0.0036842776462435722,
+    "midpoint_x_error_px": 1.2565485951786286,
+    "midpoint_x_error_norm": 0.001029805961144159,
+    "angle_error_deg": 0.4151684474811447,
+    "pred_slope_xy": 0.004693713039159775,
+    "pred_intercept_x": 902.6561279296875,
+    "gt_slope_xy": 0.011940302327275276,
+    "gt_intercept_x": 895.3150024414062,
+    "signed_angle_diff_deg": -0.4151684474811447,
+    "signed_position_diff_px": 7.34112548828125,
+    "ipd_px": 445.56561279296875,
+    "yc": 1070.6407470703125,
+    "gt_axis_points": [
+      [
+        902.0740966796875,
+        566.0740966796875
+      ],
+      [
+        916.888916015625,
+        1806.8148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄朝民.JPG",
+    "endpoint_mae_px": 5.646575927734375,
+    "endpoint_mae_norm": 0.00459700683131814,
+    "midpoint_x_error_px": 5.6465373928081135,
+    "midpoint_x_error_norm": 0.004597006954206451,
+    "angle_error_deg": 0.5489094719395912,
+    "pred_slope_xy": 0.0065996162593364716,
+    "pred_intercept_x": 995.608642578125,
+    "gt_slope_xy": 0.016181210055947304,
+    "gt_intercept_x": 989.2044067382812,
+    "signed_angle_diff_deg": -0.5489094719395912,
+    "signed_position_diff_px": 6.40423583984375,
+    "ipd_px": 437.1399230957031,
+    "yc": 1114.03271484375,
+    "gt_axis_points": [
+      [
+        1000.2963256835938,
+        685.4815063476562
+      ],
+      [
+        1018.8148193359375,
+        1829.9259033203125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄柳依.JPG",
+    "endpoint_mae_px": 12.7557373046875,
+    "endpoint_mae_norm": 0.007294521667063236,
+    "midpoint_x_error_px": 12.755646897403949,
+    "midpoint_x_error_norm": 0.007294520844411623,
+    "angle_error_deg": 0.5771970967866074,
+    "pred_slope_xy": -0.01908515952527523,
+    "pred_intercept_x": 2206.53515625,
+    "gt_slope_xy": -0.009009096771478653,
+    "gt_intercept_x": 2198.059814453125,
+    "signed_angle_diff_deg": -0.5771970967866074,
+    "signed_position_diff_px": 8.475341796875,
+    "ipd_px": 569.1962890625,
+    "yc": 1952.32421875,
+    "gt_axis_points": [
+      [
+        2186.769287109375,
+        1253.230712890625
+      ],
+      [
+        2171.384521484375,
+        2960.923095703125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄楷译.JPG",
+    "endpoint_mae_px": 0.739410400390625,
+    "endpoint_mae_norm": 0.0006101783365011215,
+    "midpoint_x_error_px": 0.08012239379877428,
+    "midpoint_x_error_norm": 6.609243706301449e-05,
+    "angle_error_deg": 0.07490331325335597,
+    "pred_slope_xy": 0.010887681506574154,
+    "pred_intercept_x": 941.636962890625,
+    "gt_slope_xy": 0.012195165269076824,
+    "gt_intercept_x": 939.8721313476562,
+    "signed_angle_diff_deg": -0.07490331325335597,
+    "signed_position_diff_px": 1.76483154296875,
+    "ipd_px": 412.49420166015625,
+    "yc": 1114.8330078125,
+    "gt_axis_points": [
+      [
+        948.6896362304688,
+        723.0344848632812
+      ],
+      [
+        962.4827880859375,
+        1854.0689697265625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄欣悦.JPG",
+    "endpoint_mae_px": 7.055999755859375,
+    "endpoint_mae_norm": 0.005233297124505043,
+    "midpoint_x_error_px": 3.068147947768921,
+    "midpoint_x_error_norm": 0.002275590313933734,
+    "angle_error_deg": 0.5914687667120488,
+    "pred_slope_xy": -0.02116592414677143,
+    "pred_intercept_x": 958.9601440429688,
+    "gt_slope_xy": -0.010840111412107944,
+    "gt_intercept_x": 950.84814453125,
+    "signed_angle_diff_deg": -0.5914687667120488,
+    "signed_position_diff_px": 8.11199951171875,
+    "ipd_px": 466.95660400390625,
+    "yc": 959.9669799804688,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        399.40740966796875
+      ],
+      [
+        931.7036743164062,
+        1766.0740966796875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄瑾乔.JPG",
+    "endpoint_mae_px": 0.51318359375,
+    "endpoint_mae_norm": 0.0005052969790995121,
+    "midpoint_x_error_px": 0.016066538517407025,
+    "midpoint_x_error_norm": 1.581584055374008e-05,
+    "angle_error_deg": 0.06300769909366372,
+    "pred_slope_xy": -0.0028685834258794785,
+    "pred_intercept_x": 1098.83740234375,
+    "gt_slope_xy": -0.003968288190662861,
+    "gt_intercept_x": 1100.3857421875,
+    "signed_angle_diff_deg": 0.06300769909366372,
+    "signed_position_diff_px": -1.54833984375,
+    "ipd_px": 327.447265625,
+    "yc": 1284.0499267578125,
+    "gt_axis_points": [
+      [
+        1096.5926513671875,
+        955.8518676757812
+      ],
+      [
+        1092.888916015625,
+        1889.1851806640625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄真.JPG",
+    "endpoint_mae_px": 1.866943359375,
+    "endpoint_mae_norm": 0.001637436798773706,
+    "midpoint_x_error_px": 1.8669936060905457,
+    "midpoint_x_error_norm": 0.0016374371277326771,
+    "angle_error_deg": 0.11058689458146609,
+    "pred_slope_xy": 0.012493742629885674,
+    "pred_intercept_x": 1106.1400146484375,
+    "gt_slope_xy": 0.01056338008493185,
+    "gt_intercept_x": 1110.1690673828125,
+    "signed_angle_diff_deg": 0.11058689458146609,
+    "signed_position_diff_px": -4.029052734375,
+    "ipd_px": 378.2916564941406,
+    "yc": 993.5553588867188,
+    "gt_axis_points": [
+      [
+        1116.0,
+        552.0
+      ],
+      [
+        1128.0,
+        1688.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄箐.JPG",
+    "endpoint_mae_px": 7.35919189453125,
+    "endpoint_mae_norm": 0.00717023853212595,
+    "midpoint_x_error_px": 7.359187360347164,
+    "midpoint_x_error_norm": 0.007170238543181176,
+    "angle_error_deg": 0.5772638195450499,
+    "pred_slope_xy": 0.0015073115937411785,
+    "pred_intercept_x": 876.405029296875,
+    "gt_slope_xy": 0.01158298272639513,
+    "gt_intercept_x": 872.7802124023438,
+    "signed_angle_diff_deg": -0.5772638195450499,
+    "signed_position_diff_px": 3.62481689453125,
+    "ipd_px": 351.32025146484375,
+    "yc": 983.8161010742188,
+    "gt_axis_points": [
+      [
+        879.8518676757812,
+        610.5184936523438
+      ],
+      [
+        890.9629516601562,
+        1569.77783203125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄纯.JPG",
+    "endpoint_mae_px": 2.383575439453125,
+    "endpoint_mae_norm": 0.0020702085457742214,
+    "midpoint_x_error_px": 2.383606594569301,
+    "midpoint_x_error_norm": 0.0020702084935532716,
+    "angle_error_deg": 0.12604365092216618,
+    "pred_slope_xy": 0.0072936005890369415,
+    "pred_intercept_x": 936.0247802734375,
+    "gt_slope_xy": 0.009493633173406124,
+    "gt_intercept_x": 930.6622314453125,
+    "signed_angle_diff_deg": -0.12604365092216618,
+    "signed_position_diff_px": 5.362548828125,
+    "ipd_px": 373.8507385253906,
+    "yc": 1177.88525390625,
+    "gt_axis_points": [
+      [
+        938.3448486328125,
+        809.2413940429688
+      ],
+      [
+        948.6896362304688,
+        1898.8966064453125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄耕宁.JPG",
+    "endpoint_mae_px": 7.14947509765625,
+    "endpoint_mae_norm": 0.005969538353383541,
+    "midpoint_x_error_px": 7.149573992072419,
+    "midpoint_x_error_norm": 0.0059695375219413205,
+    "angle_error_deg": 0.3153066934341308,
+    "pred_slope_xy": 0.007611013017594814,
+    "pred_intercept_x": 1036.3846435546875,
+    "gt_slope_xy": 0.01311475783586502,
+    "gt_intercept_x": 1037.30517578125,
+    "signed_angle_diff_deg": -0.3153066934341308,
+    "signed_position_diff_px": -0.9205322265625,
+    "ipd_px": 419.5479431152344,
+    "yc": 985.9153442382812,
+    "gt_axis_points": [
+      [
+        1044.74072265625,
+        566.9629516601562
+      ],
+      [
+        1059.5555419921875,
+        1696.5926513671875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄芝霖.JPG",
+    "endpoint_mae_px": 10.60400390625,
+    "endpoint_mae_norm": 0.00971834734082222,
+    "midpoint_x_error_px": 10.604010205715895,
+    "midpoint_x_error_norm": 0.009718347723428652,
+    "angle_error_deg": 0.5783917906205995,
+    "pred_slope_xy": 0.007386029697954655,
+    "pred_intercept_x": 998.7395629882812,
+    "gt_slope_xy": 0.017482517287135124,
+    "gt_intercept_x": 997.510498046875,
+    "signed_angle_diff_deg": -0.5783917906205995,
+    "signed_position_diff_px": 1.22906494140625,
+    "ipd_px": 352.7851257324219,
+    "yc": 1080.226806640625,
+    "gt_axis_points": [
+      [
+        1008.0,
+        600.0
+      ],
+      [
+        1028.0,
+        1744.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄莞淳.JPG",
+    "endpoint_mae_px": 0.88275146484375,
+    "endpoint_mae_norm": 0.0008007311262190342,
+    "midpoint_x_error_px": 0.7598007810119043,
+    "midpoint_x_error_norm": 0.0006891613016951226,
+    "angle_error_deg": 0.08725816799234137,
+    "pred_slope_xy": 0.0016719111008569598,
+    "pred_intercept_x": 940.3173828125,
+    "gt_slope_xy": 0.0031948627438396215,
+    "gt_intercept_x": 939.4268188476562,
+    "signed_angle_diff_deg": -0.08725816799234137,
+    "signed_position_diff_px": 0.89056396484375,
+    "ipd_px": 391.07470703125,
+    "yc": 985.9951171875,
+    "gt_axis_points": [
+      [
+        941.0370483398438,
+        504.0
+      ],
+      [
+        944.74072265625,
+        1663.25927734375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄雪梅.JPG",
+    "endpoint_mae_px": 8.75372314453125,
+    "endpoint_mae_norm": 0.007448447868227959,
+    "midpoint_x_error_px": 8.7537343762815,
+    "midpoint_x_error_norm": 0.007448447781408324,
+    "angle_error_deg": 0.15966062928734842,
+    "pred_slope_xy": 0.009981055743992329,
+    "pred_intercept_x": 1040.187255859375,
+    "gt_slope_xy": 0.007194244768470526,
+    "gt_intercept_x": 1052.02880859375,
+    "signed_angle_diff_deg": 0.15966062928734842,
+    "signed_position_diff_px": -11.841552734375,
+    "ipd_px": 421.60003662109375,
+    "yc": 966.8900756835938,
+    "gt_axis_points": [
+      [
+        1056.0,
+        552.0
+      ],
+      [
+        1064.0,
+        1664.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄雪瑶.JPG",
+    "endpoint_mae_px": 1.61151123046875,
+    "endpoint_mae_norm": 0.0008123582229018211,
+    "midpoint_x_error_px": 1.561564336061565,
+    "midpoint_x_error_norm": 0.0007872104360379106,
+    "angle_error_deg": 0.09301568480009736,
+    "pred_slope_xy": 0.017755858600139618,
+    "pred_intercept_x": 1798.869140625,
+    "gt_slope_xy": 0.01937984861433506,
+    "gt_intercept_x": 1793.6982421875,
+    "signed_angle_diff_deg": -0.09301568480009736,
+    "signed_position_diff_px": 5.1708984375,
+    "ipd_px": 657.9515991210938,
+    "yc": 2038.1600341796875,
+    "gt_axis_points": [
+      [
+        1817.5384521484375,
+        1230.15380859375
+      ],
+      [
+        1856.0,
+        3214.769287109375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黎火金.JPG",
+    "endpoint_mae_px": 5.00286865234375,
+    "endpoint_mae_norm": 0.004655148833990097,
+    "midpoint_x_error_px": 5.0028570950823905,
+    "midpoint_x_error_norm": 0.004655148597765127,
+    "angle_error_deg": 0.17930344634728174,
+    "pred_slope_xy": 0.0031294457148760557,
+    "pred_intercept_x": 947.5128784179688,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 946.5184936523438,
+    "signed_angle_diff_deg": 0.17930344634728174,
+    "signed_position_diff_px": 0.994384765625,
+    "ipd_px": 362.8363342285156,
+    "yc": 1061.28564453125,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        832.74072265625
+      ],
+      [
+        946.5184936523438,
+        1729.0369873046875
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/龚圣华.JPG",
+    "endpoint_mae_px": 5.83740234375,
+    "endpoint_mae_norm": 0.00495573366060853,
+    "midpoint_x_error_px": 0.52952491492033,
+    "midpoint_x_error_norm": 0.0004495930576038365,
+    "angle_error_deg": 0.5665052226061065,
+    "pred_slope_xy": 0.02061455324292183,
+    "pred_intercept_x": 979.495361328125,
+    "gt_slope_xy": 0.03050847537815571,
+    "gt_intercept_x": 969.4779663085938,
+    "signed_angle_diff_deg": -0.5665052226061065,
+    "signed_position_diff_px": 10.01739501953125,
+    "ipd_px": 401.5155334472656,
+    "yc": 935.0625,
+    "gt_axis_points": [
+      [
+        984.0,
+        476.0
+      ],
+      [
+        1020.0,
+        1656.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/龚必东.JPG",
+    "endpoint_mae_px": 4.5528564453125,
+    "endpoint_mae_norm": 0.0046554203145205975,
+    "midpoint_x_error_px": 4.55287348764773,
+    "midpoint_x_error_norm": 0.004655420609548454,
+    "angle_error_deg": 0.4089797920510631,
+    "pred_slope_xy": 0.007138165179640055,
+    "pred_intercept_x": 838.541748046875,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 842.8148193359375,
+    "signed_angle_diff_deg": 0.4089797920510631,
+    "signed_position_diff_px": -4.2730712890625,
+    "ipd_px": 309.39703369140625,
+    "yc": 1052.221923828125,
+    "gt_axis_points": [
+      [
+        842.8148193359375,
+        832.74072265625
+      ],
+      [
+        842.8148193359375,
+        1640.148193359375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/方明杰.JPG",
+    "endpoint_mae_px": 5.964813232421875,
+    "endpoint_mae_norm": 0.0049112034030258656,
+    "midpoint_x_error_px": 2.182890151606216,
+    "midpoint_x_error_norm": 0.001797308711567816,
+    "angle_error_deg": 0.5660845735985978,
+    "pred_slope_xy": 0.009880361147224903,
+    "pred_intercept_x": 883.8977661132812,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 898.370361328125,
+    "signed_angle_diff_deg": 0.5660845735985978,
+    "signed_position_diff_px": -14.47259521484375,
+    "ipd_px": 428.02410888671875,
+    "yc": 1107.739501953125,
+    "gt_axis_points": [
+      [
+        898.370361328125,
+        640.1481323242188
+      ],
+      [
+        898.370361328125,
+        1847.5555419921875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/方渝.JPG",
+    "endpoint_mae_px": 6.333099365234375,
+    "endpoint_mae_norm": 0.005553616210818291,
+    "midpoint_x_error_px": 0.267950892454337,
+    "midpoint_x_error_norm": 0.0002349948793783363,
+    "angle_error_deg": 0.5814294653042795,
+    "pred_slope_xy": 0.007180655375123024,
+    "pred_intercept_x": 958.584228515625,
+    "gt_slope_xy": -0.002967335283756256,
+    "gt_intercept_x": 970.4314575195312,
+    "signed_angle_diff_deg": 0.5814294653042795,
+    "signed_position_diff_px": -11.84722900390625,
+    "ipd_px": 390.7678527832031,
+    "yc": 1095.121337890625,
+    "gt_axis_points": [
+      [
+        968.74072265625,
+        569.7777709960938
+      ],
+      [
+        965.0370483398438,
+        1817.9259033203125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曹强.JPG",
+    "endpoint_mae_px": 3.840484619140625,
+    "endpoint_mae_norm": 0.003104343544691801,
+    "midpoint_x_error_px": 0.20480068773031235,
+    "midpoint_x_error_norm": 0.00016553280092607495,
+    "angle_error_deg": 0.3667357304132355,
+    "pred_slope_xy": 0.0030674345325678587,
+    "pred_intercept_x": 933.967041015625,
+    "gt_slope_xy": -0.0033333334140479565,
+    "gt_intercept_x": 942.1599731445312,
+    "signed_angle_diff_deg": 0.3667357304132355,
+    "signed_position_diff_px": -8.19293212890625,
+    "ipd_px": 431.2793884277344,
+    "yc": 1084.84033203125,
+    "gt_axis_points": [
+      [
+        940.0,
+        648.0
+      ],
+      [
+        936.0,
+        1848.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾众婉.JPG",
+    "endpoint_mae_px": 6.04388427734375,
+    "endpoint_mae_norm": 0.005145978182554245,
+    "midpoint_x_error_px": 5.54400065401569,
+    "midpoint_x_error_norm": 0.004720289468400158,
+    "angle_error_deg": 0.5949925358570076,
+    "pred_slope_xy": -0.0035118490923196077,
+    "pred_intercept_x": 1025.94677734375,
+    "gt_slope_xy": 0.006872852332890034,
+    "gt_intercept_x": 1021.1683959960938,
+    "signed_angle_diff_deg": -0.5949925358570076,
+    "signed_position_diff_px": 4.77838134765625,
+    "ipd_px": 391.74481201171875,
+    "yc": 882.1126708984375,
+    "gt_axis_points": [
+      [
+        1024.0,
+        412.0
+      ],
+      [
+        1032.0,
+        1576.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/曾星.JPG",
+    "endpoint_mae_px": 6.2222900390625,
+    "endpoint_mae_norm": 0.005482278764247894,
+    "midpoint_x_error_px": 6.222315110266209,
+    "midpoint_x_error_norm": 0.005482279352495359,
+    "angle_error_deg": 0.23809711897093644,
+    "pred_slope_xy": 0.010028203018009663,
+    "pred_intercept_x": 1086.589599609375,
+    "gt_slope_xy": 0.014184396713972092,
+    "gt_intercept_x": 1075.546142578125,
+    "signed_angle_diff_deg": -0.23809711897093644,
+    "signed_position_diff_px": 11.04345703125,
+    "ipd_px": 396.13690185546875,
+    "yc": 1036.7265625,
+    "gt_axis_points": [
+      [
+        1084.0,
+        596.0
+      ],
+      [
+        1100.0,
+        1724.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/杜磊.JPG",
+    "endpoint_mae_px": 6.68865966796875,
+    "endpoint_mae_norm": 0.004777651745826006,
+    "midpoint_x_error_px": 0.8829426856490272,
+    "midpoint_x_error_norm": 0.0006306940452424706,
+    "angle_error_deg": 0.5669258842359872,
+    "pred_slope_xy": 0.0038030953146517277,
+    "pred_intercept_x": 937.009765625,
+    "gt_slope_xy": 0.013698657043278217,
+    "gt_intercept_x": 923.5433349609375,
+    "signed_angle_diff_deg": -0.5669258842359872,
+    "signed_position_diff_px": 13.4664306640625,
+    "ipd_px": 435.3414001464844,
+    "yc": 1088.15234375,
+    "gt_axis_points": [
+      [
+        931.7036743164062,
+        595.7036743164062
+      ],
+      [
+        950.2222290039062,
+        1947.5555419921875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/白玛玉珍.JPG",
+    "endpoint_mae_px": 6.78607177734375,
+    "endpoint_mae_norm": 0.005593268666416407,
+    "midpoint_x_error_px": 6.786102144047618,
+    "midpoint_x_error_norm": 0.005593269090785835,
+    "angle_error_deg": 0.5773460072780257,
+    "pred_slope_xy": 0.010076929815113544,
+    "pred_intercept_x": 1062.7945556640625,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1068.0,
+    "signed_angle_diff_deg": 0.5773460072780257,
+    "signed_position_diff_px": -5.2054443359375,
+    "ipd_px": 412.5914306640625,
+    "yc": 1100.04345703125,
+    "gt_axis_points": [
+      [
+        1068.0,
+        540.0
+      ],
+      [
+        1068.0,
+        1840.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/程嘉辉.JPG",
+    "endpoint_mae_px": 2.434906005859375,
+    "endpoint_mae_norm": 0.0022103791125118732,
+    "midpoint_x_error_px": 2.434899558313191,
+    "midpoint_x_error_norm": 0.0022103791467057016,
+    "angle_error_deg": 0.21276272626770507,
+    "pred_slope_xy": 0.0072722421027719975,
+    "pred_intercept_x": 983.6936645507812,
+    "gt_slope_xy": 0.0035587188322097063,
+    "gt_intercept_x": 985.722412109375,
+    "signed_angle_diff_deg": 0.21276272626770507,
+    "signed_position_diff_px": -2.02874755859375,
+    "ipd_px": 371.5340576171875,
+    "yc": 1102.582275390625,
+    "gt_axis_points": [
+      [
+        988.0,
+        640.0
+      ],
+      [
+        992.0,
+        1764.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/范皖皖.JPG",
+    "endpoint_mae_px": 6.09710693359375,
+    "endpoint_mae_norm": 0.004690480884164572,
+    "midpoint_x_error_px": 0.8263303783251104,
+    "midpoint_x_error_norm": 0.0006357303148499804,
+    "angle_error_deg": 0.5209950469201678,
+    "pred_slope_xy": 0.01024186983704567,
+    "pred_intercept_x": 912.9996948242188,
+    "gt_slope_xy": 0.01933700032532215,
+    "gt_intercept_x": 902.883544921875,
+    "signed_angle_diff_deg": -0.5209950469201678,
+    "signed_position_diff_px": 10.11614990234375,
+    "ipd_px": 454.59124755859375,
+    "yc": 1080.2327880859375,
+    "gt_axis_points": [
+      [
+        913.1851806640625,
+        532.74072265625
+      ],
+      [
+        939.111083984375,
+        1873.4814453125
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/董何鑫.JPG",
+    "endpoint_mae_px": 8.818359375,
+    "endpoint_mae_norm": 0.006817408837378025,
+    "midpoint_x_error_px": 8.818353272110699,
+    "midpoint_x_error_norm": 0.006817408686062315,
+    "angle_error_deg": 0.005678024477000054,
+    "pred_slope_xy": -0.024563999846577644,
+    "pred_intercept_x": 958.8276977539062,
+    "gt_slope_xy": -0.024464840069413185,
+    "gt_intercept_x": 949.890625,
+    "signed_angle_diff_deg": -0.005678024477000054,
+    "signed_position_diff_px": 8.93707275390625,
+    "ipd_px": 428.12738037109375,
+    "yc": 1017.24658203125,
+    "gt_axis_points": [
+      [
+        935.4074096679688,
+        592.0
+      ],
+      [
+        905.7777709960938,
+        1803.111083984375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓墨苒.JPG",
+    "endpoint_mae_px": 7.439453125,
+    "endpoint_mae_norm": 0.003580286633223295,
+    "midpoint_x_error_px": 7.439390648258268,
+    "midpoint_x_error_norm": 0.0035802869554339978,
+    "angle_error_deg": 0.28809326954357317,
+    "pred_slope_xy": 0.00920596718788147,
+    "pred_intercept_x": 1921.6475830078125,
+    "gt_slope_xy": 0.014234844595193863,
+    "gt_intercept_x": 1918.5875244140625,
+    "signed_angle_diff_deg": -0.28809326954357317,
+    "signed_position_diff_px": 3.06005859375,
+    "ipd_px": 656.7389526367188,
+    "yc": 1875.64013671875,
+    "gt_axis_points": [
+      [
+        1932.923095703125,
+        1007.076904296875
+      ],
+      [
+        1963.6922607421875,
+        3168.615478515625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/邓雪.JPG",
+    "endpoint_mae_px": 6.1983642578125,
+    "endpoint_mae_norm": 0.005496947560459375,
+    "midpoint_x_error_px": 6.198396143252467,
+    "midpoint_x_error_norm": 0.005496948095884857,
+    "angle_error_deg": 0.039889279242915965,
+    "pred_slope_xy": 0.01829090714454651,
+    "pred_intercept_x": 876.9637451171875,
+    "gt_slope_xy": 0.018987348303198814,
+    "gt_intercept_x": 882.301025390625,
+    "signed_angle_diff_deg": -0.039889279242915965,
+    "signed_position_diff_px": -5.3372802734375,
+    "ipd_px": 382.04241943359375,
+    "yc": 1138.7557373046875,
+    "gt_axis_points": [
+      [
+        894.6666870117188,
+        651.25927734375
+      ],
+      [
+        916.888916015625,
+        1821.629638671875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/都涵睿.JPG",
+    "endpoint_mae_px": 0.441802978515625,
+    "endpoint_mae_norm": 0.0003736934158951044,
+    "midpoint_x_error_px": 0.4418046362698078,
+    "midpoint_x_error_norm": 0.00037369329392823725,
+    "angle_error_deg": 0.017211938988354936,
+    "pred_slope_xy": 0.0064563388004899025,
+    "pred_intercept_x": 977.7703857421875,
+    "gt_slope_xy": 0.006756756920367479,
+    "gt_intercept_x": 977.7567749023438,
+    "signed_angle_diff_deg": -0.017211938988354936,
+    "signed_position_diff_px": 0.01361083984375,
+    "ipd_px": 367.8389892578125,
+    "yc": 1392.744384765625,
+    "gt_axis_points": [
+      [
+        984.0,
+        924.0
+      ],
+      [
+        992.0,
+        2108.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈子墨.JPG",
+    "endpoint_mae_px": 9.0640869140625,
+    "endpoint_mae_norm": 0.006385957822203636,
+    "midpoint_x_error_px": 9.064120717439437,
+    "midpoint_x_error_norm": 0.006385957660985153,
+    "angle_error_deg": 0.446824051458362,
+    "pred_slope_xy": 0.014150089584290981,
+    "pred_intercept_x": 908.225830078125,
+    "gt_slope_xy": 0.02195122092962265,
+    "gt_intercept_x": 889.9165649414062,
+    "signed_angle_diff_deg": -0.446824051458362,
+    "signed_position_diff_px": 18.30926513671875,
+    "ipd_px": 445.3465881347656,
+    "yc": 1059.165283203125,
+    "gt_axis_points": [
+      [
+        900.413818359375,
+        478.2069091796875
+      ],
+      [
+        931.4483032226562,
+        1892.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈宇佳.JPG",
+    "endpoint_mae_px": 6.65972900390625,
+    "endpoint_mae_norm": 0.004825502168387175,
+    "midpoint_x_error_px": 1.6363891886855981,
+    "midpoint_x_error_norm": 0.0011856872443222338,
+    "angle_error_deg": 0.5955123557130189,
+    "pred_slope_xy": -0.007503602188080549,
+    "pred_intercept_x": 926.5220336914062,
+    "gt_slope_xy": 0.002890198025852442,
+    "gt_intercept_x": 913.9113159179688,
+    "signed_angle_diff_deg": -0.5955123557130189,
+    "signed_position_diff_px": 12.6107177734375,
+    "ipd_px": 421.6680908203125,
+    "yc": 873.6607666015625,
+    "gt_axis_points": [
+      [
+        915.111083984375,
+        415.1111145019531
+      ],
+      [
+        918.8148193359375,
+        1696.5926513671875
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈宇凡.JPG",
+    "endpoint_mae_px": 3.0203857421875,
+    "endpoint_mae_norm": 0.0015591229312121868,
+    "midpoint_x_error_px": 0.8656502328813076,
+    "midpoint_x_error_norm": 0.0004468396052493273,
+    "angle_error_deg": 0.18705023843565993,
+    "pred_slope_xy": 0.012178737670183182,
+    "pred_intercept_x": 1836.4967041015625,
+    "gt_slope_xy": 0.015444005839526653,
+    "gt_intercept_x": 1828.2548828125,
+    "signed_angle_diff_deg": -0.18705023843565993,
+    "signed_position_diff_px": 8.2418212890625,
+    "ipd_px": 664.2430419921875,
+    "yc": 2077.86328125,
+    "gt_axis_points": [
+      [
+        1848.857177734375,
+        1334.0
+      ],
+      [
+        1877.4285888671875,
+        3184.0
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈宇博.JPG",
+    "endpoint_mae_px": 6.16241455078125,
+    "endpoint_mae_norm": 0.004811896942555904,
+    "midpoint_x_error_px": 4.642701228120359,
+    "midpoint_x_error_norm": 0.0036252212031168962,
+    "angle_error_deg": 0.5673012517428191,
+    "pred_slope_xy": 0.010929462499916553,
+    "pred_intercept_x": 971.4136962890625,
+    "gt_slope_xy": 0.020833315327763557,
+    "gt_intercept_x": 962.4815063476562,
+    "signed_angle_diff_deg": -0.5673012517428191,
+    "signed_position_diff_px": 8.93218994140625,
+    "ipd_px": 413.2850036621094,
+    "yc": 1213.195556640625,
+    "gt_axis_points": [
+      [
+        978.0740966796875,
+        748.4444580078125
+      ],
+      [
+        1004.0,
+        1992.888916015625
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈小洪.JPG",
+    "endpoint_mae_px": 5.236480712890625,
+    "endpoint_mae_norm": 0.005019732750952244,
+    "midpoint_x_error_px": 2.3355629947036505,
+    "midpoint_x_error_norm": 0.002238934711079721,
+    "angle_error_deg": 0.5490657491104922,
+    "pred_slope_xy": 0.010753595270216465,
+    "pred_intercept_x": 934.5306396484375,
+    "gt_slope_xy": 0.020338989794254303,
+    "gt_intercept_x": 924.961181640625,
+    "signed_angle_diff_deg": -0.5490657491104922,
+    "signed_position_diff_px": 9.5694580078125,
+    "ipd_px": 365.8669128417969,
+    "yc": 1135.085693359375,
+    "gt_axis_points": [
+      [
+        939.111083984375,
+        695.7036743164062
+      ],
+      [
+        961.3333129882812,
+        1788.2962646484375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈渔.JPG",
+    "endpoint_mae_px": 9.96820068359375,
+    "endpoint_mae_norm": 0.009431479498744011,
+    "midpoint_x_error_px": 9.968220806848876,
+    "midpoint_x_error_norm": 0.009431478633378565,
+    "angle_error_deg": 0.5711040048291429,
+    "pred_slope_xy": 0.011458156630396843,
+    "pred_intercept_x": 995.3056030273438,
+    "gt_slope_xy": 0.021428579464554787,
+    "gt_intercept_x": 993.490966796875,
+    "signed_angle_diff_deg": -0.5711040048291429,
+    "signed_position_diff_px": 1.81463623046875,
+    "ipd_px": 351.4451599121094,
+    "yc": 1056.88330078125,
+    "gt_axis_points": [
+      [
+        1007.7036743164062,
+        663.25927734375
+      ],
+      [
+        1029.9259033203125,
+        1700.2962646484375
+      ]
+    ]
+  },
+  {
+    "file_name": "1.对称轴133张/陈玉婷.JPG",
+    "endpoint_mae_px": 3.66546630859375,
+    "endpoint_mae_norm": 0.0037024563644081354,
+    "midpoint_x_error_px": 3.665452964817632,
+    "midpoint_x_error_norm": 0.00370245636091332,
+    "angle_error_deg": 0.22077353546366918,
+    "pred_slope_xy": 0.010431881994009018,
+    "pred_intercept_x": 920.0220336914062,
+    "gt_slope_xy": 0.014285700395703316,
+    "gt_intercept_x": 912.05517578125,
+    "signed_angle_diff_deg": -0.22077353546366918,
+    "signed_position_diff_px": 7.96685791015625,
+    "ipd_px": 345.6682434082031,
+    "yc": 1025.87451171875,
+    "gt_axis_points": [
+      [
+        921.1034545898438,
+        633.3793334960938
+      ],
+      [
+        934.8965454101562,
+        1598.8966064453125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何晓清.JPG",
+    "endpoint_mae_px": 5.108123779296875,
+    "endpoint_mae_norm": 0.005009479820728302,
+    "midpoint_x_error_px": 0.7382072757488913,
+    "midpoint_x_error_norm": 0.0007239004492831692,
+    "angle_error_deg": 0.5506689822194418,
+    "pred_slope_xy": 0.0026424622628837824,
+    "pred_intercept_x": 978.0518798828125,
+    "gt_slope_xy": -0.006968643516302109,
+    "gt_intercept_x": 986.5453491210938,
+    "signed_angle_diff_deg": 0.5506689822194418,
+    "signed_position_diff_px": -8.49346923828125,
+    "ipd_px": 350.9070739746094,
+    "yc": 887.0845947265625,
+    "gt_axis_points": [
+      [
+        983.5555419921875,
+        429.03704833984375
+      ],
+      [
+        976.1481323242188,
+        1492.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何涵璐.JPG",
+    "endpoint_mae_px": 4.878570556640625,
+    "endpoint_mae_norm": 0.004114307928830385,
+    "midpoint_x_error_px": 4.878577279858291,
+    "midpoint_x_error_norm": 0.004114307910081327,
+    "angle_error_deg": 0.2863748806692807,
+    "pred_slope_xy": -0.004998226184397936,
+    "pred_intercept_x": 1000.6058349609375,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 988.0,
+    "signed_angle_diff_deg": -0.2863748806692807,
+    "signed_position_diff_px": 12.6058349609375,
+    "ipd_px": 398.12371826171875,
+    "yc": 1399.107666015625,
+    "gt_axis_points": [
+      [
+        988.0,
+        992.0
+      ],
+      [
+        988.0,
+        2100.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/何莲花.JPG",
+    "endpoint_mae_px": 5.55767822265625,
+    "endpoint_mae_norm": 0.0047501311637461185,
+    "midpoint_x_error_px": 4.986136127263308,
+    "midpoint_x_error_norm": 0.004261595970403181,
+    "angle_error_deg": 0.5433825663379136,
+    "pred_slope_xy": 0.009484099224209785,
+    "pred_intercept_x": 974.2691040039062,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 980.0,
+    "signed_angle_diff_deg": 0.5433825663379136,
+    "signed_position_diff_px": -5.73089599609375,
+    "ipd_px": 382.6808776855469,
+    "yc": 1012.477294921875,
+    "gt_axis_points": [
+      [
+        980.0,
+        544.0
+      ],
+      [
+        980.0,
+        1716.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/兰于青.JPG",
+    "endpoint_mae_px": 3.268310546875,
+    "endpoint_mae_norm": 0.003134197322651744,
+    "midpoint_x_error_px": 3.2683110758662224,
+    "midpoint_x_error_norm": 0.0031341972512255456,
+    "angle_error_deg": 0.2874068075420398,
+    "pred_slope_xy": 0.00852515920996666,
+    "pred_intercept_x": 1076.1566162109375,
+    "gt_slope_xy": 0.003508772002533078,
+    "gt_intercept_x": 1080.603515625,
+    "signed_angle_diff_deg": 0.2874068075420398,
+    "signed_position_diff_px": -4.4468994140625,
+    "ipd_px": 335.4998474121094,
+    "yc": 1476.054931640625,
+    "gt_axis_points": [
+      [
+        1084.0,
+        968.0
+      ],
+      [
+        1088.0,
+        2108.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/兰美慧.JPG",
+    "endpoint_mae_px": 5.1312255859375,
+    "endpoint_mae_norm": 0.00415335688740015,
+    "midpoint_x_error_px": 2.620005083270371,
+    "midpoint_x_error_norm": 0.002120788821723514,
+    "angle_error_deg": 0.46659079445605844,
+    "pred_slope_xy": 0.007728292141109705,
+    "pred_intercept_x": 1027.234375,
+    "gt_slope_xy": 0.01587301678955555,
+    "gt_intercept_x": 1021.2698364257812,
+    "signed_angle_diff_deg": -0.46659079445605844,
+    "signed_position_diff_px": 5.96453857421875,
+    "ipd_px": 429.7906799316406,
+    "yc": 965.3102416992188,
+    "gt_axis_points": [
+      [
+        1028.0,
+        424.0
+      ],
+      [
+        1048.0,
+        1684.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯俐.JPG",
+    "endpoint_mae_px": 6.031829833984375,
+    "endpoint_mae_norm": 0.0050826300866901875,
+    "midpoint_x_error_px": 0.37237386405467987,
+    "midpoint_x_error_norm": 0.000313713940719218,
+    "angle_error_deg": 0.5848697128038709,
+    "pred_slope_xy": -0.03384431451559067,
+    "pred_intercept_x": 1072.1424560546875,
+    "gt_slope_xy": -0.04406779631972313,
+    "gt_intercept_x": 1084.149169921875,
+    "signed_angle_diff_deg": 0.5848697128038709,
+    "signed_position_diff_px": -12.0067138671875,
+    "ipd_px": 390.512451171875,
+    "yc": 1021.2027587890625,
+    "gt_axis_points": [
+      [
+        1060.0,
+        548.0
+      ],
+      [
+        1008.0,
+        1728.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯思瑶.JPG",
+    "endpoint_mae_px": 2.05072021484375,
+    "endpoint_mae_norm": 0.0020819788333028555,
+    "midpoint_x_error_px": 0.3239885976062169,
+    "midpoint_x_error_norm": 0.00032892444383532393,
+    "angle_error_deg": 0.24120632398789266,
+    "pred_slope_xy": 0.010998557321727276,
+    "pred_intercept_x": 897.2044067382812,
+    "gt_slope_xy": 0.015209130942821503,
+    "gt_intercept_x": 892.0563354492188,
+    "signed_angle_diff_deg": -0.24120632398789266,
+    "signed_position_diff_px": 5.1480712890625,
+    "ipd_px": 354.12664794921875,
+    "yc": 1033.610595703125,
+    "gt_axis_points": [
+      [
+        902.0740966796875,
+        658.6666870117188
+      ],
+      [
+        916.888916015625,
+        1632.74072265625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/冯禹睿.JPG",
+    "endpoint_mae_px": 6.30352783203125,
+    "endpoint_mae_norm": 0.0053027658723294735,
+    "midpoint_x_error_px": 3.3509552273899317,
+    "midpoint_x_error_norm": 0.002818955219143618,
+    "angle_error_deg": 0.5958501125013865,
+    "pred_slope_xy": -0.009400122798979282,
+    "pred_intercept_x": 1052.023193359375,
+    "gt_slope_xy": -0.019801979884505272,
+    "gt_intercept_x": 1067.96044921875,
+    "signed_angle_diff_deg": 0.5958501125013865,
+    "signed_position_diff_px": -15.937255859375,
+    "ipd_px": 396.4625244140625,
+    "yc": 1129.59228515625,
+    "gt_axis_points": [
+      [
+        1056.0,
+        604.0
+      ],
+      [
+        1032.0,
+        1816.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/吉方圆.JPG",
+    "endpoint_mae_px": 6.08038330078125,
+    "endpoint_mae_norm": 0.005271598696708679,
+    "midpoint_x_error_px": 6.080373661592603,
+    "midpoint_x_error_norm": 0.005271598778369829,
+    "angle_error_deg": 0.5136140357160262,
+    "pred_slope_xy": 0.004875729791820049,
+    "pred_intercept_x": 996.2540283203125,
+    "gt_slope_xy": 0.013840830884873867,
+    "gt_intercept_x": 991.9169311523438,
+    "signed_angle_diff_deg": -0.5136140357160262,
+    "signed_position_diff_px": 4.33709716796875,
+    "ipd_px": 412.31072998046875,
+    "yc": 1059.01611328125,
+    "gt_axis_points": [
+      [
+        1000.0,
+        584.0
+      ],
+      [
+        1016.0,
+        1740.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/孔晨轩.JPG",
+    "endpoint_mae_px": 5.11138916015625,
+    "endpoint_mae_norm": 0.004468432627618313,
+    "midpoint_x_error_px": 1.5211922196874639,
+    "midpoint_x_error_norm": 0.0013298356574237835,
+    "angle_error_deg": 0.5052229000704681,
+    "pred_slope_xy": 0.012013285420835018,
+    "pred_intercept_x": 892.0333251953125,
+    "gt_slope_xy": 0.0031949153635650873,
+    "gt_intercept_x": 903.8863525390625,
+    "signed_angle_diff_deg": 0.5052229000704681,
+    "signed_position_diff_px": -11.85302734375,
+    "ipd_px": 397.4380187988281,
+    "yc": 1027.111328125,
+    "gt_axis_points": [
+      [
+        905.7777709960938,
+        592.0
+      ],
+      [
+        909.4815063476562,
+        1751.25927734375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李丽偲.JPG",
+    "endpoint_mae_px": 2.564483642578125,
+    "endpoint_mae_norm": 0.002102883066982031,
+    "midpoint_x_error_px": 2.5644901449755935,
+    "midpoint_x_error_norm": 0.002102883116735718,
+    "angle_error_deg": 0.19786144227626612,
+    "pred_slope_xy": 0.010358340106904507,
+    "pred_intercept_x": 904.9091186523438,
+    "gt_slope_xy": 0.013812181539833546,
+    "gt_intercept_x": 898.112548828125,
+    "signed_angle_diff_deg": -0.19786144227626612,
+    "signed_position_diff_px": 6.79656982421875,
+    "ipd_px": 408.77313232421875,
+    "yc": 1130.109130859375,
+    "gt_axis_points": [
+      [
+        905.7777709960938,
+        554.9629516601562
+      ],
+      [
+        924.2963256835938,
+        1895.7037353515625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李伯忱.JPG",
+    "endpoint_mae_px": 1.619873046875,
+    "endpoint_mae_norm": 0.001565384678542614,
+    "midpoint_x_error_px": 1.6198400253779255,
+    "midpoint_x_error_norm": 0.0015653848353413286,
+    "angle_error_deg": 0.008689035257932964,
+    "pred_slope_xy": 0.00015165227523539215,
+    "pred_intercept_x": 1037.4166259765625,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 1036.0,
+    "signed_angle_diff_deg": 0.008689035257932964,
+    "signed_position_diff_px": 1.4166259765625,
+    "ipd_px": 356.5846862792969,
+    "yc": 1223.72509765625,
+    "gt_axis_points": [
+      [
+        1036.0,
+        848.0
+      ],
+      [
+        1036.0,
+        1832.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/李璐杉.JPG",
+    "endpoint_mae_px": 5.82965087890625,
+    "endpoint_mae_norm": 0.004913617856800556,
+    "midpoint_x_error_px": 3.333756020758301,
+    "midpoint_x_error_norm": 0.002809932892268453,
+    "angle_error_deg": 0.596430803461208,
+    "pred_slope_xy": 0.0003041947784367949,
+    "pred_intercept_x": 1002.3206787109375,
+    "gt_slope_xy": 0.010714286006987095,
+    "gt_intercept_x": 993.8285522460938,
+    "signed_angle_diff_deg": -0.596430803461208,
+    "signed_position_diff_px": 8.49212646484375,
+    "ipd_px": 391.4522399902344,
+    "yc": 1032.840087890625,
+    "gt_axis_points": [
+      [
+        1000.0,
+        576.0
+      ],
+      [
+        1012.0,
+        1696.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/江竞航.JPG",
+    "endpoint_mae_px": 8.014617919921875,
+    "endpoint_mae_norm": 0.006645744200795889,
+    "midpoint_x_error_px": 8.014629006385803,
+    "midpoint_x_error_norm": 0.006645744724163016,
+    "angle_error_deg": 0.5636787522067386,
+    "pred_slope_xy": -0.028612345457077026,
+    "pred_intercept_x": 934.0369262695312,
+    "gt_slope_xy": -0.03846153989434242,
+    "gt_intercept_x": 954.4615478515625,
+    "signed_angle_diff_deg": 0.5636787522067386,
+    "signed_position_diff_px": -20.42462158203125,
+    "ipd_px": 407.26123046875,
+    "yc": 1127.6231689453125,
+    "gt_axis_points": [
+      [
+        928.0,
+        688.0
+      ],
+      [
+        884.0,
+        1832.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/胡芷毓.JPG",
+    "endpoint_mae_px": 4.94683837890625,
+    "endpoint_mae_norm": 0.00408006738871336,
+    "midpoint_x_error_px": 4.946802388589049,
+    "midpoint_x_error_norm": 0.00408006723578995,
+    "angle_error_deg": 0.3862191964352197,
+    "pred_slope_xy": -0.0007527933921664953,
+    "pred_intercept_x": 1099.937255859375,
+    "gt_slope_xy": 0.0059880749322474,
+    "gt_intercept_x": 1096.9677734375,
+    "signed_angle_diff_deg": -0.3862191964352197,
+    "signed_position_diff_px": 2.969482421875,
+    "ipd_px": 412.26324462890625,
+    "yc": 1041.8150634765625,
+    "gt_axis_points": [
+      [
+        1100.2962646484375,
+        555.8518676757812
+      ],
+      [
+        1107.7037353515625,
+        1792.888916015625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/谷俊杰.JPG",
+    "endpoint_mae_px": 2.454864501953125,
+    "endpoint_mae_norm": 0.0020478973165154457,
+    "midpoint_x_error_px": 2.4548876360058784,
+    "midpoint_x_error_norm": 0.0020478973589419525,
+    "angle_error_deg": 0.06155801064366073,
+    "pred_slope_xy": 0.008793937042355537,
+    "pred_intercept_x": 966.0076904296875,
+    "gt_slope_xy": 0.009868420660495758,
+    "gt_intercept_x": 962.2763061523438,
+    "signed_angle_diff_deg": -0.06155801064366073,
+    "signed_position_diff_px": 3.73138427734375,
+    "ipd_px": 389.49151611328125,
+    "yc": 1049.581787109375,
+    "gt_axis_points": [
+      [
+        968.0,
+        580.0
+      ],
+      [
+        980.0,
+        1796.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/赖俊颖.JPG",
+    "endpoint_mae_px": 5.88818359375,
+    "endpoint_mae_norm": 0.005237034521996975,
+    "midpoint_x_error_px": 5.457098402213433,
+    "midpoint_x_error_norm": 0.00485365187248471,
+    "angle_error_deg": 0.5876524977855209,
+    "pred_slope_xy": 0.010256830602884293,
+    "pred_intercept_x": 980.1103515625,
+    "gt_slope_xy": 0.0,
+    "gt_intercept_x": 987.25927734375,
+    "signed_angle_diff_deg": 0.5876524977855209,
+    "signed_position_diff_px": -7.14892578125,
+    "ipd_px": 382.8863220214844,
+    "yc": 1125.13330078125,
+    "gt_axis_points": [
+      [
+        987.25927734375,
+        654.9629516601562
+      ],
+      [
+        987.25927734375,
+        1803.111083984375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/赖巧.JPG",
+    "endpoint_mae_px": 4.796600341796875,
+    "endpoint_mae_norm": 0.004158074967563152,
+    "midpoint_x_error_px": 4.796637195373933,
+    "midpoint_x_error_norm": 0.004158074983067736,
+    "angle_error_deg": 0.04226455432266152,
+    "pred_slope_xy": 0.01080488134175539,
+    "pred_intercept_x": 893.0170288085938,
+    "gt_slope_xy": 0.010067145340144634,
+    "gt_intercept_x": 898.7367553710938,
+    "signed_angle_diff_deg": 0.04226455432266152,
+    "signed_position_diff_px": -5.7197265625,
+    "ipd_px": 400.6952209472656,
+    "yc": 1152.993896484375,
+    "gt_axis_points": [
+      [
+        905.7777709960938,
+        699.4074096679688
+      ],
+      [
+        916.888916015625,
+        1803.111083984375
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/郭达.JPG",
+    "endpoint_mae_px": 7.36053466796875,
+    "endpoint_mae_norm": 0.007817433215677738,
+    "midpoint_x_error_px": 7.360541814938188,
+    "midpoint_x_error_norm": 0.007817432962945035,
+    "angle_error_deg": 0.0410320137509938,
+    "pred_slope_xy": 0.003829298075288534,
+    "pred_intercept_x": 978.3353271484375,
+    "gt_slope_xy": 0.004545454401522875,
+    "gt_intercept_x": 984.8909301757812,
+    "signed_angle_diff_deg": -0.0410320137509938,
+    "signed_position_diff_px": -6.55560302734375,
+    "ipd_px": 324.318603515625,
+    "yc": 1015.8369140625,
+    "gt_axis_points": [
+      [
+        988.0,
+        684.0
+      ],
+      [
+        992.0,
+        1564.0
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/顾振西.JPG",
+    "endpoint_mae_px": 1.161651611328125,
+    "endpoint_mae_norm": 0.0009247064008377492,
+    "midpoint_x_error_px": 1.1616215364374511,
+    "midpoint_x_error_norm": 0.0009247062114519089,
+    "angle_error_deg": 0.10329488454045066,
+    "pred_slope_xy": 0.010523959994316101,
+    "pred_intercept_x": 940.1844482421875,
+    "gt_slope_xy": 0.00872095674276352,
+    "gt_intercept_x": 941.2587890625,
+    "signed_angle_diff_deg": 0.10329488454045066,
+    "signed_position_diff_px": -1.0743408203125,
+    "ipd_px": 425.37310791015625,
+    "yc": 1117.3359375,
+    "gt_axis_points": [
+      [
+        946.5184936523438,
+        603.111083984375
+      ],
+      [
+        957.629638671875,
+        1877.1851806640625
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄洪秀.JPG",
+    "endpoint_mae_px": 5.188079833984375,
+    "endpoint_mae_norm": 0.004957929253578186,
+    "midpoint_x_error_px": 0.6173097704593147,
+    "midpoint_x_error_norm": 0.0005899199961354948,
+    "angle_error_deg": 0.5508196278210251,
+    "pred_slope_xy": 0.006418801378458738,
+    "pred_intercept_x": 882.0524291992188,
+    "gt_slope_xy": -0.0031949137337505817,
+    "gt_intercept_x": 891.7840576171875,
+    "signed_angle_diff_deg": 0.5508196278210251,
+    "signed_position_diff_px": -9.73162841796875,
+    "ipd_px": 356.5242004394531,
+    "yc": 991.4638671875,
+    "gt_axis_points": [
+      [
+        890.0689697265625,
+        536.8275756835938
+      ],
+      [
+        886.6206665039062,
+        1616.137939453125
+      ]
+    ]
+  },
+  {
+    "file_name": "2. 对称轴157张/黄诗航.JPG",
+    "endpoint_mae_px": 6.97882080078125,
+    "endpoint_mae_norm": 0.00633163470774889,
+    "midpoint_x_error_px": 6.978831134736538,
+    "midpoint_x_error_norm": 0.0063316348198231565,
+    "angle_error_deg": 0.04453655632898312,
+    "pred_slope_xy": 0.013508254662156105,
+    "pred_intercept_x": 1053.837890625,
+    "gt_slope_xy": 0.014285714365541935,
+    "gt_intercept_x": 1059.94287109375,
+    "signed_angle_diff_deg": -0.04453655632898312,
+    "signed_position_diff_px": -6.10498046875,
+    "ipd_px": 365.1070556640625,
+    "yc": 1011.5068359375,
+    "gt_axis_points": [
+      [
+        1068.0,
+        564.0
+      ],
+      [
+        1084.0,
+        1684.0
+      ]
+    ]
+  }
+]

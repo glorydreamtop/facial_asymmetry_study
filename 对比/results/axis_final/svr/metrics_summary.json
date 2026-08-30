@@ -1,0 +1,32 @@
+{
+  "model_type": "SVR",
+  "feature_source": "pred",
+  "feature_set": "coords_geom",
+  "seed": 11,
+  "splits": {
+    "trainval": {
+      "n_samples": 226,
+      "endpoint_mae_px": 5.680698496050539,
+      "endpoint_median_px": 5.57672119140625,
+      "endpoint_mae_norm": 0.004689070329804641,
+      "endpoint_median_norm": 0.004845622461289167,
+      "midpoint_x_mae_px": 4.406783938848121,
+      "midpoint_x_mae_norm": 0.00364804560008623,
+      "angle_mae_deg": 0.3675841265024487,
+      "angle_median_deg": 0.38057515127559877,
+      "target_r2": 0.4144496023654938
+    },
+    "test": {
+      "n_samples": 57,
+      "endpoint_mae_px": 5.4561103686951755,
+      "endpoint_median_px": 4.3126220703125,
+      "endpoint_mae_norm": 0.004356818236900787,
+      "endpoint_median_norm": 0.0035657535772770643,
+      "midpoint_x_mae_px": 2.9701395612677306,
+      "midpoint_x_mae_norm": 0.0023501439805472717,
+      "angle_mae_deg": 0.40678071946100314,
+      "angle_median_deg": 0.2789164171760277,
+      "target_r2": 0.1400127410888672
+    }
+  }
+}

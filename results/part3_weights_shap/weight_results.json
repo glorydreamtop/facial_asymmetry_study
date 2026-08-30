@@ -1,1332 +1,1819 @@
 {
-  "note": "v2 pipeline: 100 subjects, expert landmarks + expert axis.",
+  "note": "283-subject pipeline (pred route): HRNet-predicted landmarks + expert axis.",
   "regression": {
-    "intercept_beta_0": 16.030353771985382,
-    "r_squared": 0.9974660245143466,
-    "adjusted_r_squared": 0.9973312385842587,
-    "rmse": 0.7223618683300486,
-    "mae": 0.46619616766769484,
-    "n_samples": 100
+    "intercept_beta_0": 49.806537102473484,
+    "r_squared": 0.9764060997420474,
+    "adjusted_r_squared": 0.9759802170659111,
+    "rmse": 2.5941462621258267,
+    "mae": 1.8611844850764454,
+    "n_samples": 283
   },
   "region_weights": [
     {
       "region_key": "VAS-eyebrow",
       "region": "Eyebrow",
-      "raw_coefficient": 184.33070231591662,
+      "raw_coefficient": 2.6154389642300515,
       "raw_coefficient_95ci": [
-        174.27016524236276,
-        194.39123938947048
+        2.283268352059321,
+        2.947609576400782
       ],
-      "standardized_beta": 0.21327226192371973,
+      "standardized_beta": 2.6154389642300515,
       "standardized_beta_95ci": [
-        0.2016321310562804,
-        0.22491239279115904
+        2.283268352059321,
+        2.947609576400782
       ],
-      "positive_standardized_beta": 0.21327226192371973,
-      "normalized_weight": 0.16662962743793736,
-      "vif": 1.2878222914075395,
+      "positive_standardized_beta": 2.6154389642300515,
+      "normalized_weight": 0.10867419861381918,
+      "vif": 1.1719625292819276,
       "p_value": 0.0
     },
     {
       "region_key": "VAS-eye",
       "region": "Eye",
-      "raw_coefficient": 133.26022739843137,
+      "raw_coefficient": 3.722340597752197,
       "raw_coefficient_95ci": [
-        116.77674261588523,
-        149.74371218097752
+        3.3696460388905685,
+        4.075035156613826
       ],
-      "standardized_beta": 0.09359960077973045,
+      "standardized_beta": 3.722340597752197,
       "standardized_beta_95ci": [
-        0.08202189582435648,
-        0.10517730573510442
+        3.3696460388905685,
+        4.075035156613826
       ],
-      "positive_standardized_beta": 0.09359960077973045,
-      "normalized_weight": 0.07312937212549696,
-      "vif": 1.274046173717492,
+      "positive_standardized_beta": 3.722340597752197,
+      "normalized_weight": 0.15466710826015792,
+      "vif": 1.3212616572875107,
       "p_value": 0.0
     },
     {
       "region_key": "VAS-nose",
       "region": "Nose",
-      "raw_coefficient": 48.3608201935088,
+      "raw_coefficient": 3.4551111398973045,
       "raw_coefficient_95ci": [
-        37.42233895226118,
-        59.29930143475642
+        3.0945006746332795,
+        3.8157216051613294
       ],
-      "standardized_beta": 0.049487309625008684,
+      "standardized_beta": 3.4551111398973045,
       "standardized_beta_95ci": [
-        0.038294033624995186,
-        0.060680585625022196
+        3.0945006746332795,
+        3.8157216051613294
       ],
-      "positive_standardized_beta": 0.049487309625008684,
-      "normalized_weight": 0.03866443714405947,
-      "vif": 1.1908433541795305,
-      "p_value": 7.260858581048524e-14
+      "positive_standardized_beta": 3.4551111398973045,
+      "normalized_weight": 0.14356344743091923,
+      "vif": 1.3812362415346302,
+      "p_value": 0.0
     },
     {
       "region_key": "VAS-mouth",
       "region": "Mouth",
-      "raw_coefficient": -1.9959617670448506,
+      "raw_coefficient": 5.7038961023669055,
       "raw_coefficient_95ci": [
-        -14.8350704052918,
-        10.8431468712021
+        5.288578770172681,
+        6.1192134345611295
       ],
-      "standardized_beta": -0.0019132317511880935,
+      "standardized_beta": 5.7038961023669055,
       "standardized_beta_95ci": [
-        -0.014220176057048345,
-        0.010393712554672158
+        5.288578770172681,
+        6.1192134345611295
       ],
-      "positive_standardized_beta": 0.0,
-      "normalized_weight": 0.0,
-      "vif": 1.439596170221765,
-      "p_value": 0.758256725908276
+      "positive_standardized_beta": 5.7038961023669055,
+      "normalized_weight": 0.23700279241029434,
+      "vif": 1.8321094884097988,
+      "p_value": 0.0
     },
     {
       "region_key": "VAS-facial contour",
-      "region": "Facial Contour",
-      "raw_coefficient": 362.4199191836841,
+      "region": "Facial contour",
+      "raw_coefficient": 8.570001794988432,
       "raw_coefficient_95ci": [
-        357.87044402458395,
-        366.96939434278426
+        8.214537619901703,
+        8.92546597007516
       ],
-      "standardized_beta": 0.9235588422704444,
+      "standardized_beta": 8.570001794988432,
       "standardized_beta_95ci": [
-        0.911965362474023,
-        0.9351523220668656
+        8.214537619901703,
+        8.92546597007516
       ],
-      "positive_standardized_beta": 0.9235588422704444,
-      "normalized_weight": 0.7215765632925062,
-      "vif": 1.2775203627423726,
+      "positive_standardized_beta": 8.570001794988432,
+      "normalized_weight": 0.3560924532848093,
+      "vif": 1.3420941636520904,
       "p_value": 0.0
     }
   ],
-  "fa_vs_vas": {
-    "pearson_r": 0.9858121294442383,
-    "pearson_p": 8.999380701290838e-78,
-    "spearman_r": 0.9715955883172289,
-    "spearman_p": 3.797121722394251e-63
-  },
   "shap": {
-    "model": "RandomForestRegressor",
-    "pearson_r": 0.987902423347985,
-    "pearson_p": 3.836869113918853e-81,
-    "spearman_r": 0.9880453060840516,
-    "spearman_p": 2.1508434871586056e-81,
     "mean_abs_shap": {
-      "VAS-eyebrow": 1.3315367127233118,
-      "VAS-eye": 0.1301912707850539,
-      "VAS-nose": 0.07798948907827585,
-      "VAS-mouth": 0.0662189711772349,
-      "VAS-facial contour": 10.574269923218198
+      "VAS-eyebrow": 1.0518652168140885,
+      "VAS-eye": 1.4192766762171176,
+      "VAS-nose": 1.381293063379074,
+      "VAS-mouth": 7.597895913829979,
+      "VAS-facial contour": 7.025978417357193
     },
     "normalized_weight": {
-      "VAS-eyebrow": 0.10931971697399331,
-      "VAS-eye": 0.010688757387393246,
-      "VAS-nose": 0.006402969434876622,
-      "VAS-mouth": 0.00543660502803469,
-      "VAS-facial contour": 0.8681519511757021
+      "VAS-eyebrow": 0.05693048327136262,
+      "VAS-eye": 0.07681602716890175,
+      "VAS-nose": 0.07476022629185426,
+      "VAS-mouth": 0.4112236808533077,
+      "VAS-facial contour": 0.3802695824145737
     }
   },
   "per_sample": [
     {
-      "Name": "FA0001",
-      "VAS-eyebrow": 0.049048,
-      "VAS-eye": 0.015237,
-      "VAS-nose": 0.036917,
-      "VAS-mouth": 0.051513,
-      "VAS-facial contour": 0.088173,
-      "VAS-global": 61.5,
-      "FA-global-raw": 0.07433806755088955,
-      "FA-global-calibrated": 60.625090056690546,
-      "VAS-diff": -0.8749099433094543
+      "Name": "1.对称轴133张/丁兰.JPG",
+      "VAS-global": 63.75,
+      "FA-global-raw": 0.4848086690160202,
+      "FA-global-calibrated": 61.474324850758485
     },
     {
-      "Name": "FA0002",
-      "VAS-eyebrow": 0.039952,
-      "VAS-eye": 0.033764,
-      "VAS-nose": 0.021229,
-      "VAS-mouth": 0.03466,
-      "VAS-facial contour": 0.097997,
-      "VAS-global": 65.0,
-      "FA-global-raw": 0.08065947280495271,
-      "FA-global-calibrated": 63.917326899586854,
-      "VAS-diff": -1.082673100413146
+      "Name": "1.对称轴133张/丁柯文.JPG",
+      "VAS-global": 41.0,
+      "FA-global-raw": -0.21291915312760545,
+      "FA-global-calibrated": 44.68225685542328
     },
     {
-      "Name": "FA0003",
-      "VAS-eyebrow": 0.024193,
-      "VAS-eye": 0.030447,
-      "VAS-nose": 0.053745,
-      "VAS-mouth": 0.038728,
-      "VAS-facial contour": 0.084568,
-      "VAS-global": 56.75,
-      "FA-global-raw": 0.06935814754853917,
-      "FA-global-calibrated": 58.0315091284822,
-      "VAS-diff": 1.281509128482199
+      "Name": "1.对称轴133张/丁琳玲.JPG",
+      "VAS-global": 24.0,
+      "FA-global-raw": -0.8984560929334339,
+      "FA-global-calibrated": 28.18358424814999
     },
     {
-      "Name": "FA0004",
-      "VAS-eyebrow": 0.036578,
-      "VAS-eye": 0.026401,
-      "VAS-nose": 0.031431,
-      "VAS-mouth": 0.025633,
-      "VAS-facial contour": 0.066843,
-      "VAS-global": 52.0,
-      "FA-global-raw": 0.05747327120994604,
-      "FA-global-calibrated": 51.841773431655454,
-      "VAS-diff": -0.15822656834454563
-    },
-    {
-      "Name": "FA0005",
-      "VAS-eyebrow": 0.047846,
-      "VAS-eye": 0.039218,
-      "VAS-nose": 0.029556,
-      "VAS-mouth": 0.067137,
-      "VAS-facial contour": 0.097911,
-      "VAS-global": 67.5,
-      "FA-global-raw": 0.08263359786317569,
-      "FA-global-calibrated": 64.94546652803245,
-      "VAS-diff": -2.554533471967545
-    },
-    {
-      "Name": "FA0006",
-      "VAS-eyebrow": 0.025199,
-      "VAS-eye": 0.009154,
-      "VAS-nose": 0.011528,
-      "VAS-mouth": 0.021926,
-      "VAS-facial contour": 0.032394,
-      "VAS-global": 34.0,
-      "FA-global-raw": 0.028688801076939545,
-      "FA-global-calibrated": 36.850598326369976,
-      "VAS-diff": 2.850598326369976
-    },
-    {
-      "Name": "FA0007",
-      "VAS-eyebrow": 0.055265,
-      "VAS-eye": 0.024412,
-      "VAS-nose": 0.018636,
-      "VAS-mouth": 0.022578,
-      "VAS-facial contour": 0.129474,
-      "VAS-global": 78.0,
-      "FA-global-raw": 0.10513997499903588,
-      "FA-global-calibrated": 76.66696214946437,
-      "VAS-diff": -1.3330378505356322
-    },
-    {
-      "Name": "FA0008",
-      "VAS-eyebrow": 0.036513,
-      "VAS-eye": 0.011102,
-      "VAS-nose": 0.014296,
-      "VAS-mouth": 0.033488,
-      "VAS-facial contour": 0.065964,
-      "VAS-global": 48.25,
-      "FA-global-raw": 0.05504685309041703,
-      "FA-global-calibrated": 50.578076071918865,
-      "VAS-diff": 2.328076071918865
-    },
-    {
-      "Name": "FA0009",
-      "VAS-eyebrow": 0.034066,
-      "VAS-eye": 0.018279,
-      "VAS-nose": 0.024441,
-      "VAS-mouth": 0.041308,
-      "VAS-facial contour": 0.045451,
-      "VAS-global": 42.0,
-      "FA-global-raw": 0.04075451056782839,
-      "FA-global-calibrated": 43.13451333024595,
-      "VAS-diff": 1.1345133302459516
-    },
-    {
-      "Name": "FA0010",
-      "VAS-eyebrow": 0.061667,
-      "VAS-eye": 0.025212,
-      "VAS-nose": 0.02951,
-      "VAS-mouth": 0.025981,
-      "VAS-facial contour": 0.186972,
-      "VAS-global": 100.0,
-      "FA-global-raw": 0.14817488769729095,
-      "FA-global-calibrated": 99.07987817394397,
-      "VAS-diff": -0.9201218260560324
-    },
-    {
-      "Name": "FA0011",
-      "VAS-eyebrow": 0.030344,
-      "VAS-eye": 0.01314,
-      "VAS-nose": 0.018329,
-      "VAS-mouth": 0.039191,
-      "VAS-facial contour": 0.149996,
-      "VAS-global": 78.75,
-      "FA-global-raw": 0.11495940802074202,
-      "FA-global-calibrated": 81.78099896107908,
-      "VAS-diff": 3.030998961079078
-    },
-    {
-      "Name": "FA0012",
-      "VAS-eyebrow": 0.052573,
-      "VAS-eye": 0.022145,
-      "VAS-nose": 0.015883,
-      "VAS-mouth": 0.030794,
-      "VAS-facial contour": 0.046467,
-      "VAS-global": 46.0,
-      "FA-global-raw": 0.044523274770685795,
-      "FA-global-calibrated": 45.09731493244678,
-      "VAS-diff": -0.9026850675532216
-    },
-    {
-      "Name": "FA0013",
-      "VAS-eyebrow": 0.036074,
-      "VAS-eye": 0.016323,
-      "VAS-nose": 0.011765,
-      "VAS-mouth": 0.027667,
-      "VAS-facial contour": 0.117295,
-      "VAS-global": 68.5,
-      "FA-global-raw": 0.092296898015795,
-      "FA-global-calibrated": 69.97818813150346,
-      "VAS-diff": 1.4781881315034582
-    },
-    {
-      "Name": "FA0014",
-      "VAS-eyebrow": 0.029677,
-      "VAS-eye": 0.01037,
-      "VAS-nose": 0.025182,
-      "VAS-mouth": 0.02063,
-      "VAS-facial contour": 0.075831,
-      "VAS-global": 51.25,
-      "FA-global-raw": 0.06139493926961281,
-      "FA-global-calibrated": 53.884208547383224,
-      "VAS-diff": 2.634208547383224
-    },
-    {
-      "Name": "FA0015",
-      "VAS-eyebrow": 0.037449,
-      "VAS-eye": 0.022069,
-      "VAS-nose": 0.00423,
-      "VAS-mouth": 0.018273,
-      "VAS-facial contour": 0.050686,
-      "VAS-global": 44.0,
-      "FA-global-raw": 0.04459138528752425,
-      "FA-global-calibrated": 45.132787417426314,
-      "VAS-diff": 1.1327874174263144
-    },
-    {
-      "Name": "FA0016",
-      "VAS-eyebrow": 0.050415,
-      "VAS-eye": 0.035488,
-      "VAS-nose": 0.046747,
-      "VAS-mouth": 0.061756,
-      "VAS-facial contour": 0.099566,
-      "VAS-global": 68.5,
-      "FA-global-raw": 0.08464778636922826,
-      "FA-global-calibrated": 65.9944715105721,
-      "VAS-diff": -2.5055284894279026
-    },
-    {
-      "Name": "FA0017",
-      "VAS-eyebrow": 0.065533,
-      "VAS-eye": 0.010018,
-      "VAS-nose": 0.01687,
-      "VAS-mouth": 0.042672,
-      "VAS-facial contour": 0.061808,
-      "VAS-global": 53.5,
-      "FA-global-raw": 0.056903822703447085,
-      "FA-global-calibrated": 51.54520023663317,
-      "VAS-diff": -1.9547997633668288
-    },
-    {
-      "Name": "FA0018",
-      "VAS-eyebrow": 0.031683,
-      "VAS-eye": 0.021616,
-      "VAS-nose": 0.063317,
-      "VAS-mouth": 0.030827,
-      "VAS-facial contour": 0.046678,
-      "VAS-global": 45.5,
-      "FA-global-raw": 0.04298995798199893,
-      "FA-global-calibrated": 44.29875166673911,
-      "VAS-diff": -1.2012483332608923
-    },
-    {
-      "Name": "FA0019",
-      "VAS-eyebrow": 0.033097,
-      "VAS-eye": 0.018433,
-      "VAS-nose": 0.047742,
-      "VAS-mouth": 0.039823,
-      "VAS-facial contour": 0.11766,
-      "VAS-global": 69.25,
-      "FA-global-raw": 0.09360955049083067,
-      "FA-global-calibrated": 70.66182771266364,
-      "VAS-diff": 1.4118277126636372
-    },
-    {
-      "Name": "FA0020",
-      "VAS-eyebrow": 0.053253,
-      "VAS-eye": 0.015908,
-      "VAS-nose": 0.018579,
-      "VAS-mouth": 0.022718,
-      "VAS-facial contour": 0.070968,
-      "VAS-global": 55.0,
-      "FA-global-raw": 0.061964061723166944,
-      "FA-global-calibrated": 54.180611931505155,
-      "VAS-diff": -0.8193880684948454
-    },
-    {
-      "Name": "FA0021",
-      "VAS-eyebrow": 0.025784,
-      "VAS-eye": 0.012591,
-      "VAS-nose": 0.007374,
-      "VAS-mouth": 0.040379,
-      "VAS-facial contour": 0.083352,
-      "VAS-global": 52.5,
-      "FA-global-raw": 0.06564711150134916,
-      "FA-global-calibrated": 56.0987727971068,
-      "VAS-diff": 3.598772797106797
-    },
-    {
-      "Name": "FA0022",
-      "VAS-eyebrow": 0.046818,
-      "VAS-eye": 0.019562,
-      "VAS-nose": 0.025509,
-      "VAS-mouth": 0.039803,
-      "VAS-facial contour": 0.083331,
-      "VAS-global": 59.0,
-      "FA-global-raw": 0.07034781039774397,
-      "FA-global-calibrated": 58.54693320956031,
-      "VAS-diff": -0.4530667904396921
-    },
-    {
-      "Name": "FA0023",
-      "VAS-eyebrow": 0.043185,
-      "VAS-eye": 0.02054,
-      "VAS-nose": 0.012259,
-      "VAS-mouth": 0.031753,
-      "VAS-facial contour": 0.083725,
-      "VAS-global": 57.75,
-      "FA-global-raw": 0.06958596286097914,
-      "FA-global-calibrated": 58.150157108614266,
-      "VAS-diff": 0.4001571086142661
-    },
-    {
-      "Name": "FA0024",
-      "VAS-eyebrow": 0.035144,
-      "VAS-eye": 0.012785,
-      "VAS-nose": 0.038751,
-      "VAS-mouth": 0.022645,
-      "VAS-facial contour": 0.020947,
+      "Name": "1.对称轴133张/丰羽辰.JPG",
       "VAS-global": 33.5,
-      "FA-global-raw": 0.023404140524360927,
-      "FA-global-calibrated": 34.0983061580713,
-      "VAS-diff": 0.5983061580713027
+      "FA-global-raw": -0.7193629548363651,
+      "FA-global-calibrated": 32.493780942305726
     },
     {
-      "Name": "FA0025",
-      "VAS-eyebrow": 0.042303,
-      "VAS-eye": 0.030217,
-      "VAS-nose": 0.035143,
-      "VAS-mouth": 0.04082,
-      "VAS-facial contour": 0.11358,
-      "VAS-global": 70.5,
-      "FA-global-raw": 0.09257413374033974,
-      "FA-global-calibrated": 70.12257464523418,
-      "VAS-diff": -0.37742535476581907
-    },
-    {
-      "Name": "FA0026",
-      "VAS-eyebrow": 0.035116,
-      "VAS-eye": 0.025225,
-      "VAS-nose": 0.014392,
-      "VAS-mouth": 0.024125,
-      "VAS-facial contour": 0.086934,
-      "VAS-global": 58.75,
-      "FA-global-raw": 0.0709820499416243,
-      "FA-global-calibrated": 58.87725007893716,
-      "VAS-diff": 0.12725007893715912
-    },
-    {
-      "Name": "FA0027",
-      "VAS-eyebrow": 0.038892,
-      "VAS-eye": 0.011919,
-      "VAS-nose": 0.024842,
-      "VAS-mouth": 0.014531,
-      "VAS-facial contour": 0.063204,
-      "VAS-global": 50.0,
-      "FA-global-raw": 0.053919215510552336,
-      "FA-global-calibrated": 49.990793681903014,
-      "VAS-diff": -0.00920631809698591
-    },
-    {
-      "Name": "FA0028",
-      "VAS-eyebrow": 0.054334,
-      "VAS-eye": 0.027494,
-      "VAS-nose": 0.025218,
-      "VAS-mouth": 0.040349,
-      "VAS-facial contour": 0.102207,
-      "VAS-global": 69.0,
-      "FA-global-raw": 0.08578948871476737,
-      "FA-global-calibrated": 66.58907893954353,
-      "VAS-diff": -2.4109210604564737
-    },
-    {
-      "Name": "FA0029",
-      "VAS-eyebrow": 0.064162,
-      "VAS-eye": 0.03117,
-      "VAS-nose": 0.022736,
-      "VAS-mouth": 0.064521,
-      "VAS-facial contour": 0.118002,
-      "VAS-global": 76.0,
-      "FA-global-raw": 0.09899728494937432,
-      "FA-global-calibrated": 73.46780156994137,
-      "VAS-diff": -2.532198430058628
-    },
-    {
-      "Name": "FA0030",
-      "VAS-eyebrow": 0.019223,
-      "VAS-eye": 0.016906,
-      "VAS-nose": 0.010576,
-      "VAS-mouth": 0.014009,
-      "VAS-facial contour": 0.035191,
-      "VAS-global": 34.0,
-      "FA-global-raw": 0.03024136241945528,
-      "FA-global-calibrated": 37.6591843048439,
-      "VAS-diff": 3.6591843048438975
-    },
-    {
-      "Name": "FA0031",
-      "VAS-eyebrow": 0.048213,
-      "VAS-eye": 0.017948,
-      "VAS-nose": 0.042673,
-      "VAS-mouth": 0.03659,
-      "VAS-facial contour": 0.097743,
-      "VAS-global": 65.0,
-      "FA-global-raw": 0.08152522575072157,
-      "FA-global-calibrated": 64.36821774273827,
-      "VAS-diff": -0.6317822572617331
-    },
-    {
-      "Name": "FA0032",
-      "VAS-eyebrow": 0.055532,
-      "VAS-eye": 0.024912,
-      "VAS-nose": 0.027455,
-      "VAS-mouth": 0.031855,
-      "VAS-facial contour": 0.071808,
-      "VAS-global": 57.5,
-      "FA-global-raw": 0.06395157736797236,
-      "FA-global-calibrated": 55.21572548121079,
-      "VAS-diff": -2.2842745187892106
-    },
-    {
-      "Name": "FA0033",
-      "VAS-eyebrow": 0.024462,
-      "VAS-eye": 0.019726,
-      "VAS-nose": 0.006159,
-      "VAS-mouth": 0.025464,
-      "VAS-facial contour": 0.034464,
-      "VAS-global": 35.25,
-      "FA-global-raw": 0.030625192886617573,
-      "FA-global-calibrated": 37.85908618656641,
-      "VAS-diff": 2.609086186566408
-    },
-    {
-      "Name": "FA0034",
-      "VAS-eyebrow": 0.035709,
-      "VAS-eye": 0.016636,
-      "VAS-nose": 0.013488,
-      "VAS-mouth": 0.042995,
-      "VAS-facial contour": 0.131177,
-      "VAS-global": 73.25,
-      "FA-global-raw": 0.10234251237208122,
-      "FA-global-calibrated": 75.21002193491859,
-      "VAS-diff": 1.9600219349185863
-    },
-    {
-      "Name": "FA0035",
-      "VAS-eyebrow": 0.093275,
-      "VAS-eye": 0.026534,
-      "VAS-nose": 0.024029,
-      "VAS-mouth": 0.023185,
-      "VAS-facial contour": 0.034888,
-      "VAS-global": 51.5,
-      "FA-global-raw": 0.0435862241595351,
-      "FA-global-calibrated": 44.60929171265623,
-      "VAS-diff": -6.89070828734377
-    },
-    {
-      "Name": "FA0036",
-      "VAS-eyebrow": 0.053736,
-      "VAS-eye": 0.031775,
-      "VAS-nose": 0.032712,
-      "VAS-mouth": 0.039355,
-      "VAS-facial contour": 0.049522,
-      "VAS-global": 50.0,
-      "FA-global-raw": 0.048276401094520624,
-      "FA-global-calibrated": 47.05197220606975,
-      "VAS-diff": -2.948027793930251
-    },
-    {
-      "Name": "FA0037",
-      "VAS-eyebrow": 0.039724,
-      "VAS-eye": 0.010269,
-      "VAS-nose": 0.070922,
-      "VAS-mouth": 0.022403,
-      "VAS-facial contour": 0.045919,
-      "VAS-global": 45.0,
-      "FA-global-raw": 0.04324639426366093,
-      "FA-global-calibrated": 44.432305669434996,
-      "VAS-diff": -0.5676943305650042
-    },
-    {
-      "Name": "FA0038",
-      "VAS-eyebrow": 0.037561,
-      "VAS-eye": 0.03414,
-      "VAS-nose": 0.023391,
-      "VAS-mouth": 0.030959,
-      "VAS-facial contour": 0.03031,
-      "VAS-global": 39.75,
-      "FA-global-raw": 0.03153079768319339,
-      "FA-global-calibrated": 38.330732182442745,
-      "VAS-diff": -1.4192678175572553
-    },
-    {
-      "Name": "FA0039",
-      "VAS-eyebrow": 0.019118,
-      "VAS-eye": 0.013062,
-      "VAS-nose": 0.027889,
-      "VAS-mouth": 0.019461,
-      "VAS-facial contour": 0.048135,
-      "VAS-global": 39.5,
-      "FA-global-raw": 0.03995224143765719,
-      "FA-global-calibrated": 42.71668535021409,
-      "VAS-diff": 3.2166853502140924
-    },
-    {
-      "Name": "FA0040",
-      "VAS-eyebrow": 0.043118,
-      "VAS-eye": 0.014669,
-      "VAS-nose": 0.011645,
-      "VAS-mouth": 0.042508,
-      "VAS-facial contour": 0.059493,
-      "VAS-global": 47.75,
-      "FA-global-raw": 0.05163647288608154,
-      "FA-global-calibrated": 48.80192363337986,
-      "VAS-diff": 1.0519236333798574
-    },
-    {
-      "Name": "FA0041",
-      "VAS-eyebrow": 0.033523,
-      "VAS-eye": 0.009461,
-      "VAS-nose": 0.021155,
-      "VAS-mouth": 0.016808,
-      "VAS-facial contour": 0.041694,
-      "VAS-global": 40.0,
-      "FA-global-raw": 0.03718116138798163,
-      "FA-global-calibrated": 41.27348538636225,
-      "VAS-diff": 1.2734853863622533
-    },
-    {
-      "Name": "FA0042",
-      "VAS-eyebrow": 0.068132,
-      "VAS-eye": 0.04223,
-      "VAS-nose": 0.058508,
-      "VAS-mouth": 0.070266,
-      "VAS-facial contour": 0.024492,
-      "VAS-global": 45.5,
-      "FA-global-raw": 0.03437609523804598,
-      "FA-global-calibrated": 39.812585198125845,
-      "VAS-diff": -5.687414801874155
-    },
-    {
-      "Name": "FA0043",
-      "VAS-eyebrow": 0.034725,
-      "VAS-eye": 0.016969,
-      "VAS-nose": 0.006625,
-      "VAS-mouth": 0.024973,
-      "VAS-facial contour": 0.029918,
-      "VAS-global": 35.25,
-      "FA-global-raw": 0.028871425645044527,
-      "FA-global-calibrated": 36.94571061665492,
-      "VAS-diff": 1.695710616654921
-    },
-    {
-      "Name": "FA0044",
-      "VAS-eyebrow": 0.032321,
-      "VAS-eye": 0.026539,
-      "VAS-nose": 0.044607,
-      "VAS-mouth": 0.043204,
-      "VAS-facial contour": 0.0933,
-      "VAS-global": 62.0,
-      "FA-global-raw": 0.07637421449813603,
-      "FA-global-calibrated": 61.68553116556692,
-      "VAS-diff": -0.3144688344330788
-    },
-    {
-      "Name": "FA0045",
-      "VAS-eyebrow": 0.034132,
-      "VAS-eye": 0.013995,
-      "VAS-nose": 0.002312,
-      "VAS-mouth": 0.011306,
-      "VAS-facial contour": 0.024633,
-      "VAS-global": 33.5,
-      "FA-global-raw": 0.02457483566886938,
-      "FA-global-calibrated": 34.70801326142039,
-      "VAS-diff": 1.2080132614203904
-    },
-    {
-      "Name": "FA0046",
-      "VAS-eyebrow": 0.035112,
-      "VAS-eye": 0.021793,
-      "VAS-nose": 0.014823,
-      "VAS-mouth": 0.035617,
-      "VAS-facial contour": 0.034804,
-      "VAS-global": 38.5,
-      "FA-global-raw": 0.03313128154595059,
-      "FA-global-calibrated": 39.16427658082527,
-      "VAS-diff": 0.6642765808252733
-    },
-    {
-      "Name": "FA0047",
-      "VAS-eyebrow": 0.028866,
-      "VAS-eye": 0.024164,
-      "VAS-nose": 0.023093,
-      "VAS-mouth": 0.032304,
-      "VAS-facial contour": 0.046142,
-      "VAS-global": 42.5,
-      "FA-global-raw": 0.04076489260407459,
-      "FA-global-calibrated": 43.13992037517668,
-      "VAS-diff": 0.6399203751766791
-    },
-    {
-      "Name": "FA0048",
-      "VAS-eyebrow": 0.03918,
-      "VAS-eye": 0.029387,
-      "VAS-nose": 0.041799,
-      "VAS-mouth": 0.015704,
-      "VAS-facial contour": 0.064435,
-      "VAS-global": 52.75,
-      "FA-global-raw": 0.05678852232560755,
-      "FA-global-calibrated": 51.48515090635503,
-      "VAS-diff": -1.264849093644969
-    },
-    {
-      "Name": "FA0049",
-      "VAS-eyebrow": 0.102599,
-      "VAS-eye": 0.02384,
-      "VAS-nose": 0.057524,
-      "VAS-mouth": 0.052178,
-      "VAS-facial contour": 0.177273,
-      "VAS-global": 100.0,
-      "FA-global-raw": 0.1489796125638041,
-      "FA-global-calibrated": 99.49898512049299,
-      "VAS-diff": -0.5010148795070108
-    },
-    {
-      "Name": "FA0050",
-      "VAS-eyebrow": 0.089861,
-      "VAS-eye": 0.030644,
-      "VAS-nose": 0.014453,
-      "VAS-mouth": 0.047227,
-      "VAS-facial contour": 0.021077,
-      "VAS-global": 45.0,
-      "FA-global-raw": 0.03298196776517346,
-      "FA-global-calibrated": 39.08651280671656,
-      "VAS-diff": -5.913487193283437
-    },
-    {
-      "Name": "FA0051",
-      "VAS-eyebrow": 0.054217,
-      "VAS-eye": 0.027372,
-      "VAS-nose": 0.015503,
-      "VAS-mouth": 0.033951,
-      "VAS-facial contour": 0.050975,
-      "VAS-global": 48.75,
-      "FA-global-raw": 0.04841763576750161,
-      "FA-global-calibrated": 47.125528318230664,
-      "VAS-diff": -1.6244716817693359
-    },
-    {
-      "Name": "FA0052",
-      "VAS-eyebrow": 0.075042,
-      "VAS-eye": 0.023436,
-      "VAS-nose": 0.035544,
-      "VAS-mouth": 0.020756,
-      "VAS-facial contour": 0.028349,
-      "VAS-global": 45.5,
-      "FA-global-raw": 0.03604834321395855,
-      "FA-global-calibrated": 40.683504902762635,
-      "VAS-diff": -4.816495097237365
-    },
-    {
-      "Name": "FA0053",
-      "VAS-eyebrow": 0.064011,
-      "VAS-eye": 0.021608,
-      "VAS-nose": 0.021572,
-      "VAS-mouth": 0.047041,
-      "VAS-facial contour": 0.118262,
-      "VAS-global": 75.5,
-      "FA-global-raw": 0.09841546532098758,
-      "FA-global-calibrated": 73.16478539877218,
-      "VAS-diff": -2.3352146012278183
-    },
-    {
-      "Name": "FA0054",
-      "VAS-eyebrow": 0.04909,
-      "VAS-eye": 0.017732,
-      "VAS-nose": 0.008837,
-      "VAS-mouth": 0.020431,
-      "VAS-facial contour": 0.028171,
-      "VAS-global": 38.5,
-      "FA-global-raw": 0.030145789433012903,
-      "FA-global-calibrated": 37.60940915287923,
-      "VAS-diff": -0.8905908471207695
-    },
-    {
-      "Name": "FA0055",
-      "VAS-eyebrow": 0.032327,
-      "VAS-eye": 0.015716,
-      "VAS-nose": 0.006323,
-      "VAS-mouth": 0.018955,
-      "VAS-facial contour": 0.0186,
-      "VAS-global": 30.0,
-      "FA-global-raw": 0.020201736491813012,
-      "FA-global-calibrated": 32.430469321472785,
-      "VAS-diff": 2.430469321472785
-    },
-    {
-      "Name": "FA0056",
-      "VAS-eyebrow": 0.052597,
-      "VAS-eye": 0.024562,
-      "VAS-nose": 0.010851,
-      "VAS-mouth": 0.03387,
-      "VAS-facial contour": 0.035563,
-      "VAS-global": 42.0,
-      "FA-global-raw": 0.03664139728032123,
-      "FA-global-calibrated": 40.99237205628894,
-      "VAS-diff": -1.0076279437110571
-    },
-    {
-      "Name": "FA0057",
-      "VAS-eyebrow": 0.019582,
-      "VAS-eye": 0.026077,
-      "VAS-nose": 0.01853,
-      "VAS-mouth": 0.023833,
-      "VAS-facial contour": 0.039251,
-      "VAS-global": 38.5,
-      "FA-global-raw": 0.034208989707479855,
-      "FA-global-calibrated": 39.7255553428531,
-      "VAS-diff": 1.2255553428530988
-    },
-    {
-      "Name": "FA0058",
-      "VAS-eyebrow": 0.030471,
-      "VAS-eye": 0.021258,
-      "VAS-nose": 0.028643,
-      "VAS-mouth": 0.013817,
-      "VAS-facial contour": 0.028852,
-      "VAS-global": 36.5,
-      "FA-global-raw": 0.02855834804753789,
-      "FA-global-calibrated": 36.78265737773557,
-      "VAS-diff": 0.28265737773556765
-    },
-    {
-      "Name": "FA0059",
-      "VAS-eyebrow": 0.027935,
-      "VAS-eye": 0.028012,
-      "VAS-nose": 0.008261,
-      "VAS-mouth": 0.01219,
-      "VAS-facial contour": 0.034416,
-      "VAS-global": 37.5,
-      "FA-global-raw": 0.03185648453198017,
-      "FA-global-calibrated": 38.5003524171419,
-      "VAS-diff": 1.0003524171418974
-    },
-    {
-      "Name": "FA0060",
-      "VAS-eyebrow": 0.021171,
-      "VAS-eye": 0.018911,
-      "VAS-nose": 0.008924,
-      "VAS-mouth": 0.034928,
-      "VAS-facial contour": 0.045884,
-      "VAS-global": 39.5,
-      "FA-global-raw": 0.03836452586594078,
-      "FA-global-calibrated": 41.889790776751155,
-      "VAS-diff": 2.3897907767511555
-    },
-    {
-      "Name": "FA0061",
-      "VAS-eyebrow": 0.042095,
-      "VAS-eye": 0.041995,
-      "VAS-nose": 0.010454,
-      "VAS-mouth": 0.015117,
-      "VAS-facial contour": 0.016275,
-      "VAS-global": 36.0,
-      "FA-global-raw": 0.022233198742899755,
-      "FA-global-calibrated": 33.48847060428597,
-      "VAS-diff": -2.511529395714028
-    },
-    {
-      "Name": "FA0062",
-      "VAS-eyebrow": 0.049813,
-      "VAS-eye": 0.033586,
-      "VAS-nose": 0.033724,
-      "VAS-mouth": 0.03027,
-      "VAS-facial contour": 0.023049,
-      "VAS-global": 39.0,
-      "FA-global-raw": 0.02869198240934815,
-      "FA-global-calibrated": 36.852255188941534,
-      "VAS-diff": -2.147744811058466
-    },
-    {
-      "Name": "FA0063",
-      "VAS-eyebrow": 0.049501,
-      "VAS-eye": 0.024121,
-      "VAS-nose": 0.017372,
-      "VAS-mouth": 0.020973,
-      "VAS-facial contour": 0.006263,
-      "VAS-global": 31.0,
-      "FA-global-raw": 0.015203199390812019,
-      "FA-global-calibrated": 29.827192464017383,
-      "VAS-diff": -1.172807535982617
-    },
-    {
-      "Name": "FA0064",
-      "VAS-eyebrow": 0.025135,
-      "VAS-eye": 0.028553,
-      "VAS-nose": 0.013593,
-      "VAS-mouth": 0.021261,
-      "VAS-facial contour": 0.025515,
-      "VAS-global": 34.5,
-      "FA-global-raw": 0.025212890354459366,
-      "FA-global-calibrated": 35.040317086164386,
-      "VAS-diff": 0.5403170861643858
-    },
-    {
-      "Name": "FA0065",
-      "VAS-eyebrow": 0.03002,
-      "VAS-eye": 0.012299,
-      "VAS-nose": 0.003841,
-      "VAS-mouth": 0.041764,
-      "VAS-facial contour": 0.050006,
-      "VAS-global": 40.75,
-      "FA-global-raw": 0.042133307290533765,
-      "FA-global-calibrated": 43.85260134816533,
-      "VAS-diff": 3.1026013481653294
-    },
-    {
-      "Name": "FA0066",
-      "VAS-eyebrow": 0.034122,
-      "VAS-eye": 0.021288,
-      "VAS-nose": 0.011382,
-      "VAS-mouth": 0.018121,
-      "VAS-facial contour": 0.058462,
+      "Name": "1.对称轴133张/代凌旖.JPG",
       "VAS-global": 46.5,
-      "FA-global-raw": 0.04986740188802506,
-      "FA-global-calibrated": 47.880577748498126,
-      "VAS-diff": 1.3805777484981263
+      "FA-global-raw": -0.138442090361572,
+      "FA-global-calibrated": 46.47468058050536
     },
     {
-      "Name": "FA0067",
-      "VAS-eyebrow": 0.095585,
-      "VAS-eye": 0.080073,
-      "VAS-nose": 0.011786,
-      "VAS-mouth": 0.02161,
-      "VAS-facial contour": 0.022636,
-      "VAS-global": 53.0,
-      "FA-global-raw": 0.038572287295729216,
-      "FA-global-calibrated": 41.997994539394384,
-      "VAS-diff": -11.002005460605616
+      "Name": "1.对称轴133张/代四琼.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.2709926373667904,
+      "FA-global-calibrated": 43.28461458701781
     },
     {
-      "Name": "FA0068",
-      "VAS-eyebrow": 0.021196,
-      "VAS-eye": 0.021506,
-      "VAS-nose": 0.025068,
-      "VAS-mouth": 0.043664,
-      "VAS-facial contour": 0.069981,
-      "VAS-global": 49.5,
-      "FA-global-raw": 0.056570491446205615,
-      "FA-global-calibrated": 51.371598734771865,
-      "VAS-diff": 1.8715987347718652
+      "Name": "1.对称轴133张/代玉婷.JPG",
+      "VAS-global": 47.5,
+      "FA-global-raw": -0.2001456627771806,
+      "FA-global-calibrated": 44.98967374736132
     },
     {
-      "Name": "FA0069",
-      "VAS-eyebrow": 0.031864,
-      "VAS-eye": 0.027956,
-      "VAS-nose": 0.013358,
-      "VAS-mouth": 0.028088,
-      "VAS-facial contour": 0.030989,
-      "VAS-global": 37.5,
-      "FA-global-raw": 0.03023130684706465,
-      "FA-global-calibrated": 37.653947284819026,
-      "VAS-diff": 0.15394728481902575
-    },
-    {
-      "Name": "FA0070",
-      "VAS-eyebrow": 0.033657,
-      "VAS-eye": 0.023046,
-      "VAS-nose": 0.059699,
-      "VAS-mouth": 0.044365,
-      "VAS-facial contour": 0.036874,
-      "VAS-global": 41.75,
-      "FA-global-raw": 0.036209235308593934,
-      "FA-global-calibrated": 40.76729875245277,
-      "VAS-diff": -0.982701247547233
-    },
-    {
-      "Name": "FA0071",
-      "VAS-eyebrow": 0.025874,
-      "VAS-eye": 0.019595,
-      "VAS-nose": 0.037678,
-      "VAS-mouth": 0.040617,
-      "VAS-facial contour": 0.099307,
-      "VAS-global": 61.5,
-      "FA-global-raw": 0.0788587474607311,
-      "FA-global-calibrated": 62.979495185922715,
-      "VAS-diff": 1.4794951859227155
-    },
-    {
-      "Name": "FA0072",
-      "VAS-eyebrow": 0.039277,
-      "VAS-eye": 0.021779,
-      "VAS-nose": 0.028917,
-      "VAS-mouth": 0.020268,
-      "VAS-facial contour": 0.045529,
-      "VAS-global": 43.75,
-      "FA-global-raw": 0.04210811535144035,
-      "FA-global-calibrated": 43.83948119106513,
-      "VAS-diff": 0.08948119106513275
-    },
-    {
-      "Name": "FA0073",
-      "VAS-eyebrow": 0.022925,
-      "VAS-eye": 0.012793,
-      "VAS-nose": 0.010287,
-      "VAS-mouth": 0.031069,
-      "VAS-facial contour": 0.050643,
-      "VAS-global": 39.75,
-      "FA-global-raw": 0.041696071226339525,
-      "FA-global-calibrated": 43.62488541765161,
-      "VAS-diff": 3.874885417651612
-    },
-    {
-      "Name": "FA0074",
-      "VAS-eyebrow": 0.027108,
-      "VAS-eye": 0.026361,
-      "VAS-nose": 0.020169,
-      "VAS-mouth": 0.0105,
-      "VAS-facial contour": 0.062571,
-      "VAS-global": 48.0,
-      "FA-global-raw": 0.05237434949372177,
-      "FA-global-calibrated": 49.18621548867945,
-      "VAS-diff": 1.1862154886794514
-    },
-    {
-      "Name": "FA0075",
-      "VAS-eyebrow": 0.050388,
-      "VAS-eye": 0.040153,
-      "VAS-nose": 0.007269,
-      "VAS-mouth": 0.037773,
-      "VAS-facial contour": 0.015722,
-      "VAS-global": 35.75,
-      "FA-global-raw": 0.022958175867982815,
-      "FA-global-calibrated": 33.86604430910759,
-      "VAS-diff": -1.8839556908924067
-    },
-    {
-      "Name": "FA0076",
-      "VAS-eyebrow": 0.049895,
-      "VAS-eye": 0.023828,
-      "VAS-nose": 0.016851,
-      "VAS-mouth": 0.040425,
-      "VAS-facial contour": 0.097387,
-      "VAS-global": 65.0,
-      "FA-global-raw": 0.08098022313970407,
-      "FA-global-calibrated": 64.08437615952174,
-      "VAS-diff": -0.9156238404782613
-    },
-    {
-      "Name": "FA0077",
-      "VAS-eyebrow": 0.031637,
-      "VAS-eye": 0.02848,
-      "VAS-nose": 0.059613,
-      "VAS-mouth": 0.071025,
-      "VAS-facial contour": 0.104638,
-      "VAS-global": 66.0,
-      "FA-global-raw": 0.08516361756265825,
-      "FA-global-calibrated": 66.26312039345044,
-      "VAS-diff": 0.2631203934504356
-    },
-    {
-      "Name": "FA0078",
-      "VAS-eyebrow": 0.033949,
-      "VAS-eye": 0.019612,
-      "VAS-nose": 0.030472,
-      "VAS-mouth": 0.053064,
-      "VAS-facial contour": 0.056554,
-      "VAS-global": 47.0,
-      "FA-global-raw": 0.04907734615711396,
-      "FA-global-calibrated": 47.469110601446445,
-      "VAS-diff": 0.46911060144644523
-    },
-    {
-      "Name": "FA0079",
-      "VAS-eyebrow": 0.033527,
-      "VAS-eye": 0.011203,
-      "VAS-nose": 0.006354,
-      "VAS-mouth": 0.026386,
-      "VAS-facial contour": 0.051351,
-      "VAS-global": 43.0,
-      "FA-global-raw": 0.04370521181028051,
-      "FA-global-calibrated": 44.671261403237594,
-      "VAS-diff": 1.6712614032375939
-    },
-    {
-      "Name": "FA0080",
-      "VAS-eyebrow": 0.025951,
-      "VAS-eye": 0.027143,
-      "VAS-nose": 0.024278,
-      "VAS-mouth": 0.018756,
-      "VAS-facial contour": 0.037084,
-      "VAS-global": 38.5,
-      "FA-global-raw": 0.034006796487367055,
-      "FA-global-calibrated": 39.62025154695877,
-      "VAS-diff": 1.1202515469587695
-    },
-    {
-      "Name": "FA0081",
-      "VAS-eyebrow": 0.051089,
-      "VAS-eye": 0.029313,
-      "VAS-nose": 0.010325,
-      "VAS-mouth": 0.021427,
-      "VAS-facial contour": 0.059633,
-      "VAS-global": 51.5,
-      "FA-global-raw": 0.054085567833625905,
-      "FA-global-calibrated": 50.0774312608768,
-      "VAS-diff": -1.4225687391232
-    },
-    {
-      "Name": "FA0082",
-      "VAS-eyebrow": 0.027271,
-      "VAS-eye": 0.016449,
-      "VAS-nose": 0.033895,
-      "VAS-mouth": 0.014948,
-      "VAS-facial contour": 0.003416,
-      "VAS-global": 26.0,
-      "FA-global-raw": 0.009522498249157386,
-      "FA-global-calibrated": 26.868639287883415,
-      "VAS-diff": 0.8686392878834148
-    },
-    {
-      "Name": "FA0083",
-      "VAS-eyebrow": 0.051041,
-      "VAS-eye": 0.033042,
-      "VAS-nose": 0.02283,
-      "VAS-mouth": 0.032061,
-      "VAS-facial contour": 0.039552,
-      "VAS-global": 45.25,
-      "FA-global-raw": 0.040343788859174515,
-      "FA-global-calibrated": 42.92060628156584,
-      "VAS-diff": -2.3293937184341615
-    },
-    {
-      "Name": "FA0084",
-      "VAS-eyebrow": 0.034884,
-      "VAS-eye": 0.02717,
-      "VAS-nose": 0.027082,
-      "VAS-mouth": 0.027409,
-      "VAS-facial contour": 0.009581,
-      "VAS-global": 30.0,
-      "FA-global-raw": 0.015760168303835677,
-      "FA-global-calibrated": 30.11726619004939,
-      "VAS-diff": 0.11726619004938854
-    },
-    {
-      "Name": "FA0085",
-      "VAS-eyebrow": 0.018645,
-      "VAS-eye": 0.008559,
-      "VAS-nose": 0.018092,
-      "VAS-mouth": 0.012592,
-      "VAS-facial contour": 0.016688,
-      "VAS-global": 26.5,
-      "FA-global-raw": 0.01647391038463814,
-      "FA-global-calibrated": 30.48898859674574,
-      "VAS-diff": 3.9889885967457417
-    },
-    {
-      "Name": "FA0086",
-      "VAS-eyebrow": 0.056121,
-      "VAS-eye": 0.009159,
-      "VAS-nose": 0.031335,
-      "VAS-mouth": 0.035798,
-      "VAS-facial contour": 0.06516,
-      "VAS-global": 53.0,
-      "FA-global-raw": 0.05825069224279071,
-      "FA-global-calibrated": 52.246660330043845,
-      "VAS-diff": -0.753339669956155
-    },
-    {
-      "Name": "FA0087",
-      "VAS-eyebrow": 0.043872,
-      "VAS-eye": 0.006079,
-      "VAS-nose": 0.032507,
-      "VAS-mouth": 0.025672,
-      "VAS-facial contour": 0.068324,
-      "VAS-global": 51.5,
-      "FA-global-raw": 0.05831279043674722,
-      "FA-global-calibrated": 52.279001550675055,
-      "VAS-diff": 0.7790015506750549
-    },
-    {
-      "Name": "FA0088",
-      "VAS-eyebrow": 0.028447,
-      "VAS-eye": 0.01154,
-      "VAS-nose": 0.025212,
-      "VAS-mouth": 0.029991,
-      "VAS-facial contour": 0.063937,
-      "VAS-global": 47.0,
-      "FA-global-raw": 0.05269427448256423,
-      "FA-global-calibrated": 49.35283490206912,
-      "VAS-diff": 2.3528349020691195
-    },
-    {
-      "Name": "FA0089",
-      "VAS-eyebrow": 0.028332,
-      "VAS-eye": 0.007045,
-      "VAS-nose": 0.015355,
-      "VAS-mouth": 0.018747,
-      "VAS-facial contour": 0.046967,
-      "VAS-global": 40.0,
-      "FA-global-raw": 0.039720125911701945,
-      "FA-global-calibrated": 42.595797785559554,
-      "VAS-diff": 2.5957977855595544
-    },
-    {
-      "Name": "FA0090",
-      "VAS-eyebrow": 0.02331,
-      "VAS-eye": 0.013019,
-      "VAS-nose": 0.036084,
-      "VAS-mouth": 0.046509,
-      "VAS-facial contour": 0.132911,
-      "VAS-global": 72.25,
-      "FA-global-raw": 0.10213683806495671,
-      "FA-global-calibrated": 75.10290516193251,
-      "VAS-diff": 2.8529051619325116
-    },
-    {
-      "Name": "FA0091",
-      "VAS-eyebrow": 0.026656,
-      "VAS-eye": 0.019288,
-      "VAS-nose": 0.027394,
-      "VAS-mouth": 0.036691,
-      "VAS-facial contour": 0.037906,
-      "VAS-global": 37.75,
-      "FA-global-raw": 0.03426345347783235,
-      "FA-global-calibrated": 39.75392049650975,
-      "VAS-diff": 2.0039204965097497
-    },
-    {
-      "Name": "FA0092",
-      "VAS-eyebrow": 0.047768,
-      "VAS-eye": 0.012646,
-      "VAS-nose": 0.042104,
-      "VAS-mouth": 0.031407,
-      "VAS-facial contour": 0.05533,
-      "VAS-global": 49.75,
-      "FA-global-raw": 0.05043711679184227,
-      "FA-global-calibrated": 48.17728968530815,
-      "VAS-diff": -1.5727103146918466
-    },
-    {
-      "Name": "FA0093",
-      "VAS-eyebrow": 0.019453,
-      "VAS-eye": 0.018776,
-      "VAS-nose": 0.00764,
-      "VAS-mouth": 0.015828,
-      "VAS-facial contour": 0.094691,
-      "VAS-global": 56.5,
-      "FA-global-raw": 0.07323672588808984,
-      "FA-global-calibrated": 60.05150278405756,
-      "VAS-diff": 3.5515027840575613
-    },
-    {
-      "Name": "FA0094",
-      "VAS-eyebrow": 0.029956,
-      "VAS-eye": 0.012331,
-      "VAS-nose": 0.019818,
-      "VAS-mouth": 0.010124,
-      "VAS-facial contour": 0.021609,
-      "VAS-global": 32.0,
-      "FA-global-raw": 0.02225211517871909,
-      "FA-global-calibrated": 33.49832243065016,
-      "VAS-diff": 1.4983224306501626
-    },
-    {
-      "Name": "FA0095",
-      "VAS-eyebrow": 0.050387,
-      "VAS-eye": 0.018805,
-      "VAS-nose": 0.014028,
-      "VAS-mouth": 0.057341,
-      "VAS-facial contour": 0.036037,
-      "VAS-global": 41.5,
-      "FA-global-raw": 0.03631700421616423,
-      "FA-global-calibrated": 40.82342563465093,
-      "VAS-diff": -0.6765743653490688
-    },
-    {
-      "Name": "FA0096",
-      "VAS-eyebrow": 0.026773,
-      "VAS-eye": 0.019973,
-      "VAS-nose": 0.038986,
-      "VAS-mouth": 0.055364,
-      "VAS-facial contour": 0.090419,
-      "VAS-global": 58.25,
-      "FA-global-raw": 0.07267339098770187,
-      "FA-global-calibrated": 59.75811360247416,
-      "VAS-diff": 1.508113602474161
-    },
-    {
-      "Name": "FA0097",
-      "VAS-eyebrow": 0.028981,
-      "VAS-eye": 0.033306,
-      "VAS-nose": 0.012282,
-      "VAS-mouth": 0.045749,
-      "VAS-facial contour": 0.049264,
-      "VAS-global": 44.25,
-      "FA-global-raw": 0.04328736453183603,
-      "FA-global-calibrated": 44.453643302592226,
-      "VAS-diff": 0.2036433025922264
-    },
-    {
-      "Name": "FA0098",
-      "VAS-eyebrow": 0.018466,
-      "VAS-eye": 0.022807,
-      "VAS-nose": 0.004192,
-      "VAS-mouth": 0.027089,
-      "VAS-facial contour": 0.079112,
+      "Name": "1.对称轴133张/代芯妮.JPG",
       "VAS-global": 50.5,
-      "FA-global-raw": 0.06199229068603981,
-      "FA-global-calibrated": 54.19531379412455,
-      "VAS-diff": 3.6953137941245515
+      "FA-global-raw": -0.02020881894493156,
+      "FA-global-calibrated": 49.320175729085605
     },
     {
-      "Name": "FA0099",
-      "VAS-eyebrow": 0.037049,
-      "VAS-eye": 0.039099,
-      "VAS-nose": 0.011794,
-      "VAS-mouth": 0.010804,
-      "VAS-facial contour": 0.039056,
+      "Name": "1.对称轴133张/党琪越.JPG",
+      "VAS-global": 47.5,
+      "FA-global-raw": -0.04092094176248956,
+      "FA-global-calibrated": 48.82170144779405
+    },
+    {
+      "Name": "1.对称轴133张/刁聪.JPG",
+      "VAS-global": 49.75,
+      "FA-global-raw": -0.10514254841051726,
+      "FA-global-calibrated": 47.27609361709275
+    },
+    {
+      "Name": "1.对称轴133张/崔力坤.JPG",
+      "VAS-global": 19.5,
+      "FA-global-raw": -1.093428606089807,
+      "FA-global-calibrated": 23.491221991354013
+    },
+    {
+      "Name": "1.对称轴133张/巴比诺.JPG",
+      "VAS-global": 70.5,
+      "FA-global-raw": 0.8152412447829093,
+      "FA-global-calibrated": 69.42677579804086
+    },
+    {
+      "Name": "1.对称轴133张/德吉龙珍.JPG",
+      "VAS-global": 71.0,
+      "FA-global-raw": 0.8309659746745295,
+      "FA-global-calibrated": 69.80521954812257
+    },
+    {
+      "Name": "1.对称轴133张/戴昀纭.JPG",
+      "VAS-global": 38.5,
+      "FA-global-raw": -0.54413227138844,
+      "FA-global-calibrated": 36.71102075694639
+    },
+    {
+      "Name": "1.对称轴133张/戴瑜宸.JPG",
+      "VAS-global": 21.25,
+      "FA-global-raw": -1.091106704803199,
+      "FA-global-calibrated": 23.5471026987671
+    },
+    {
+      "Name": "1.对称轴133张/方利.JPG",
+      "VAS-global": 67.75,
+      "FA-global-raw": 0.694827047849805,
+      "FA-global-calibrated": 66.5287927761052
+    },
+    {
+      "Name": "1.对称轴133张/方媛.JPG",
+      "VAS-global": 18.75,
+      "FA-global-raw": -1.1788813183271576,
+      "FA-global-calibrated": 21.434649630706446
+    },
+    {
+      "Name": "1.对称轴133张/方明杰.JPG",
+      "VAS-global": 51.5,
+      "FA-global-raw": 0.008734352198802697,
+      "FA-global-calibrated": 50.01674491039333
+    },
+    {
+      "Name": "1.对称轴133张/方渝.JPG",
+      "VAS-global": 38.5,
+      "FA-global-raw": -0.5776226060163016,
+      "FA-global-calibrated": 35.90501595334001
+    },
+    {
+      "Name": "1.对称轴133张/方策一.JPG",
+      "VAS-global": 29.5,
+      "FA-global-raw": -0.7541686520747375,
+      "FA-global-calibrated": 31.656119584820846
+    },
+    {
+      "Name": "1.对称轴133张/曹强.JPG",
+      "VAS-global": 55.5,
+      "FA-global-raw": 0.33818111038658827,
+      "FA-global-calibrated": 57.94547039440202
+    },
+    {
+      "Name": "1.对称轴133张/曹志颐.JPG",
+      "VAS-global": 48.0,
+      "FA-global-raw": -0.17802271428805605,
+      "FA-global-calibrated": 45.52210207184085
+    },
+    {
+      "Name": "1.对称轴133张/曹歆呓.JPG",
       "VAS-global": 43.0,
-      "FA-global-raw": 0.037670649015312106,
-      "FA-global-calibrated": 41.5284143358713,
-      "VAS-diff": -1.4715856641287033
+      "FA-global-raw": -0.282853387992456,
+      "FA-global-calibrated": 42.99916440908168
     },
     {
-      "Name": "FA0100",
-      "VAS-eyebrow": 0.043285,
-      "VAS-eye": 0.032163,
-      "VAS-nose": 0.030187,
-      "VAS-mouth": 0.038858,
-      "VAS-facial contour": 0.019952,
-      "VAS-global": 37.5,
-      "FA-global-raw": 0.025128682374203286,
-      "FA-global-calibrated": 34.99646091749259,
-      "VAS-diff": -2.503539082507409
+      "Name": "1.对称轴133张/曹玉兰.JPG",
+      "VAS-global": 50.0,
+      "FA-global-raw": -0.06988933351262222,
+      "FA-global-calibrated": 48.124525287483785
+    },
+    {
+      "Name": "1.对称轴133张/曾世杰.JPG",
+      "VAS-global": 83.25,
+      "FA-global-raw": 1.3037660127247146,
+      "FA-global-calibrated": 81.18399811358658
+    },
+    {
+      "Name": "1.对称轴133张/曾众婉.JPG",
+      "VAS-global": 60.0,
+      "FA-global-raw": 0.49398169898331556,
+      "FA-global-calibrated": 61.69509022379583
+    },
+    {
+      "Name": "1.对称轴133张/曾佳.JPG",
+      "VAS-global": 48.75,
+      "FA-global-raw": -0.13240451960317834,
+      "FA-global-calibrated": 46.61998551960054
+    },
+    {
+      "Name": "1.对称轴133张/曾元静.JPG",
+      "VAS-global": 40.0,
+      "FA-global-raw": -0.27238874039030425,
+      "FA-global-calibrated": 43.25101487068816
+    },
+    {
+      "Name": "1.对称轴133张/曾夏.JPG",
+      "VAS-global": 80.0,
+      "FA-global-raw": 1.053420795436303,
+      "FA-global-calibrated": 75.15899269227685
+    },
+    {
+      "Name": "1.对称轴133张/曾子涵.JPG",
+      "VAS-global": 49.25,
+      "FA-global-raw": -0.07541643535690717,
+      "FA-global-calibrated": 47.99150569583094
+    },
+    {
+      "Name": "1.对称轴133张/曾少阳.JPG",
+      "VAS-global": 28.5,
+      "FA-global-raw": -0.796435897135273,
+      "FA-global-calibrated": 30.638882733276883
+    },
+    {
+      "Name": "1.对称轴133张/曾星.JPG",
+      "VAS-global": 34.0,
+      "FA-global-raw": -0.7813847894530852,
+      "FA-global-calibrated": 31.001114560048414
+    },
+    {
+      "Name": "1.对称轴133张/曾朝龙.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.2679789468472266,
+      "FA-global-calibrated": 43.35714443965568
+    },
+    {
+      "Name": "1.对称轴133张/曾楚涵.JPG",
+      "VAS-global": 47.0,
+      "FA-global-raw": -0.1393656208557984,
+      "FA-global-calibrated": 46.452454167335866
+    },
+    {
+      "Name": "1.对称轴133张/曾献文.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.5018999804354622,
+      "FA-global-calibrated": 37.72741637537308
+    },
+    {
+      "Name": "1.对称轴133张/曾璐.JPG",
+      "VAS-global": 50.75,
+      "FA-global-raw": -0.0315660131913304,
+      "FA-global-calibrated": 49.046844536077074
+    },
+    {
+      "Name": "1.对称轴133张/曾铭浩.JPG",
+      "VAS-global": 41.5,
+      "FA-global-raw": -0.309543109632078,
+      "FA-global-calibrated": 42.356828520608474
+    },
+    {
+      "Name": "1.对称轴133张/曾青云.JPG",
+      "VAS-global": 37.75,
+      "FA-global-raw": -0.47687065103795034,
+      "FA-global-calibrated": 38.32979195476362
+    },
+    {
+      "Name": "1.对称轴133张/曾馨琪.JPG",
+      "VAS-global": 35.0,
+      "FA-global-raw": -0.5567213493856097,
+      "FA-global-calibrated": 36.40804207812923
+    },
+    {
+      "Name": "1.对称轴133张/杜娟.JPG",
+      "VAS-global": 45.75,
+      "FA-global-raw": -0.278790655892864,
+      "FA-global-calibrated": 43.09694132365789
+    },
+    {
+      "Name": "1.对称轴133张/杜晟泽.JPG",
+      "VAS-global": 72.0,
+      "FA-global-raw": 0.8928945509038742,
+      "FA-global-calibrated": 71.2956415004858
+    },
+    {
+      "Name": "1.对称轴133张/杜磊.JPG",
+      "VAS-global": 60.0,
+      "FA-global-raw": 0.43025949949237896,
+      "FA-global-calibrated": 60.161501519569185
+    },
+    {
+      "Name": "1.对称轴133张/查星.JPG",
+      "VAS-global": 31.5,
+      "FA-global-raw": -0.7412742927500442,
+      "FA-global-calibrated": 31.966445404810813
+    },
+    {
+      "Name": "1.对称轴133张/樊凤清.JPG",
+      "VAS-global": 29.0,
+      "FA-global-raw": -0.7131869619801505,
+      "FA-global-calibrated": 32.64241725676663
+    },
+    {
+      "Name": "1.对称轴133张/樊芷萁.JPG",
+      "VAS-global": 72.75,
+      "FA-global-raw": 0.9047731577835644,
+      "FA-global-calibrated": 71.58152142111273
+    },
+    {
+      "Name": "1.对称轴133张/段亦宵.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.38914239015601526,
+      "FA-global-calibrated": 40.44112946358768
+    },
+    {
+      "Name": "1.对称轴133张/段傲.JPG",
+      "VAS-global": 53.5,
+      "FA-global-raw": 0.10733348194730344,
+      "FA-global-calibrated": 52.38970932211903
+    },
+    {
+      "Name": "1.对称轴133张/段嘉琪.JPG",
+      "VAS-global": 48.5,
+      "FA-global-raw": -0.027285487163141053,
+      "FA-global-calibrated": 49.14986305109103
+    },
+    {
+      "Name": "1.对称轴133张/白中天.JPG",
+      "VAS-global": 71.0,
+      "FA-global-raw": 0.7568280312163762,
+      "FA-global-calibrated": 68.02095733573316
+    },
+    {
+      "Name": "1.对称轴133张/白玛玉珍.JPG",
+      "VAS-global": 84.5,
+      "FA-global-raw": 1.397190988568177,
+      "FA-global-calibrated": 83.43243725709982
+    },
+    {
+      "Name": "1.对称轴133张/白雨.JPG",
+      "VAS-global": 30.0,
+      "FA-global-raw": -0.8822069399164656,
+      "FA-global-calibrated": 28.574649178725988
+    },
+    {
+      "Name": "1.对称轴133张/程丹彤.JPG",
+      "VAS-global": 100.0,
+      "FA-global-raw": 2.0036228448919817,
+      "FA-global-calibrated": 98.02730454308642
+    },
+    {
+      "Name": "1.对称轴133张/程兮.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.2882727421351149,
+      "FA-global-calibrated": 42.868737958585925
+    },
+    {
+      "Name": "1.对称轴133张/程嘉辉.JPG",
+      "VAS-global": 39.25,
+      "FA-global-raw": -0.4630752345783785,
+      "FA-global-calibrated": 38.66180332633454
+    },
+    {
+      "Name": "1.对称轴133张/程源.JPG",
+      "VAS-global": 98.25,
+      "FA-global-raw": 2.1354856787657237,
+      "FA-global-calibrated": 101.20081949002179
+    },
+    {
+      "Name": "1.对称轴133张/程琪语.JPG",
+      "VAS-global": 61.5,
+      "FA-global-raw": 0.40890734673360274,
+      "FA-global-calibrated": 59.64762377298514
+    },
+    {
+      "Name": "1.对称轴133张/程瑞霖.JPG",
+      "VAS-global": 62.5,
+      "FA-global-raw": 0.49115153156991176,
+      "FA-global-calibrated": 61.62697718295699
+    },
+    {
+      "Name": "1.对称轴133张/范琳玉.JPG",
+      "VAS-global": 43.5,
+      "FA-global-raw": -0.3933529394991392,
+      "FA-global-calibrated": 40.339795062660066
+    },
+    {
+      "Name": "1.对称轴133张/范皖皖.JPG",
+      "VAS-global": 58.5,
+      "FA-global-raw": 0.3967145591049092,
+      "FA-global-calibrated": 59.35418253069001
+    },
+    {
+      "Name": "1.对称轴133张/董何鑫.JPG",
+      "VAS-global": 42.5,
+      "FA-global-raw": -0.2103654100653582,
+      "FA-global-calibrated": 44.74371724983915
+    },
+    {
+      "Name": "1.对称轴133张/董芮君.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.6288502557674498,
+      "FA-global-calibrated": 34.67213093634348
+    },
+    {
+      "Name": "1.对称轴133张/董英涵.JPG",
+      "VAS-global": 84.0,
+      "FA-global-raw": 1.2175016468447635,
+      "FA-global-calibrated": 79.10789185630675
+    },
+    {
+      "Name": "1.对称轴133张/蔡修杰.JPG",
+      "VAS-global": 40.75,
+      "FA-global-raw": -0.34114991006643786,
+      "FA-global-calibrated": 41.59615433625653
+    },
+    {
+      "Name": "1.对称轴133张/蔡艳红.JPG",
+      "VAS-global": 65.75,
+      "FA-global-raw": 0.5849957460418558,
+      "FA-global-calibrated": 63.88550605391453
+    },
+    {
+      "Name": "1.对称轴133张/蔡芊.JPG",
+      "VAS-global": 52.0,
+      "FA-global-raw": 0.134118004475767,
+      "FA-global-calibrated": 53.03432676354301
+    },
+    {
+      "Name": "1.对称轴133张/蔡芸阳.JPG",
+      "VAS-global": 37.25,
+      "FA-global-raw": -0.5723031914143072,
+      "FA-global-calibrated": 36.033037180037894
+    },
+    {
+      "Name": "1.对称轴133张/邓乔月.JPG",
+      "VAS-global": 36.5,
+      "FA-global-raw": -0.4325729678076033,
+      "FA-global-calibrated": 39.395894932504255
+    },
+    {
+      "Name": "1.对称轴133张/邓力恒.JPG",
+      "VAS-global": 59.5,
+      "FA-global-raw": 0.2982639929637616,
+      "FA-global-calibrated": 56.98479356789602
+    },
+    {
+      "Name": "1.对称轴133张/邓墨苒.JPG",
+      "VAS-global": 70.25,
+      "FA-global-raw": 0.779312586083402,
+      "FA-global-calibrated": 68.56208836446577
+    },
+    {
+      "Name": "1.对称轴133张/邓必红.JPG",
+      "VAS-global": 53.5,
+      "FA-global-raw": 0.21723411229712447,
+      "FA-global-calibrated": 55.03466455967083
+    },
+    {
+      "Name": "1.对称轴133张/邓悦兴.JPG",
+      "VAS-global": 43.75,
+      "FA-global-raw": -0.307760118294801,
+      "FA-global-calibrated": 42.399739396196985
+    },
+    {
+      "Name": "1.对称轴133张/邓文慧.JPG",
+      "VAS-global": 36.5,
+      "FA-global-raw": -0.5946825016813311,
+      "FA-global-calibrated": 35.49443905084474
+    },
+    {
+      "Name": "1.对称轴133张/邓洋洋.JPG",
+      "VAS-global": 43.5,
+      "FA-global-raw": -0.37175398156581696,
+      "FA-global-calibrated": 40.8596126172051
+    },
+    {
+      "Name": "1.对称轴133张/邓雨宸.JPG",
+      "VAS-global": 29.0,
+      "FA-global-raw": -0.7487880176106774,
+      "FA-global-calibrated": 31.785614176997136
+    },
+    {
+      "Name": "1.对称轴133张/邓雪.JPG",
+      "VAS-global": 41.75,
+      "FA-global-raw": -0.3439666660657544,
+      "FA-global-calibrated": 41.528364065085356
+    },
+    {
+      "Name": "1.对称轴133张/都涵睿.JPG",
+      "VAS-global": 52.5,
+      "FA-global-raw": 0.07877549181316228,
+      "FA-global-calibrated": 51.70241021074162
+    },
+    {
+      "Name": "1.对称轴133张/阿依晓芳.JPG",
+      "VAS-global": 73.75,
+      "FA-global-raw": 0.9407320535811863,
+      "FA-global-calibrated": 72.446936564536
+    },
+    {
+      "Name": "1.对称轴133张/陈丽.JPG",
+      "VAS-global": 82.0,
+      "FA-global-raw": 1.4216443867954538,
+      "FA-global-calibrated": 84.0209520227686
+    },
+    {
+      "Name": "1.对称轴133张/陈伟.JPG",
+      "VAS-global": 67.5,
+      "FA-global-raw": 0.8022030706057308,
+      "FA-global-calibrated": 69.11298881639871
+    },
+    {
+      "Name": "1.对称轴133张/陈佳倩.JPG",
+      "VAS-global": 43.25,
+      "FA-global-raw": -0.2659961674361465,
+      "FA-global-calibrated": 43.40486357258106
+    },
+    {
+      "Name": "1.对称轴133张/陈俊.JPG",
+      "VAS-global": 34.5,
+      "FA-global-raw": -0.6480801618374713,
+      "FA-global-calibrated": 34.20932885217313
+    },
+    {
+      "Name": "1.对称轴133张/陈兴烨.JPG",
+      "VAS-global": 44.25,
+      "FA-global-raw": -0.13994145517533874,
+      "FA-global-calibrated": 46.438595684499305
+    },
+    {
+      "Name": "1.对称轴133张/陈冠宇.JPG",
+      "VAS-global": 29.0,
+      "FA-global-raw": -0.9153626649800659,
+      "FA-global-calibrated": 27.776697352765964
+    },
+    {
+      "Name": "1.对称轴133张/陈发扬.JPG",
+      "VAS-global": 51.0,
+      "FA-global-raw": -0.08695108181874628,
+      "FA-global-calibrated": 47.71390379786694
+    },
+    {
+      "Name": "1.对称轴133张/陈嘉伟.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.3497118412810307,
+      "FA-global-calibrated": 41.390096147713734
+    },
+    {
+      "Name": "1.对称轴133张/陈垚舟.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.3682056609339992,
+      "FA-global-calibrated": 40.945009299733364
+    },
+    {
+      "Name": "1.对称轴133张/陈娟.JPG",
+      "VAS-global": 50.75,
+      "FA-global-raw": -0.11319002558113321,
+      "FA-global-calibrated": 47.08241668527036
+    },
+    {
+      "Name": "1.对称轴133张/陈婕.JPG",
+      "VAS-global": 69.5,
+      "FA-global-raw": 0.6653885682311433,
+      "FA-global-calibrated": 65.82030311044
+    },
+    {
+      "Name": "1.对称轴133张/陈婷.JPG",
+      "VAS-global": 60.5,
+      "FA-global-raw": 0.3122896827341463,
+      "FA-global-calibrated": 57.32234687855832
+    },
+    {
+      "Name": "1.对称轴133张/陈嫣然.JPG",
+      "VAS-global": 76.5,
+      "FA-global-raw": 0.9963773191605132,
+      "FA-global-calibrated": 73.78613940778195
+    },
+    {
+      "Name": "1.对称轴133张/陈子墨.JPG",
+      "VAS-global": 45.5,
+      "FA-global-raw": -0.3228526367521471,
+      "FA-global-calibrated": 42.03651094505398
+    },
+    {
+      "Name": "1.对称轴133张/陈子攸.JPG",
+      "VAS-global": 42.25,
+      "FA-global-raw": -0.2938582890207171,
+      "FA-global-calibrated": 42.73431178247902
+    },
+    {
+      "Name": "1.对称轴133张/陈宇佳.JPG",
+      "VAS-global": 71.0,
+      "FA-global-raw": 0.7905851050701547,
+      "FA-global-calibrated": 68.83338169590081
+    },
+    {
+      "Name": "1.对称轴133张/陈宇凡.JPG",
+      "VAS-global": 21.5,
+      "FA-global-raw": -0.9669885868214315,
+      "FA-global-calibrated": 26.534227205569195
+    },
+    {
+      "Name": "1.对称轴133张/陈宇博.JPG",
+      "VAS-global": 99.25,
+      "FA-global-raw": 2.285051332980104,
+      "FA-global-calibrated": 104.80038447170554
+    },
+    {
+      "Name": "1.对称轴133张/陈安静.JPG",
+      "VAS-global": 45.0,
+      "FA-global-raw": -0.26630056173954547,
+      "FA-global-calibrated": 43.39753777923034
+    },
+    {
+      "Name": "1.对称轴133张/陈小洪.JPG",
+      "VAS-global": 77.75,
+      "FA-global-raw": 1.1283858073491644,
+      "FA-global-calibrated": 76.96315978632282
+    },
+    {
+      "Name": "1.对称轴133张/陈尧.JPG",
+      "VAS-global": 36.75,
+      "FA-global-raw": -0.6520416340485272,
+      "FA-global-calibrated": 34.1139889379279
+    },
+    {
+      "Name": "1.对称轴133张/陈庆敏.JPG",
+      "VAS-global": 33.0,
+      "FA-global-raw": -0.6312281058822012,
+      "FA-global-calibrated": 34.61490372031109
+    },
+    {
+      "Name": "1.对称轴133张/陈志飞.JPG",
+      "VAS-global": 54.25,
+      "FA-global-raw": 0.16427561878047753,
+      "FA-global-calibrated": 53.76012369167174
+    },
+    {
+      "Name": "1.对称轴133张/陈思.JPG",
+      "VAS-global": 31.25,
+      "FA-global-raw": -0.7907195594852187,
+      "FA-global-calibrated": 30.776456623062586
+    },
+    {
+      "Name": "1.对称轴133张/陈思源.JPG",
+      "VAS-global": 79.0,
+      "FA-global-raw": 1.331845693440674,
+      "FA-global-calibrated": 81.85978585331159
+    },
+    {
+      "Name": "1.对称轴133张/陈怡洁.JPG",
+      "VAS-global": 54.75,
+      "FA-global-raw": 0.031541217925012494,
+      "FA-global-calibrated": 50.56563292643716
+    },
+    {
+      "Name": "1.对称轴133张/陈悦.JPG",
+      "VAS-global": 30.75,
+      "FA-global-raw": -0.6992326416686041,
+      "FA-global-calibrated": 32.978252933750625
+    },
+    {
+      "Name": "1.对称轴133张/陈惠.JPG",
+      "VAS-global": 41.5,
+      "FA-global-raw": -0.3503744300414759,
+      "FA-global-calibrated": 41.37414976408787
+    },
+    {
+      "Name": "1.对称轴133张/陈意婕.JPG",
+      "VAS-global": 82.5,
+      "FA-global-raw": 1.240658512890833,
+      "FA-global-calibrated": 79.6652032560583
+    },
+    {
+      "Name": "1.对称轴133张/陈曹瑞.JPG",
+      "VAS-global": 34.75,
+      "FA-global-raw": -0.6584827682402951,
+      "FA-global-calibrated": 33.95897152299532
+    },
+    {
+      "Name": "1.对称轴133张/陈有谋.JPG",
+      "VAS-global": 21.0,
+      "FA-global-raw": -1.2950319754011164,
+      "FA-global-calibrated": 18.639276321245255
+    },
+    {
+      "Name": "1.对称轴133张/陈朴阳.JPG",
+      "VAS-global": 69.0,
+      "FA-global-raw": 0.6802354976379266,
+      "FA-global-calibrated": 66.17762102182081
+    },
+    {
+      "Name": "1.对称轴133张/陈李睿.JPG",
+      "VAS-global": 56.0,
+      "FA-global-raw": 0.18341778004935463,
+      "FA-global-calibrated": 54.22081404026227
+    },
+    {
+      "Name": "1.对称轴133张/陈杰.JPG",
+      "VAS-global": 45.5,
+      "FA-global-raw": -0.15020058131195885,
+      "FA-global-calibrated": 46.19169146455638
+    },
+    {
+      "Name": "1.对称轴133张/陈松毅.JPG",
+      "VAS-global": 70.5,
+      "FA-global-raw": 0.8184499082413222,
+      "FA-global-calibrated": 69.50399802318059
+    },
+    {
+      "Name": "1.对称轴133张/陈梦雪.JPG",
+      "VAS-global": 70.0,
+      "FA-global-raw": 0.7726833934343948,
+      "FA-global-calibrated": 68.40254498639851
+    },
+    {
+      "Name": "1.对称轴133张/陈欣妍.JPG",
+      "VAS-global": 35.75,
+      "FA-global-raw": -0.4471460347060974,
+      "FA-global-calibrated": 39.04516801221569
+    },
+    {
+      "Name": "1.对称轴133张/陈治宇.JPG",
+      "VAS-global": 40.25,
+      "FA-global-raw": -0.25114477908487126,
+      "FA-global-calibrated": 43.76228879643634
+    },
+    {
+      "Name": "1.对称轴133张/陈泊桥.JPG",
+      "VAS-global": 100.0,
+      "FA-global-raw": 2.6809856530295444,
+      "FA-global-calibrated": 114.32925205151724
+    },
+    {
+      "Name": "1.对称轴133张/陈渔.JPG",
+      "VAS-global": 29.75,
+      "FA-global-raw": -0.6762569375865104,
+      "FA-global-calibrated": 33.531204346812956
+    },
+    {
+      "Name": "1.对称轴133张/陈玉婷.JPG",
+      "VAS-global": 62.5,
+      "FA-global-raw": 0.44117626467594134,
+      "FA-global-calibrated": 60.424232999429464
+    },
+    {
+      "Name": "1.对称轴133张/陈瑜.JPG",
+      "VAS-global": 50.0,
+      "FA-global-raw": -0.036612822107006095,
+      "FA-global-calibrated": 48.92538405280278
+    },
+    {
+      "Name": "1.对称轴133张/陈真.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.5080479509088508,
+      "FA-global-calibrated": 37.5794544696757
+    },
+    {
+      "Name": "1.对称轴133张/陈米可.JPG",
+      "VAS-global": 54.25,
+      "FA-global-raw": 0.1771718788440048,
+      "FA-global-calibrated": 54.0704952563414
+    },
+    {
+      "Name": "1.对称轴133张/陈胤宇.JPG",
+      "VAS-global": 57.5,
+      "FA-global-raw": 0.3116636527491517,
+      "FA-global-calibrated": 57.30728034725267
+    },
+    {
+      "Name": "1.对称轴133张/陈致豪.JPG",
+      "VAS-global": 59.5,
+      "FA-global-raw": 0.31106767029629806,
+      "FA-global-calibrated": 57.292936963550986
+    },
+    {
+      "Name": "1.对称轴133张/陈芷萱.JPG",
+      "VAS-global": 48.0,
+      "FA-global-raw": -0.19924073637715298,
+      "FA-global-calibrated": 45.011452419728656
+    },
+    {
+      "Name": "1.对称轴133张/陈鑫慧.JPG",
+      "VAS-global": 31.5,
+      "FA-global-raw": -0.7450064748114807,
+      "FA-global-calibrated": 31.87662376812436
+    },
+    {
+      "Name": "1.对称轴133张/陈雪梅.JPG",
+      "VAS-global": 39.0,
+      "FA-global-raw": -0.25756458811737626,
+      "FA-global-calibrated": 43.607784609603584
+    },
+    {
+      "Name": "1.对称轴133张/陈露.JPG",
+      "VAS-global": 59.75,
+      "FA-global-raw": 0.34044374958947743,
+      "FA-global-calibrated": 57.9999248537743
+    },
+    {
+      "Name": "1.对称轴133张/陈靓靓.JPG",
+      "VAS-global": 64.5,
+      "FA-global-raw": 0.587974882510681,
+      "FA-global-calibrated": 63.95720430151802
+    },
+    {
+      "Name": "1.对称轴133张/陈静怡.JPG",
+      "VAS-global": 78.0,
+      "FA-global-raw": 1.1170775663587973,
+      "FA-global-calibrated": 76.69100674097845
+    },
+    {
+      "Name": "1.对称轴133张/陈韵旭.JPG",
+      "VAS-global": 44.25,
+      "FA-global-raw": -0.23833376242546409,
+      "FA-global-calibrated": 44.07060882611957
+    },
+    {
+      "Name": "1.对称轴133张/陈麒文.JPG",
+      "VAS-global": 50.5,
+      "FA-global-raw": 0.02933490702424324,
+      "FA-global-calibrated": 50.512534108404154
+    },
+    {
+      "Name": "2. 对称轴157张/付彩萍.JPG",
+      "VAS-global": 42.5,
+      "FA-global-raw": -0.23357961994327087,
+      "FA-global-calibrated": 44.18502576820915
+    },
+    {
+      "Name": "2. 对称轴157张/伏丹.JPG",
+      "VAS-global": 59.0,
+      "FA-global-raw": 0.4016110877629193,
+      "FA-global-calibrated": 59.47202625077244
+    },
+    {
+      "Name": "2. 对称轴157张/何亮.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.41399694974037116,
+      "FA-global-calibrated": 39.842960032343896
+    },
+    {
+      "Name": "2. 对称轴157张/何俊梅.JPG",
+      "VAS-global": 49.0,
+      "FA-global-raw": -0.09109658264146037,
+      "FA-global-calibrated": 47.61413490592873
+    },
+    {
+      "Name": "2. 对称轴157张/何婷.JPG",
+      "VAS-global": 33.0,
+      "FA-global-raw": -0.5783163430679121,
+      "FA-global-calibrated": 35.888319930375445
+    },
+    {
+      "Name": "2. 对称轴157张/何宸郡.JPG",
+      "VAS-global": 35.75,
+      "FA-global-raw": -0.5348275692261111,
+      "FA-global-calibrated": 36.934955056866
+    },
+    {
+      "Name": "2. 对称轴157张/何晓清.JPG",
+      "VAS-global": 29.5,
+      "FA-global-raw": -0.7099957993839121,
+      "FA-global-calibrated": 32.71921829235608
+    },
+    {
+      "Name": "2. 对称轴157张/何柠杉.JPG",
+      "VAS-global": 55.5,
+      "FA-global-raw": 0.32570277743944537,
+      "FA-global-calibrated": 57.64515699329227
+    },
+    {
+      "Name": "2. 对称轴157张/何欢.JPG",
+      "VAS-global": 53.5,
+      "FA-global-raw": 0.2102838212958933,
+      "FA-global-calibrated": 54.86739337544104
+    },
+    {
+      "Name": "2. 对称轴157张/何浩宇.JPG",
+      "VAS-global": 44.0,
+      "FA-global-raw": -0.1717587859482102,
+      "FA-global-calibrated": 45.672854710996674
+    },
+    {
+      "Name": "2. 对称轴157张/何涵璐.JPG",
+      "VAS-global": 41.0,
+      "FA-global-raw": -0.25021266847380547,
+      "FA-global-calibrated": 43.784721705463966
+    },
+    {
+      "Name": "2. 对称轴157张/何玙.JPG",
+      "VAS-global": 41.0,
+      "FA-global-raw": -0.3063424174612115,
+      "FA-global-calibrated": 42.433858902455945
+    },
+    {
+      "Name": "2. 对称轴157张/何红春.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.38119796850363896,
+      "FA-global-calibrated": 40.6323261800386
+    },
+    {
+      "Name": "2. 对称轴157张/何维.JPG",
+      "VAS-global": 76.75,
+      "FA-global-raw": 0.9770615600806735,
+      "FA-global-calibrated": 73.3212711173737
+    },
+    {
+      "Name": "2. 对称轴157张/何美霖.JPG",
+      "VAS-global": 79.75,
+      "FA-global-raw": 1.2537412844516775,
+      "FA-global-calibrated": 79.98006355350523
+    },
+    {
+      "Name": "2. 对称轴157张/何苗.JPG",
+      "VAS-global": 46.0,
+      "FA-global-raw": -0.05075173484201906,
+      "FA-global-calibrated": 48.58510582898619
+    },
+    {
+      "Name": "2. 对称轴157张/何莲花.JPG",
+      "VAS-global": 61.5,
+      "FA-global-raw": 0.34867326007223354,
+      "FA-global-calibrated": 58.19798274283798
+    },
+    {
+      "Name": "2. 对称轴157张/何蓉杰.JPG",
+      "VAS-global": 30.5,
+      "FA-global-raw": -0.7123456681100266,
+      "FA-global-calibrated": 32.66266449848873
+    },
+    {
+      "Name": "2. 对称轴157张/何蕊西.JPG",
+      "VAS-global": 47.0,
+      "FA-global-raw": -0.26408861648960924,
+      "FA-global-calibrated": 43.45077219795364
+    },
+    {
+      "Name": "2. 对称轴157张/何诺怡.JPG",
+      "VAS-global": 27.0,
+      "FA-global-raw": -0.7677825982755908,
+      "FA-global-calibrated": 31.32847561960355
+    },
+    {
+      "Name": "2. 对称轴157张/何静.JPG",
+      "VAS-global": 58.25,
+      "FA-global-raw": 0.4031543679631267,
+      "FA-global-calibrated": 59.50916804910021
+    },
+    {
+      "Name": "2. 对称轴157张/何静姝.JPG",
+      "VAS-global": 45.75,
+      "FA-global-raw": -0.2355607326885354,
+      "FA-global-calibrated": 44.13734674657762
+    },
+    {
+      "Name": "2. 对称轴157张/侯博耀.JPG",
+      "VAS-global": 63.0,
+      "FA-global-raw": 0.5544174452310506,
+      "FA-global-calibrated": 63.14958455257707
+    },
+    {
+      "Name": "2. 对称轴157张/侯蓉.JPG",
+      "VAS-global": 49.0,
+      "FA-global-raw": 0.029012923853827574,
+      "FA-global-calibrated": 50.504785007509255
+    },
+    {
+      "Name": "2. 对称轴157张/兰于青.JPG",
+      "VAS-global": 58.0,
+      "FA-global-raw": 0.2664929563144656,
+      "FA-global-calibrated": 56.22016674527887
+    },
+    {
+      "Name": "2. 对称轴157张/兰亦成.JPG",
+      "VAS-global": 23.0,
+      "FA-global-raw": -1.0409338883753683,
+      "FA-global-calibrated": 24.754601265163924
+    },
+    {
+      "Name": "2. 对称轴157张/兰添.JPG",
+      "VAS-global": 66.0,
+      "FA-global-raw": 0.748000583397755,
+      "FA-global-calibrated": 67.80850901521163
+    },
+    {
+      "Name": "2. 对称轴157张/兰美慧.JPG",
+      "VAS-global": 46.0,
+      "FA-global-raw": -0.2186526787565698,
+      "FA-global-calibrated": 44.5442693061827
+    },
+    {
+      "Name": "2. 对称轴157张/冯仁强.JPG",
+      "VAS-global": 63.5,
+      "FA-global-raw": 0.5477661453089933,
+      "FA-global-calibrated": 62.98950912344281
+    },
+    {
+      "Name": "2. 对称轴157张/冯俐.JPG",
+      "VAS-global": 41.0,
+      "FA-global-raw": -0.2775330559123775,
+      "FA-global-calibrated": 43.127207716530656
+    },
+    {
+      "Name": "2. 对称轴157张/冯圣兰.JPG",
+      "VAS-global": 62.75,
+      "FA-global-raw": 0.529580886937061,
+      "FA-global-calibrated": 62.55184835458304
+    },
+    {
+      "Name": "2. 对称轴157张/冯思瑶.JPG",
+      "VAS-global": 36.5,
+      "FA-global-raw": -0.6670933990121819,
+      "FA-global-calibrated": 33.75174129250225
+    },
+    {
+      "Name": "2. 对称轴157张/冯梅.JPG",
+      "VAS-global": 47.5,
+      "FA-global-raw": 0.06556128415982745,
+      "FA-global-calibrated": 51.38438666864242
+    },
+    {
+      "Name": "2. 对称轴157张/冯浩林.JPG",
+      "VAS-global": 35.5,
+      "FA-global-raw": -0.6076968197452324,
+      "FA-global-calibrated": 35.18122620923762
+    },
+    {
+      "Name": "2. 对称轴157张/冯禹睿.JPG",
+      "VAS-global": 40.25,
+      "FA-global-raw": -0.4065954659601991,
+      "FA-global-calibrated": 40.021089977801964
+    },
+    {
+      "Name": "2. 对称轴157张/冯耀杰.JPG",
+      "VAS-global": 80.5,
+      "FA-global-raw": 1.2599345059893037,
+      "FA-global-calibrated": 80.12911450699951
+    },
+    {
+      "Name": "2. 对称轴157张/古良玉.JPG",
+      "VAS-global": 74.5,
+      "FA-global-raw": 1.1186522872739262,
+      "FA-global-calibrated": 76.72890521634565
+    },
+    {
+      "Name": "2. 对称轴157张/吉如意.JPG",
+      "VAS-global": 60.0,
+      "FA-global-raw": 0.4650058937237208,
+      "FA-global-calibrated": 60.99773564412056
+    },
+    {
+      "Name": "2. 对称轴157张/吉方圆.JPG",
+      "VAS-global": 53.5,
+      "FA-global-raw": 0.1262887698112971,
+      "FA-global-calibrated": 52.84590222797941
+    },
+    {
+      "Name": "2. 对称轴157张/姜添.JPG",
+      "VAS-global": 48.5,
+      "FA-global-raw": -0.0021481170422643914,
+      "FA-global-calibrated": 49.75483882373089
+    },
+    {
+      "Name": "2. 对称轴157张/孔晨轩.JPG",
+      "VAS-global": 26.5,
+      "FA-global-raw": -0.8842433969424564,
+      "FA-global-calibrated": 28.52563819799004
+    },
+    {
+      "Name": "2. 对称轴157张/官昊融.JPG",
+      "VAS-global": 56.0,
+      "FA-global-raw": 0.3004601014674979,
+      "FA-global-calibrated": 57.037646846996424
+    },
+    {
+      "Name": "2. 对称轴157张/官露婷.JPG",
+      "VAS-global": 21.75,
+      "FA-global-raw": -1.0295397367785244,
+      "FA-global-calibrated": 25.0288219029128
+    },
+    {
+      "Name": "2. 对称轴157张/巨熙.JPG",
+      "VAS-global": 39.5,
+      "FA-global-raw": -0.36407940794210913,
+      "FA-global-calibrated": 41.04431495819614
+    },
+    {
+      "Name": "2. 对称轴157张/康钟佩.JPG",
+      "VAS-global": 45.0,
+      "FA-global-raw": -0.18207109997220214,
+      "FA-global-calibrated": 45.42467042941233
+    },
+    {
+      "Name": "2. 对称轴157张/敬俊.JPG",
+      "VAS-global": 59.0,
+      "FA-global-raw": 0.4329432611747107,
+      "FA-global-calibrated": 60.22609104462859
+    },
+    {
+      "Name": "2. 对称轴157张/敬小耘.JPG",
+      "VAS-global": 30.5,
+      "FA-global-raw": -0.7183039815493121,
+      "FA-global-calibrated": 32.51926702853747
+    },
+    {
+      "Name": "2. 对称轴157张/景光州.JPG",
+      "VAS-global": 76.5,
+      "FA-global-raw": 0.9248318855588789,
+      "FA-global-calibrated": 72.06427058205082
+    },
+    {
+      "Name": "2. 对称轴157张/李丽偲.JPG",
+      "VAS-global": 34.5,
+      "FA-global-raw": -0.5237081309063756,
+      "FA-global-calibrated": 37.20256422824931
+    },
+    {
+      "Name": "2. 对称轴157张/李伯忱.JPG",
+      "VAS-global": 47.5,
+      "FA-global-raw": -0.21582920888766366,
+      "FA-global-calibrated": 44.61222115863397
+    },
+    {
+      "Name": "2. 对称轴157张/李佳.JPG",
+      "VAS-global": 20.0,
+      "FA-global-raw": -1.1866776856661851,
+      "FA-global-calibrated": 21.247016106116092
+    },
+    {
+      "Name": "2. 对称轴157张/李佳镁.JPG",
+      "VAS-global": 57.0,
+      "FA-global-raw": 0.31712608622505173,
+      "FA-global-calibrated": 57.43874357895454
+    },
+    {
+      "Name": "2. 对称轴157张/李俊豪.JPG",
+      "VAS-global": 78.25,
+      "FA-global-raw": 1.1200800761083685,
+      "FA-global-calibrated": 76.76326750838852
+    },
+    {
+      "Name": "2. 对称轴157张/李冬欣.JPG",
+      "VAS-global": 69.5,
+      "FA-global-raw": 0.7065611393643993,
+      "FA-global-calibrated": 66.81119467599103
+    },
+    {
+      "Name": "2. 对称轴157张/李博.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.47888652412715166,
+      "FA-global-calibrated": 38.28127636328293
+    },
+    {
+      "Name": "2. 对称轴157张/李嘉惠.JPG",
+      "VAS-global": 57.75,
+      "FA-global-raw": 0.40219510207222553,
+      "FA-global-calibrated": 59.486081599693435
+    },
+    {
+      "Name": "2. 对称轴157张/李孟阳.JPG",
+      "VAS-global": 45.75,
+      "FA-global-raw": -0.25702369955613513,
+      "FA-global-calibrated": 43.62080206026272
+    },
+    {
+      "Name": "2. 对称轴157张/李昌朔.JPG",
+      "VAS-global": 41.25,
+      "FA-global-raw": -0.3030174304301905,
+      "FA-global-calibrated": 42.51388066242672
+    },
+    {
+      "Name": "2. 对称轴157张/李晨语.JPG",
+      "VAS-global": 33.5,
+      "FA-global-raw": -0.6961595132585573,
+      "FA-global-calibrated": 33.052213265533524
+    },
+    {
+      "Name": "2. 对称轴157张/李林蔚.JPG",
+      "VAS-global": 38.5,
+      "FA-global-raw": -0.38998378831687064,
+      "FA-global-calibrated": 40.42087971192259
+    },
+    {
+      "Name": "2. 对称轴157张/李果.JPG",
+      "VAS-global": 69.0,
+      "FA-global-raw": 0.8344969113463185,
+      "FA-global-calibrated": 69.8901978545598
+    },
+    {
+      "Name": "2. 对称轴157张/李柯兴.JPG",
+      "VAS-global": 33.0,
+      "FA-global-raw": -0.7023167251266308,
+      "FA-global-calibrated": 32.9040289491439
+    },
+    {
+      "Name": "2. 对称轴157张/李柳梅.JPG",
+      "VAS-global": 31.75,
+      "FA-global-raw": -0.873264478797729,
+      "FA-global-calibrated": 28.7898655000275
+    },
+    {
+      "Name": "2. 对称轴157张/李梅.JPG",
+      "VAS-global": 45.75,
+      "FA-global-raw": -0.06712836221178134,
+      "FA-global-calibrated": 48.19097300010967
+    },
+    {
+      "Name": "2. 对称轴157张/李海升.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.31941885289076266,
+      "FA-global-calibrated": 42.119151095341394
+    },
+    {
+      "Name": "2. 对称轴157张/李海树.JPG",
+      "VAS-global": 44.25,
+      "FA-global-raw": -0.31617835820094503,
+      "FA-global-calibrated": 42.19713939599817
+    },
+    {
+      "Name": "2. 对称轴157张/李璐杉.JPG",
+      "VAS-global": 29.5,
+      "FA-global-raw": -0.769047233707681,
+      "FA-global-calibrated": 31.298039906004334
+    },
+    {
+      "Name": "2. 对称轴157张/李翠莲.JPG",
+      "VAS-global": 31.0,
+      "FA-global-raw": -0.8161250695153275,
+      "FA-global-calibrated": 30.165027583912217
+    },
+    {
+      "Name": "2. 对称轴157张/李艾凌.JPG",
+      "VAS-global": 36.25,
+      "FA-global-raw": -0.5557757232758062,
+      "FA-global-calibrated": 36.43080026180779
+    },
+    {
+      "Name": "2. 对称轴157张/李艾恬.JPG",
+      "VAS-global": 77.0,
+      "FA-global-raw": 1.0882180855511427,
+      "FA-global-calibrated": 75.99645171729695
+    },
+    {
+      "Name": "2. 对称轴157张/李莉.JPG",
+      "VAS-global": 48.0,
+      "FA-global-raw": -0.10418651995250519,
+      "FA-global-calibrated": 47.29910215188657
+    },
+    {
+      "Name": "2. 对称轴157张/李蔓青.JPG",
+      "VAS-global": 43.5,
+      "FA-global-raw": -0.3194981339457266,
+      "FA-global-calibrated": 42.11724305495165
+    },
+    {
+      "Name": "2. 对称轴157张/李蕾.JPG",
+      "VAS-global": 35.5,
+      "FA-global-raw": -0.4743839182777082,
+      "FA-global-calibrated": 38.38963962640716
+    },
+    {
+      "Name": "2. 对称轴157张/李金春.JPG",
+      "VAS-global": 60.5,
+      "FA-global-raw": 0.4242601570235594,
+      "FA-global-calibrated": 60.01711661263769
+    },
+    {
+      "Name": "2. 对称轴157张/李金铭.JPG",
+      "VAS-global": 58.0,
+      "FA-global-raw": 0.3945120550803033,
+      "FA-global-calibrated": 59.301175331940854
+    },
+    {
+      "Name": "2. 对称轴157张/李锦烨.JPG",
+      "VAS-global": 52.0,
+      "FA-global-raw": 0.1578474119816266,
+      "FA-global-calibrated": 53.60541739757163
+    },
+    {
+      "Name": "2. 对称轴157张/柯倩.JPG",
+      "VAS-global": 54.0,
+      "FA-global-raw": 0.0603220208057067,
+      "FA-global-calibrated": 51.25829442508308
+    },
+    {
+      "Name": "2. 对称轴157张/江旭刚.JPG",
+      "VAS-global": 42.5,
+      "FA-global-raw": -0.3042183394856669,
+      "FA-global-calibrated": 42.48497863806166
+    },
+    {
+      "Name": "2. 对称轴157张/江明月.JPG",
+      "VAS-global": 51.0,
+      "FA-global-raw": -0.12531980577385432,
+      "FA-global-calibrated": 46.790491829616954
+    },
+    {
+      "Name": "2. 对称轴157张/江浩宇.JPG",
+      "VAS-global": 35.0,
+      "FA-global-raw": -0.5309114420180088,
+      "FA-global-calibrated": 37.029203662511115
+    },
+    {
+      "Name": "2. 对称轴157张/江知晓.JPG",
+      "VAS-global": 37.0,
+      "FA-global-raw": -0.3739810264173179,
+      "FA-global-calibrated": 40.806014799563016
+    },
+    {
+      "Name": "2. 对称轴157张/江竞航.JPG",
+      "VAS-global": 36.0,
+      "FA-global-raw": -0.6611430641839435,
+      "FA-global-calibrated": 33.89494674290813
+    },
+    {
+      "Name": "2. 对称轴157张/江鑫锐.JPG",
+      "VAS-global": 62.75,
+      "FA-global-raw": 0.45782176227259297,
+      "FA-global-calibrated": 60.824836671217156
+    },
+    {
+      "Name": "2. 对称轴157张/管梓岑.JPG",
+      "VAS-global": 46.5,
+      "FA-global-raw": -0.20341677396504293,
+      "FA-global-calibrated": 44.91094860591845
+    },
+    {
+      "Name": "2. 对称轴157张/胡峻铭.JPG",
+      "VAS-global": 37.0,
+      "FA-global-raw": -0.5633136850778068,
+      "FA-global-calibrated": 36.249385728649926
+    },
+    {
+      "Name": "2. 对称轴157张/胡晓.JPG",
+      "VAS-global": 40.25,
+      "FA-global-raw": -0.4463117813819205,
+      "FA-global-calibrated": 39.06524581060687
+    },
+    {
+      "Name": "2. 对称轴157张/胡晓毅.JPG",
+      "VAS-global": 71.25,
+      "FA-global-raw": 0.9027859257105062,
+      "FA-global-calibrated": 71.53369512691282
+    },
+    {
+      "Name": "2. 对称轴157张/胡晖楠.JPG",
+      "VAS-global": 54.25,
+      "FA-global-raw": 0.10995825982377862,
+      "FA-global-calibrated": 52.452879296392105
+    },
+    {
+      "Name": "2. 对称轴157张/胡浩洋.JPG",
+      "VAS-global": 48.0,
+      "FA-global-raw": -0.030814974573437723,
+      "FA-global-calibrated": 49.06491962372376
+    },
+    {
+      "Name": "2. 对称轴157张/胡芷毓.JPG",
+      "VAS-global": 68.0,
+      "FA-global-raw": 0.8117338829052536,
+      "FA-global-calibrated": 69.34236486119032
+    },
+    {
+      "Name": "2. 对称轴157张/花语.JPG",
+      "VAS-global": 53.25,
+      "FA-global-raw": 0.19058267061375522,
+      "FA-global-calibrated": 54.39324994681235
+    },
+    {
+      "Name": "2. 对称轴157张/蒋明明.JPG",
+      "VAS-global": 99.0,
+      "FA-global-raw": 1.930775275883694,
+      "FA-global-calibrated": 96.27409749979577
+    },
+    {
+      "Name": "2. 对称轴157张/蒋洪.JPG",
+      "VAS-global": 69.5,
+      "FA-global-raw": 0.6851154576784335,
+      "FA-global-calibrated": 66.2950659884884
+    },
+    {
+      "Name": "2. 对称轴157张/蒋雅竹.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.32112569193867335,
+      "FA-global-calibrated": 42.0780729608024
+    },
+    {
+      "Name": "2. 对称轴157张/解陈群.JPG",
+      "VAS-global": 49.75,
+      "FA-global-raw": -0.03328567345930557,
+      "FA-global-calibrated": 49.005457835945215
+    },
+    {
+      "Name": "2. 对称轴157张/谷俊杰.JPG",
+      "VAS-global": 99.75,
+      "FA-global-raw": 2.9351973321665357,
+      "FA-global-calibrated": 120.44731079276374
+    },
+    {
+      "Name": "2. 对称轴157张/贺冬梅.JPG",
+      "VAS-global": 43.5,
+      "FA-global-raw": -0.35352296816738527,
+      "FA-global-calibrated": 41.298374562614974
+    },
+    {
+      "Name": "2. 对称轴157张/贺宇翔.JPG",
+      "VAS-global": 65.5,
+      "FA-global-raw": 0.6778671607966116,
+      "FA-global-calibrated": 66.1206227597291
+    },
+    {
+      "Name": "2. 对称轴157张/贺灿.JPG",
+      "VAS-global": 27.5,
+      "FA-global-raw": -0.9300120136813812,
+      "FA-global-calibrated": 27.424134574454932
+    },
+    {
+      "Name": "2. 对称轴157张/贺露.JPG",
+      "VAS-global": 33.75,
+      "FA-global-raw": -0.7417765000949779,
+      "FA-global-calibrated": 31.95435888680731
+    },
+    {
+      "Name": "2. 对称轴157张/贾愔棋.JPG",
+      "VAS-global": 54.25,
+      "FA-global-raw": 0.10592476172101252,
+      "FA-global-calibrated": 52.355805950237425
+    },
+    {
+      "Name": "2. 对称轴157张/贾浩宇.JPG",
+      "VAS-global": 41.0,
+      "FA-global-raw": -0.31188227772797633,
+      "FA-global-calibrated": 42.30053225654641
+    },
+    {
+      "Name": "2. 对称轴157张/贾茹.JPG",
+      "VAS-global": 38.5,
+      "FA-global-raw": -0.4382869533984331,
+      "FA-global-calibrated": 39.25837764923068
+    },
+    {
+      "Name": "2. 对称轴157张/赖俊颖.JPG",
+      "VAS-global": 26.5,
+      "FA-global-raw": -0.8791161162466243,
+      "FA-global-calibrated": 28.64903537858557
+    },
+    {
+      "Name": "2. 对称轴157张/赖婷.JPG",
+      "VAS-global": 85.5,
+      "FA-global-raw": 1.2820969710902348,
+      "FA-global-calibrated": 80.66249386942154
+    },
+    {
+      "Name": "2. 对称轴157张/赖巧.JPG",
+      "VAS-global": 39.5,
+      "FA-global-raw": -0.4437621959806008,
+      "FA-global-calibrated": 39.126606143476124
+    },
+    {
+      "Name": "2. 对称轴157张/郭优美.JPG",
+      "VAS-global": 31.0,
+      "FA-global-raw": -0.8391217743495452,
+      "FA-global-calibrated": 29.611570750188097
+    },
+    {
+      "Name": "2. 对称轴157张/郭子雅.JPG",
+      "VAS-global": 49.75,
+      "FA-global-raw": 0.0019164866930162505,
+      "FA-global-calibrated": 49.852660782567554
+    },
+    {
+      "Name": "2. 对称轴157张/郭晶.JPG",
+      "VAS-global": 27.5,
+      "FA-global-raw": -0.8727414371277216,
+      "FA-global-calibrated": 28.802453433328157
+    },
+    {
+      "Name": "2. 对称轴157张/郭燕.JPG",
+      "VAS-global": 35.25,
+      "FA-global-raw": -0.5630836102921428,
+      "FA-global-calibrated": 36.254922889878515
+    },
+    {
+      "Name": "2. 对称轴157张/郭达.JPG",
+      "VAS-global": 43.0,
+      "FA-global-raw": -0.35278168078211103,
+      "FA-global-calibrated": 41.31621496940765
+    },
+    {
+      "Name": "2. 对称轴157张/郭露.JPG",
+      "VAS-global": 30.5,
+      "FA-global-raw": -0.6131870036439485,
+      "FA-global-calibrated": 35.0490951139763
+    },
+    {
+      "Name": "2. 对称轴157张/金浩苒.JPG",
+      "VAS-global": 57.0,
+      "FA-global-raw": 0.3457598362502442,
+      "FA-global-calibrated": 58.127865987614186
+    },
+    {
+      "Name": "2. 对称轴157张/雷丽.JPG",
+      "VAS-global": 68.0,
+      "FA-global-raw": 0.6431243109977627,
+      "FA-global-calibrated": 65.28447393828523
+    },
+    {
+      "Name": "2. 对称轴157张/雷诗琪.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.3139369657830186,
+      "FA-global-calibrated": 42.251082513488335
+    },
+    {
+      "Name": "2. 对称轴157张/雷雯.JPG",
+      "VAS-global": 35.0,
+      "FA-global-raw": -0.5537605605348703,
+      "FA-global-calibrated": 36.479298757486944
+    },
+    {
+      "Name": "2. 对称轴157张/韩俊.JPG",
+      "VAS-global": 34.25,
+      "FA-global-raw": -0.6630250508581447,
+      "FA-global-calibrated": 33.84965336747355
+    },
+    {
+      "Name": "2. 对称轴157张/韩知彤.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.35150737827790884,
+      "FA-global-calibrated": 41.34688333838776
+    },
+    {
+      "Name": "2. 对称轴157张/顾振西.JPG",
+      "VAS-global": 60.0,
+      "FA-global-raw": 0.29773219810024815,
+      "FA-global-calibrated": 56.97199497333768
+    },
+    {
+      "Name": "2. 对称轴157张/高妍妍.JPG",
+      "VAS-global": 55.0,
+      "FA-global-raw": 0.2924197187446711,
+      "FA-global-calibrated": 56.84414065574921
+    },
+    {
+      "Name": "2. 对称轴157张/高小果.JPG",
+      "VAS-global": 39.5,
+      "FA-global-raw": -0.37633860170055894,
+      "FA-global-calibrated": 40.74927553361447
+    },
+    {
+      "Name": "2. 对称轴157张/高文婷.JPG",
+      "VAS-global": 35.25,
+      "FA-global-raw": -0.6800840472484033,
+      "FA-global-calibrated": 33.43909810763409
+    },
+    {
+      "Name": "2. 对称轴157张/高文桢.JPG",
+      "VAS-global": 42.5,
+      "FA-global-raw": -0.3785356054245146,
+      "FA-global-calibrated": 40.6964007094383
+    },
+    {
+      "Name": "2. 对称轴157张/高春梅.JPG",
+      "VAS-global": 66.0,
+      "FA-global-raw": 0.4924621699634246,
+      "FA-global-calibrated": 61.65852004010371
+    },
+    {
+      "Name": "2. 对称轴157张/高林静.JPG",
+      "VAS-global": 63.75,
+      "FA-global-raw": 0.5647055997889641,
+      "FA-global-calibrated": 63.397187393398625
+    },
+    {
+      "Name": "2. 对称轴157张/高雨洁.JPG",
+      "VAS-global": 53.25,
+      "FA-global-raw": 0.18596399755597712,
+      "FA-global-calibrated": 54.28209331872182
+    },
+    {
+      "Name": "2. 对称轴157张/高静文.JPG",
+      "VAS-global": 29.0,
+      "FA-global-raw": -0.8599898710255295,
+      "FA-global-calibrated": 29.109342679018784
+    },
+    {
+      "Name": "2. 对称轴157张/黄博.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.2873788471914541,
+      "FA-global-calibrated": 42.89025113922493
+    },
+    {
+      "Name": "2. 对称轴157张/黄卫.JPG",
+      "VAS-global": 78.5,
+      "FA-global-raw": 1.1892252461245971,
+      "FA-global-calibrated": 78.42736969782725
+    },
+    {
+      "Name": "2. 对称轴157张/黄媛.JPG",
+      "VAS-global": 41.25,
+      "FA-global-raw": -0.20852485369534182,
+      "FA-global-calibrated": 44.78801353090131
+    },
+    {
+      "Name": "2. 对称轴157张/黄子淇.JPG",
+      "VAS-global": 61.25,
+      "FA-global-raw": 0.4133555886995188,
+      "FA-global-calibrated": 59.75467867201709
+    },
+    {
+      "Name": "2. 对称轴157张/黄志婉.JPG",
+      "VAS-global": 48.0,
+      "FA-global-raw": -0.12777245555651637,
+      "FA-global-calibrated": 46.73146442578967
+    },
+    {
+      "Name": "2. 对称轴157张/黄思敏.JPG",
+      "VAS-global": 39.0,
+      "FA-global-raw": -0.2795178992741331,
+      "FA-global-calibrated": 43.07943891094069
+    },
+    {
+      "Name": "2. 对称轴157张/黄朝民.JPG",
+      "VAS-global": 25.75,
+      "FA-global-raw": -1.022881852832478,
+      "FA-global-calibrated": 25.18905578836054
+    },
+    {
+      "Name": "2. 对称轴157张/黄柳依.JPG",
+      "VAS-global": 53.25,
+      "FA-global-raw": 0.15684977756214688,
+      "FA-global-calibrated": 53.58140754089869
+    },
+    {
+      "Name": "2. 对称轴157张/黄楷译.JPG",
+      "VAS-global": 92.0,
+      "FA-global-raw": 1.485063274931629,
+      "FA-global-calibrated": 85.54724099674044
+    },
+    {
+      "Name": "2. 对称轴157张/黄欣悦.JPG",
+      "VAS-global": 41.0,
+      "FA-global-raw": -0.3728663194839778,
+      "FA-global-calibrated": 40.832842215677815
+    },
+    {
+      "Name": "2. 对称轴157张/黄洪秀.JPG",
+      "VAS-global": 53.75,
+      "FA-global-raw": 0.02302222204461868,
+      "FA-global-calibrated": 50.36060805350597
+    },
+    {
+      "Name": "2. 对称轴157张/黄瑾乔.JPG",
+      "VAS-global": 99.75,
+      "FA-global-raw": 1.9731600112251129,
+      "FA-global-calibrated": 97.29416196509223
+    },
+    {
+      "Name": "2. 对称轴157张/黄真.JPG",
+      "VAS-global": 53.5,
+      "FA-global-raw": 0.08538740633443087,
+      "FA-global-calibrated": 51.861537759761205
+    },
+    {
+      "Name": "2. 对称轴157张/黄箐.JPG",
+      "VAS-global": 43.0,
+      "FA-global-raw": -0.18202438715994734,
+      "FA-global-calibrated": 45.42579465678975
+    },
+    {
+      "Name": "2. 对称轴157张/黄纯.JPG",
+      "VAS-global": 39.5,
+      "FA-global-raw": -0.43904977490851516,
+      "FA-global-calibrated": 39.240018985208586
+    },
+    {
+      "Name": "2. 对称轴157张/黄耕宁.JPG",
+      "VAS-global": 34.0,
+      "FA-global-raw": -0.7376857094606407,
+      "FA-global-calibrated": 32.05281108020763
+    },
+    {
+      "Name": "2. 对称轴157张/黄良晴.JPG",
+      "VAS-global": 69.75,
+      "FA-global-raw": 0.7668579735257505,
+      "FA-global-calibrated": 68.26234583695539
+    },
+    {
+      "Name": "2. 对称轴157张/黄芝霖.JPG",
+      "VAS-global": 42.0,
+      "FA-global-raw": -0.349101342993809,
+      "FA-global-calibrated": 41.40478888093249
+    },
+    {
+      "Name": "2. 对称轴157张/黄莞淳.JPG",
+      "VAS-global": 59.0,
+      "FA-global-raw": 0.46897260452900974,
+      "FA-global-calibrated": 61.093201634505746
+    },
+    {
+      "Name": "2. 对称轴157张/黄诗航.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.4583163801665189,
+      "FA-global-calibrated": 38.7763336694393
+    },
+    {
+      "Name": "2. 对称轴157张/黄雪梅.JPG",
+      "VAS-global": 40.5,
+      "FA-global-raw": -0.4551529412767561,
+      "FA-global-calibrated": 38.852467484445825
+    },
+    {
+      "Name": "2. 对称轴157张/黄雪瑶.JPG",
+      "VAS-global": 38.0,
+      "FA-global-raw": -0.4146190288899205,
+      "FA-global-calibrated": 39.8279885849597
+    },
+    {
+      "Name": "2. 对称轴157张/黎火金.JPG",
+      "VAS-global": 50.5,
+      "FA-global-raw": 0.01567477207517097,
+      "FA-global-calibrated": 50.183778528347815
+    },
+    {
+      "Name": "2. 对称轴157张/龚圣华.JPG",
+      "VAS-global": 59.0,
+      "FA-global-raw": 0.48262312290867304,
+      "FA-global-calibrated": 61.42172577461908
+    },
+    {
+      "Name": "2. 对称轴157张/龚必东.JPG",
+      "VAS-global": 51.5,
+      "FA-global-raw": 0.09521600659715632,
+      "FA-global-calibrated": 52.0980806045106
     }
   ]
 }

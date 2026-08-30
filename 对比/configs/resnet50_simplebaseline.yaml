@@ -1,0 +1,56 @@
+data:
+  ann_file: data/annotations/annotations_usable.json
+  img_root: data/raw
+  split_dir: data/splits
+
+model:
+  name: resnet50_simplebaseline
+  model_type: simplebaseline
+  backbone: resnet50
+  pretrained: true
+  pretrained_path: null
+  num_points: 29
+  input_size: [384, 384]
+  heatmap_size: [96, 96]
+  head_channels: 256
+  num_deconv: 3
+  head_dropout: 0.20
+  nme_reference_indices: [4, 5]
+
+loss:
+  sigma: 2.0
+  heatmap_weight: 1.0
+  coord_weight: 0.10
+  wing_w: 10.0
+  wing_epsilon: 2.0
+
+train:
+  batch_size: 32
+  epochs: 120
+  lr: 1.0e-3
+  min_lr: 1.0e-6
+  warmup_epochs: 5
+  weight_decay: 1.0e-4
+  num_workers: 8
+  early_stop_patience: 20
+  amp: false
+  grad_clip_norm: 1.0
+  save_dir: 对比/checkpoints/resnet50
+  log_dir: logs/compare_resnet50
+  exp_name: resnet50_simplebaseline
+
+augment:
+  rotation: 30.0
+  translate: 0.10
+  scale: [0.9, 1.1]
+  hflip_prob: 0.5
+  brightness: 0.15
+  contrast: 0.15
+  blur_prob: 0.15
+  blur_kernel: 5
+  occlusion_prob: 0.05
+  occlusion_max_cover: 0.12
+
+eval:
+  vis_samples: 12
+  peak_threshold: 0.0

@@ -7,10 +7,12 @@ from pathlib import Path
 import numpy as np
 from joblib import dump, load
 from sklearn.cross_decomposition import PLSRegression
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Ridge
 from sklearn.metrics import r2_score
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
+from sklearn.svm import SVR
 
 from src.landmark.schema import MIDLINE_INDICES, POINT_NAMES_31, SYMMETRY_PAIRS
 
@@ -543,4 +545,155 @@ class MLPAxisRegressor:
 
     @staticmethod
     def load(path: str | Path) -> "MLPAxisRegressor":
+        return load(path)
+
+
+class OrdinaryLinearAxisRegressor:
+    """Unregularized linear regression baseline for axis prediction."""
+
+    def __init__(self, fit_intercept: bool = True) -> None:
+        self.fit_intercept = fit_intercept
+        self.scaler = StandardScaler()
+        self.model = None
+
+    def fit(self, features: np.ndarray, targets: np.ndarray) -> None:
+        from sklearn.linear_model import LinearRegression
+        features64 = np.asarray(features, dtype=np.float64)
+        targets64 = np.asarray(targets, dtype=np.float64)
+        features_scaled = self.scaler.fit_transform(features64)
+        self.model = LinearRegression(fit_intercept=self.fit_intercept)
+        self.model.fit(features_scaled, targets64)
+
+    def predict_targets(self, features: np.ndarray) -> np.ndarray:
+        features64 = np.asarray(features, dtype=np.float64)
+        features_scaled = self.scaler.transform(features64)
+        return self.model.predict(features_scaled).astype(np.float32)
+
+    def export_coefficients(self, feature_names: list[str]) -> dict:
+        coef = np.asarray(self.model.coef_, dtype=np.float64)
+        intercept = np.asarray(self.model.intercept_, dtype=np.float64)
+        outputs = []
+        for output_idx, output_name in enumerate(["slope_xy", "intercept_norm"]):
+            outputs.append(
+                {
+                    "name": output_name,
+                    "intercept": float(intercept[output_idx]),
+                    "coefficients": {
+                        feature_names[i]: float(coef[output_idx, i])
+                        for i in range(len(feature_names))
+                    },
+                }
+            )
+        return {
+            "model_type": "linear",
+            "feature_mean": self.scaler.mean_.tolist(),
+            "feature_scale": self.scaler.scale_.tolist(),
+            "outputs": outputs,
+        }
+
+    def save(self, path: str | Path) -> None:
+        dump(self, path)
+
+    @staticmethod
+    def load(path: str | Path) -> "OrdinaryLinearAxisRegressor":
+        return load(path)
+
+
+class SVRAxisRegressor:
+    """SVR with RBF kernel for axis prediction (one regressor per output)."""
+
+    def __init__(self, C: float = 1.0, epsilon: float = 0.01, gamma: str = "scale") -> None:
+        self.C = float(C)
+        self.epsilon = float(epsilon)
+        self.gamma = gamma
+        self.scaler = StandardScaler()
+        self.model = None
+
+    def fit(self, features: np.ndarray, targets: np.ndarray) -> None:
+        features64 = np.asarray(features, dtype=np.float64)
+        targets64 = np.asarray(targets, dtype=np.float64)
+        features_scaled = self.scaler.fit_transform(features64)
+        self.model = [
+            SVR(C=self.C, epsilon=self.epsilon, gamma=self.gamma).fit(features_scaled, targets64[:, i])
+            for i in range(targets64.shape[1])
+        ]
+
+    def predict_targets(self, features: np.ndarray) -> np.ndarray:
+        features64 = np.asarray(features, dtype=np.float64)
+        features_scaled = self.scaler.transform(features64)
+        pred = np.column_stack([svr.predict(features_scaled) for svr in self.model])
+        return pred.astype(np.float32)
+
+    def export_coefficients(self, feature_names: list[str]) -> dict:
+        return {
+            "model_type": "svr",
+            "C": self.C,
+            "epsilon": self.epsilon,
+            "gamma": self.gamma,
+            "n_support_vectors": [int(svr.n_support_) for svr in self.model],
+            "feature_names": feature_names,
+        }
+
+    def save(self, path: str | Path) -> None:
+        dump(self, path)
+
+    @staticmethod
+    def load(path: str | Path) -> "SVRAxisRegressor":
+        return load(path)
+
+
+class RandomForestAxisRegressor:
+    """Random Forest regression baseline for axis prediction."""
+
+    def __init__(
+        self,
+        n_estimators: int = 200,
+        max_depth: int | None = None,
+        min_samples_leaf: int = 2,
+        random_state: int = 42,
+    ) -> None:
+        self.n_estimators = int(n_estimators)
+        self.max_depth = max_depth
+        self.min_samples_leaf = int(min_samples_leaf)
+        self.random_state = int(random_state)
+        self.scaler = StandardScaler()
+        self.model = None
+
+    def fit(self, features: np.ndarray, targets: np.ndarray) -> None:
+        features64 = np.asarray(features, dtype=np.float64)
+        targets64 = np.asarray(targets, dtype=np.float64)
+        features_scaled = self.scaler.fit_transform(features64)
+        self.model = RandomForestRegressor(
+            n_estimators=self.n_estimators,
+            max_depth=self.max_depth,
+            min_samples_leaf=self.min_samples_leaf,
+            random_state=self.random_state,
+            n_jobs=-1,
+        )
+        self.model.fit(features_scaled, targets64)
+
+    def predict_targets(self, features: np.ndarray) -> np.ndarray:
+        features64 = np.asarray(features, dtype=np.float64)
+        features_scaled = self.scaler.transform(features64)
+        return self.model.predict(features_scaled).astype(np.float32)
+
+    def export_coefficients(self, feature_names: list[str]) -> dict:
+        importances = np.asarray(self.model.feature_importances_, dtype=np.float64)
+        return {
+            "model_type": "random_forest",
+            "n_estimators": self.n_estimators,
+            "max_depth": self.max_depth,
+            "min_samples_leaf": self.min_samples_leaf,
+            "feature_importances": {
+                feature_names[i]: float(importances[i])
+                for i in range(len(feature_names))
+            },
+            "feature_names": feature_names,
+        }
+
+    def save(self, path: str | Path) -> None:
+        dump(self, path)
+
+    @staticmethod
+    def load(path: str | Path) -> "RandomForestAxisRegressor":
         return load(path)
