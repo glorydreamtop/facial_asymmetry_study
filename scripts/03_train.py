@@ -51,7 +51,7 @@ def main():
                         help="COCO annotation file")
     parser.add_argument("--img_root", default="data/raw",
                         help="Image root directory")
-    parser.add_argument("--config", default="pipelines/mobilenetv2/configs/mac_mps_320_all869_e80.yaml",
+    parser.add_argument("--config", default="configs/mac_mps_320.yaml",
                         help="Configuration file")
     parser.add_argument("--device", default="auto",
                         help="Device: auto/cuda/cpu/mps")

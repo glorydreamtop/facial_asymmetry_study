@@ -1,7 +1,30 @@
-data/
+# data / weights / outputs
+data/raw/
+data/annotations/
+data/splits/
+data/crops/
 checkpoints/
-archive_100例/
+results/
+logs/
+runs/
+outputs/
+analysis_204/data/*
+!analysis_204/data/README.md
+analysis_204/out/
+analysis_204/outputs/
 *.pth
-*.joblib
 *.npz
+*.pkl
+*.joblib
+*.xlsx
+*.docx
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+
+# python / macOS
+__pycache__/
+*.pyc
 .DS_Store

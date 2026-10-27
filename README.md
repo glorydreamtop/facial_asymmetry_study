@@ -1,69 +1,126 @@
-# 面部不对称数据集与代码
+# 面部不对称自动评分：完整工程代码
 
 ## 目录结构
 
 ```
-facial_asymmetry_study_v2/
-├── data/
-│   ├── annotations/
-│   │   └── annotations_usable.json   # 1030 例训练标注（COCO 关键点格式）
-│   ├── raw/                           # HRNet 训练图片（1030 张，已匿名化为 HRNet_*.jpg）
-│   └── splits/                        # train/val/test 分割（721/206/103）
-├── checkpoints/
-│   └── hrnet_w48_29pts_coord010_best.pth  # HRNet-W48 预训练权重
-├── pipelines/
-│   └── hrnet_w48/                    # HRNet 训练/评估管线（独立可运行）
-│       ├── configs/
-│       ├── hrnet_w48_pipeline/
-│       └── scripts/
-├── 对比/                              # 对比模型研究（关键点 + 对称轴 4 模型对比）
-│   ├── configs/                      # 对比模型训练配置
-│   ├── scripts/                      # 对比训练/评估/报告脚本
-│   └── results/                      # 最终报告 + 模型评估数据
-│       ├── 最终版/                   # 对比模型最终报告（Excel + 图 + CSV）
-│       ├── models/                   # 4 关键点模型原始评估数据
-│       └── axis_final/               # 对称轴 4 模型结果 + 283 例 VAS 数据
-├── inputs/                           # 输入数据模板（283 例 VAS + 共识轴）
-├── src/                              # 核心工具包
-├── scripts/
-│   ├── 01_filter_raw.py              # 原始数据过滤
-│   ├── 02_preprocess.py              # COCO 标注生成
-│   ├── 03_train.py                   # HRNet 训练
-│   ├── 04_evaluate.py                # HRNet 评估
-│   ├── 05_symmetry.py                # 对称性分析
-│   └── 06b_pipeline_283.py           # 283 例 Pred 路线主流程（Part 1-4）
-├── results/                          # 283 例管线输出
-│   ├── part1_axis_consensus/         # 专家共识轴 vs AI 轴对比（283 例）
-│   ├── part2_region_fa/              # 5 区域 RAS + Global FA（283 例）
-│   ├── part3_weights_shap/           # 回归权重 + SHAP 分析（283 例）
-│   └── part4_evaluation/             # 机器评分 vs 专家 VAS 评估（283 例）
-└── archive_100例/                    # 归档：历史 100 例数据（已弃用）
+.
+├── src/                         # 核心库：数据、关键点、对称轴、指标、可视化
+├── pipelines/hrnet_w48/         # HRNet-W48 训练/评估/轴回归管线
+│   ├── configs/
+│   ├── hrnet_w48_pipeline/
+│   └── scripts/
+├── scripts/                     # 数据过滤、预处理、MobileNet 训练/评估、283 主流程
+├── 对比/                        # 关键点/对称轴四模型对比
+│   ├── configs/
+│   └── scripts/
+├── configs/                     # 通用训练配置
+├── analysis_204/                # 204 例分析：轴模型、Global FA、A/B/C、表图
+│   └── data/                    # 仅放输入表（本包不附带数据）
+├── requirements.txt
+└── README.md
 ```
 
-## 研究路线（Pred 纯 AI 自证）
+## 不包含的内容
 
-- **关键点来源**：HRNet-W48 预测（对 283 张对称轴图推理）
-- **对称轴**：专家标注（283 张）
-- **VAS**：基于 HRNet 预测关键点计算 5 区域 RAS，按预期权重合成（Facial Contour 35% / Mouth 25% / Eye 15% / Nose 15% / Eyebrow 10%）
-- **数据规模**：283 例全流程（Part 1-4）
+- `data/raw/`、`data/annotations/`、`data/splits/`、`对称轴数据/`、`专家VAS评分/` 等原始或标注数据；
+- `checkpoints/` 模型权重；
+- `results/`、`figures/`、Excel/Word/PDF 结果文件；
+- `analysis_204/data/` 下的输入表（格式见 `analysis_204/data/README.md`）；
+- 非正式/临时脚本。
 
-## 命名约定
+## 环境
 
-- **Part 2** 使用原始区域 RAS 值（Global FA Index (raw)）
-- **Part 3 / Part 4** 使用 **Machine FA Score (calibrated)**（经回归校准后的 0–100 分）
-- **Expert VAS** 为评分者的均分
+```bash
+python -m pip install -r requirements.txt
+```
 
-## 主要流程
+- HRNet 训练建议在 CUDA GPU 上运行；
+- macOS 可用 MPS 做推理；
+- 旧版 MobileNetV2 路线依赖 `onnxruntime` / `insightface`，仅作历史保留。
 
-1. **关键点检测**：HRNet-W48（4 模型对比中最优，MRE 12.46px / NME 2.12%）
-2. **对称轴预测**：以 HRNet 预测关键点为特征，Ridge 回归（4 模型对比中角度精度最优）
-3. **区域不对称评分**：5 区域 RAS + Global FA（Part 2）
-4. **权重分析**：回归 + SHAP（Part 3）
-5. **模型评估**：机器 FA vs 专家 VAS（Part 4）
+## 运行顺序
 
-主管线：`python scripts/06b_pipeline_283.py`
+### 1. 原始数据过滤与预处理
 
-## 交付说明
+```bash
+python scripts/01_filter_raw.py \
+  --source_dir 照片 \
+  --target_dir data/raw
 
-- `0825交付说明.md` — 最新交付内容说明
-- `对比/results/README.md` — 对比模型研究报告说明
+python scripts/02_preprocess.py \
+  --raw_dir data/raw \
+  --ann_dir data/annotations \
+  --split_dir data/splits
+```
+
+### 2. HRNet-W48 训练与评估
+
+```bash
+python pipelines/hrnet_w48/scripts/01_train.py \
+  --config pipelines/hrnet_w48/configs/cuda_hrnet_w48_384_29pts_coord010.yaml \
+  --device cuda
+
+python pipelines/hrnet_w48/scripts/02_evaluate.py \
+  --config pipelines/hrnet_w48/configs/cuda_hrnet_w48_384_29pts_coord010.yaml \
+  --checkpoint checkpoints/hrnet_w48_29pts_coord010_best.pth \
+  --split_file data/splits/test.json \
+  --device cuda \
+  --output results/evaluation_hrnet_w48
+```
+
+更详细的 HRNet 说明见 `pipelines/hrnet_w48/README.md`。
+
+### 3. 对称轴四模型对比（283 例路线）
+
+```bash
+python 对比/scripts/cache_pred_landmarks_283.py
+
+python 对比/scripts/train_axis_compare_pred.py \
+  --axis_dirs "对称轴数据/1.对称轴133张" "对称轴数据/2. 对称轴157张" \
+  --model_type ridge \
+  --config 对比/configs/hrnet_w48.yaml \
+  --checkpoint checkpoints/hrnet_w48_29pts_coord010_best.pth \
+  --split_file 对比/results/axis_final/split_manifest_seed11.json \
+  --output 对比/results/axis_final/ridge
+```
+
+`--model_type` 可选 `linear` / `svr` / `rf` / `ridge`。脚本参数以 `--help` 为准。
+
+### 4. 283 例主流程
+
+```bash
+python scripts/06b_pipeline_283.py
+```
+
+需要 `对称轴数据/`、`对比/results/axis_final/pred_landmarks_283.npz`、`对比/results/axis_final/专家VAS评分_283例.xlsx`。
+
+### 5. 204 例分析
+
+把输入表放入 `analysis_204/data/`（格式见该目录的 `README.md`）；自动关键点也可由 `analysis_204/predict_landmarks.py` 生成。然后：
+
+```bash
+cd analysis_204
+bash run_all.sh
+```
+
+输出写入 `analysis_204/outputs/`：Excel 主表、Word 表图、结果报告、逐例 CSV、图。
+
+## 204 分析的输入表
+
+- `expert_landmarks_204.npz`：`names` (204,), `landmarks` (204,29,2)
+- `automatic_landmarks_204.npz`：`names` (204,), `landmarks` (204,29,2)
+- `axes_204.json`：`A1/A2/B1/B2/consensus` → `[m, b]`
+- `vas_204.csv`：`stem, split, vas, vas_a, vas_b`
+- `split_204.json`：`train` / `val` / `test`
+- `feature_names_167.json`：167 个特征名
+
+## 代码说明
+
+- 关键点定义：`src/landmark/schema.py`（29 点、11 对双侧点、7 个中线点）。
+- HRNet 热图管线：`pipelines/hrnet_w48/hrnet_w48_pipeline/`。
+- 轴特征与回归模型：`src/symmetry/axis_regression.py`、`analysis_204/axis_features.py`。
+- 区域 RAS / 统计：`src/symmetry/`、`analysis_204/common.py`。
+- 283 主流程：`scripts/06b_pipeline_283.py`。
+- 204 分析：`analysis_204/01_prepare.py` → `05_docx.py`。
+
+所有脚本默认从本目录（仓库根）运行；`analysis_204` 从该子目录运行。

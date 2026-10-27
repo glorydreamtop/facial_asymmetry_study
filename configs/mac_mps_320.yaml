@@ -1,0 +1,96 @@
+# ============================================================
+# 人脸对称性分析系统 — Mac / Apple Silicon 320 配置
+# ============================================================
+
+data:
+  raw_dir: data/raw
+  ann_dir: data/annotations
+  split_dir: data/splits
+  crop_dir: data/crops
+  ann_file: annotations_usable.json
+
+  image_ext: [.jpg, .jpeg, .png, .JPG, .JPEG]
+  label_names:
+    - ebe
+    - ebs
+    - os
+    - sci
+    - en
+    - p
+    - ex
+    - Na
+    - prn
+    - Sn
+    - al
+    - cph
+    - ch
+    - ls
+    - sto
+    - li
+    - Go
+    - Me
+
+  num_landmarks: 20
+  num_points: 29
+
+detection:
+  model: retinaface
+  conf_thresh: 0.8
+  input_size: [640, 640]
+  device: auto
+
+landmark:
+  pretrained:
+    model: buffalo_l
+    num_points: 106
+    device: auto
+
+  custom:
+    input_size: [320, 320]
+    backbone: mobilenet_v2
+    num_points: 29
+    loss: wing
+    wing_w: 10.0
+    wing_epsilon: 2.0
+
+    train:
+      batch_size: 8
+      epochs: 40
+      lr: 5.0e-4
+      lr_scheduler: cosine
+      warmup_epochs: 3
+      weight_decay: 1.0e-4
+      save_dir: checkpoints/mac_mps_320
+      log_dir: logs/mac_mps_320
+      device: mps
+      num_workers: 0
+      early_stop_patience: 10
+
+    augment:
+      rotation: 10
+      scale: [0.9, 1.1]
+      brightness: 0.15
+      contrast: 0.15
+      occlusion: 0.05
+
+symmetry:
+  ransac:
+    min_samples: 2
+    residual_threshold: 5.0
+    max_trials: 1000
+
+  metrics:
+    normalize_by: interocular
+    region_weights:
+      eyebrow: 1.0
+      eye: 1.0
+      nose: 1.0
+      mouth: 1.0
+      jaw: 1.0
+
+visualize:
+  dpi: 150
+  point_size: 8
+  line_width: 2
+  axis_color: red
+  cmap: coolwarm
